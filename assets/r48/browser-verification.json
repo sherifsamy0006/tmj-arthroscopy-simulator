@@ -1,0 +1,2666 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Rebuilt prepared joint starts inserted",
+      "passed": true
+    },
+    {
+      "name": "Lens classified inside actual rebuilt cavity",
+      "passed": true
+    },
+    {
+      "name": "Boolean subtraction only removes operand overlap",
+      "passed": true
+    },
+    {
+      "name": "Shared cavity/source buffers",
+      "passed": true
+    },
+    {
+      "name": "Rendered mesh volume equals solved fluid volume",
+      "passed": true
+    },
+    {
+      "name": "Conserved fluid mass",
+      "passed": true
+    },
+    {
+      "name": "Physical lens, camera and locator remain synchronized",
+      "passed": true
+    },
+    {
+      "name": "Jaw rotates one degree through actual slider",
+      "passed": true
+    },
+    {
+      "name": "Motion passes source, lining and instrument guards",
+      "passed": true
+    },
+    {
+      "name": "Jaw changes actual lens image without relocating telescope",
+      "passed": true
+    },
+    {
+      "name": "Shared cavity/source buffers",
+      "passed": true
+    },
+    {
+      "name": "Rendered mesh volume equals solved fluid volume",
+      "passed": true
+    },
+    {
+      "name": "Conserved fluid mass",
+      "passed": true
+    },
+    {
+      "name": "Physical lens, camera and locator remain synchronized",
+      "passed": true
+    },
+    {
+      "name": "Anterior translation traverses all small steps to 1 mm",
+      "passed": true
+    },
+    {
+      "name": "Shared cavity/source buffers",
+      "passed": true
+    },
+    {
+      "name": "Rendered mesh volume equals solved fluid volume",
+      "passed": true
+    },
+    {
+      "name": "Conserved fluid mass",
+      "passed": true
+    },
+    {
+      "name": "Physical lens, camera and locator remain synchronized",
+      "passed": true
+    },
+    {
+      "name": "Distraction moves beyond the prepared preset",
+      "passed": true
+    },
+    {
+      "name": "Shared cavity/source buffers",
+      "passed": true
+    },
+    {
+      "name": "Rendered mesh volume equals solved fluid volume",
+      "passed": true
+    },
+    {
+      "name": "Conserved fluid mass",
+      "passed": true
+    },
+    {
+      "name": "Physical lens, camera and locator remain synchronized",
+      "passed": true
+    },
+    {
+      "name": "Irrigation expands the actual source-bounded cavity",
+      "passed": true
+    },
+    {
+      "name": "Irrigation washes out tracer",
+      "passed": true
+    },
+    {
+      "name": "Shared cavity/source buffers",
+      "passed": true
+    },
+    {
+      "name": "Rendered mesh volume equals solved fluid volume",
+      "passed": true
+    },
+    {
+      "name": "Conserved fluid mass",
+      "passed": true
+    },
+    {
+      "name": "Physical lens, camera and locator remain synchronized",
+      "passed": true
+    },
+    {
+      "name": "Reset interrupts a long request after an admitted step",
+      "passed": true
+    },
+    {
+      "name": "Closed outlet stores fluid and approaches source pressure",
+      "passed": true
+    },
+    {
+      "name": "Shared cavity/source buffers",
+      "passed": true
+    },
+    {
+      "name": "Rendered mesh volume equals solved fluid volume",
+      "passed": true
+    },
+    {
+      "name": "Conserved fluid mass",
+      "passed": true
+    },
+    {
+      "name": "Physical lens, camera and locator remain synchronized",
+      "passed": true
+    },
+    {
+      "name": "Lower pressure releases distension",
+      "passed": true
+    },
+    {
+      "name": "Shared cavity/source buffers",
+      "passed": true
+    },
+    {
+      "name": "Rendered mesh volume equals solved fluid volume",
+      "passed": true
+    },
+    {
+      "name": "Conserved fluid mass",
+      "passed": true
+    },
+    {
+      "name": "Physical lens, camera and locator remain synchronized",
+      "passed": true
+    },
+    {
+      "name": "Complete instrument still stops at bone contact",
+      "passed": true
+    },
+    {
+      "name": "Optical roll preserves physical lens",
+      "passed": true
+    },
+    {
+      "name": "Both reconstructed compartments form actual lens sections",
+      "passed": true
+    },
+    {
+      "name": "Neutral reset rebuilds a withdrawn source joint",
+      "passed": true
+    },
+    {
+      "name": "Shared cavity/source buffers",
+      "passed": true
+    },
+    {
+      "name": "Rendered mesh volume equals solved fluid volume",
+      "passed": true
+    },
+    {
+      "name": "Conserved fluid mass",
+      "passed": true
+    },
+    {
+      "name": "Physical lens, camera and locator remain synchronized",
+      "passed": true
+    },
+    {
+      "name": "Reset restores complete prepared domain and insertion",
+      "passed": true
+    },
+    {
+      "name": "Phone viewport has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "snapshots": [
+    {
+      "name": "prepared",
+      "evidence": {
+        "schema": "tmj-studio-r48",
+        "pose": {
+          "yaw": -110,
+          "pitch": 10,
+          "depth": 23.8,
+          "roll": 75
+        },
+        "pivot": [
+          30,
+          4,
+          -4
+        ],
+        "parameters": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true
+        },
+        "fluid": {
+          "volume": 0.6760861089147189,
+          "wall": 0,
+          "pressure": 0,
+          "netIn": 0,
+          "grossIn": 0,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0
+        },
+        "cavityReconstruction": [
+          {
+            "name": "superior",
+            "volume": 0.6760861089147189,
+            "enclosureVolume": 0.7317001387510257,
+            "removedVolume": 0.05561402983630681,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 6.278844443829626e-8,
+            "vertices": 16517,
+            "triangles": 26180,
+            "method": "principal connected enclosure minus original source solids"
+          },
+          {
+            "name": "inferior",
+            "volume": 0.10609137788284195,
+            "enclosureVolume": 0.14189095671594745,
+            "removedVolume": 0.0357995788331055,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 5.428215496228039e-7,
+            "vertices": 11625,
+            "triangles": 14682,
+            "method": "principal connected enclosure minus original source solids"
+          }
+        ],
+        "optical": {
+          "tip": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "axis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "up": [
+            0.21317774300064504,
+            0.9677924098117692,
+            0.13391453020445493
+          ]
+        },
+        "sourceHashes": {
+          "anatomy": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+          "cavity": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+          "reconstructionBase": "d0b63243eb1a8ae4d78bbaa664e4e8cd3f59d96857df3f43facd09fe4a06b527",
+          "reconstruction": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+          "booleanOperands": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8"
+        },
+        "tool": {
+          "radius": 0.95,
+          "length": 63.1,
+          "overall": 115,
+          "bodyRadius": 24
+        },
+        "collisionSurfaces": [
+          "temporal",
+          "condyle",
+          "disc",
+          "dense skull",
+          "dense mandible"
+        ],
+        "preparation": {
+          "distraction": 2.5,
+          "mode": "prescribed disc-condyle co-translation",
+          "pathChecked": true
+        },
+        "denseSource": [
+          {
+            "name": "skull",
+            "sha256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4"
+          },
+          {
+            "name": "mandible",
+            "sha256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf"
+          }
+        ],
+        "geometryRevision": 1,
+        "locatorMode": "3d",
+        "section": null,
+        "washout": {
+          "enabled": false,
+          "active": false,
+          "fraction": 1,
+          "density": 0,
+          "compartment": "superior",
+          "mapping": "illustrative distance fog",
+          "calibrated": false
+        },
+        "renderStats": {
+          "scopeRenders": 3,
+          "raycasts": 1,
+          "locatorRenders": 1
+        },
+        "performance": {
+          "startupMS": 5352.099999964237,
+          "scopeRenderMS": 77.70000004768372
+        },
+        "regionalVolumes": {
+          "anteriorML": 0.3484021764729247,
+          "posteriorML": 0.32768393230615295,
+          "totalML": 0.6760861087790777,
+          "plane": "model Y=0",
+          "separatePressures": false
+        },
+        "fieldSamples": [
+          {
+            "region": "Upper",
+            "name": "disc",
+            "distance": 3.406184500353846,
+            "point": [
+              5.175822957160471,
+              -2.3804315812553716,
+              1.1767548850547223
+            ]
+          },
+          {
+            "region": "Left",
+            "name": "temporal",
+            "distance": 6.075323257910083,
+            "point": [
+              3.0484921545283914,
+              -3.416070445520333,
+              3.6367986297264605
+            ]
+          },
+          {
+            "region": "Centre",
+            "name": "temporal",
+            "distance": 13.141896012573973,
+            "point": [
+              -4.450587680368098,
+              -1.7846006591725456,
+              3.7840032511377784
+            ]
+          },
+          {
+            "region": "Right",
+            "name": "disc",
+            "distance": 2.1740409627946464,
+            "point": [
+              5.858216149315539,
+              -3.5343749466740997,
+              0.018995388653939904
+            ]
+          },
+          {
+            "region": "Lower",
+            "name": "retrodiscal-temporal-lamina",
+            "distance": 1.9316061039932362,
+            "point": [
+              6.115328024349932,
+              -4.324999433957078,
+              0.5537531357225917
+            ]
+          }
+        ],
+        "viewMode": "instrument",
+        "atlasAngles": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "clinicalValidation": false,
+        "clinicalPortal": false,
+        "cannulaFit": false,
+        "internalSurface": "reconstructed compartment boundary, shared with fluid-volume mesh",
+        "motionLaw": "prescribed rigid disc-condyle cluster; inferior chamber co-moves; pressure deforms estimated superior soft lining only",
+        "liningContactGuard": "Actual Boolean cavity closedness/winding and self-intersections at midpoint and endpoint; continuous hard source and bounded moving-instrument sweep",
+        "appearance": {
+          "revision": "r48",
+          "geometryRevision": "r48",
+          "illumination": "co-located lens lights without shadow-map self-occlusion",
+          "wetFilm": "spatially varying clearcoat",
+          "pixelFootprintFilter": true,
+          "colourCalibration": false,
+          "autoExposure": true,
+          "exposureApplied": 0.7834346343144538,
+          "exposureMeter": 0.8428337254901961,
+          "normalSmoothingOnly": false,
+          "shading": "angle-weighted normals with local metric filtering",
+          "mesoscopicRelief": "rest-anchored shading only, no displacement",
+          "r46GeometryUnchanged": false,
+          "sourceHardRestGeometryUnchanged": true,
+          "rigidDisc": true,
+          "softFolds": {
+            "method": "source-corresponding enclosure minus exact rigid source solids",
+            "removedArtificialBridge": true,
+            "measuredSynovium": false
+          },
+          "liningMotion": [
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            },
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            }
+          ],
+          "vascularPattern": "deterministic branching pigment with restrained perivascular tint, restricted to synovial and retrodiscal regions",
+          "boneDiscVerticesExact": true,
+          "restAnchoredTexture": true,
+          "blendedRegions": true,
+          "exposure": 1.05,
+          "lightOrigin": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "lightDirection": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "calibratedOptics": false
+        },
+        "travel": null,
+        "renderFramePaced": true,
+        "increment": 0.5,
+        "liningBuffersShared": true,
+        "assumptions": {
+          "axis": "Derived line between means of authored jaw capsule anchors; not a measured hinge",
+          "softMotion": "Prescribed disc-condyle rigid cluster with harmonic superior soft-lining weights; inferior rigid co-motion",
+          "wall": "Outward-normal scalar compliant superior mode tapered into hard/contact anchors; uncalibrated",
+          "fluid": "Uniform pressure, two resistive lines and scalar wall spring; computational closure treated as sealed. No CFD, cannula resistance calibration, cavitation, leakage or clinical safety inference",
+          "distraction": "Prescribed inferior disc-condyle co-translation, disc shape preserved in this mode; upper soft tissues interpolate between fixed temporal and moving disc. No calibrated traction or tissue force law.",
+          "contact": "Continuous rigid bone/disc guard and full instrument sweep; strict sampled rebuilt-domain self-intersections; 0.00002 mm extent/penetration tolerance for Float32 clipping; not a force solver",
+          "motionFlow": "Moving-geometry backward Euler with boundary exchange per accepted 0.1 s step"
+        },
+        "frameNumber": 1,
+        "busy": false,
+        "blocked": null,
+        "lastCheck": {
+          "id": 2,
+          "hits": [],
+          "candidates": 6224,
+          "surfaceClear": true,
+          "method": "exact translational union",
+          "samples": 1,
+          "inflation": 0,
+          "accepted": true,
+          "pose": {
+            "yaw": -110,
+            "pitch": 10,
+            "depth": 23.8,
+            "roll": 75
+          },
+          "geometry": {
+            "angle": 0,
+            "anterior": 0,
+            "distraction": 2.5,
+            "sourcePressure": 0,
+            "inletResistance": 20,
+            "outletResistance": 20,
+            "wallStiffness": 5,
+            "outletOpen": true,
+            "wall": 0
+          }
+        },
+        "locator": {
+          "frameNumber": 1,
+          "frameCentre": [
+            1,
+            1,
+            -6
+          ],
+          "span": 49,
+          "frameFollowsScope": false,
+          "position": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "shaftAxis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "workingLength": 63.1,
+          "overallLength": 115,
+          "fullScopeVisible": true,
+          "completeInstrumentContext": "fixed whole-head inset",
+          "centreRayShared": true,
+          "sourceBuffersShared": true,
+          "separated": false,
+          "cutaway": true,
+          "entry": [
+            10.761954168424499,
+            -3.002076048142473,
+            -0.3901104880703059
+          ],
+          "pivot": [
+            30,
+            4,
+            -4
+          ],
+          "clinicalPortal": false,
+          "compartment": "Superior joint space",
+          "inspection": null,
+          "spaceAnchors": [
+            [
+              -4,
+              0,
+              1.6113101962096046
+            ],
+            [
+              0,
+              3,
+              -5.462991351615887
+            ]
+          ]
+        },
+        "lens": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "renderedCamera": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "inspection": null,
+        "dov": 29.999999999999993,
+        "fov": 65,
+        "internalOpaque": true,
+        "running": false,
+        "fluidResidual": 0
+      }
+    },
+    {
+      "name": "jaw1",
+      "evidence": {
+        "schema": "tmj-studio-r48",
+        "pose": {
+          "yaw": -110,
+          "pitch": 10,
+          "depth": 23.8,
+          "roll": 75
+        },
+        "pivot": [
+          30,
+          4,
+          -4
+        ],
+        "parameters": {
+          "angle": 1,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true
+        },
+        "fluid": {
+          "volume": 0.6717325264801816,
+          "wall": 0.02388849142709915,
+          "pressure": 0.11944245713549574,
+          "netIn": -0.004353583075924902,
+          "grossIn": 0,
+          "grossOut": 0.004353583075924902,
+          "tracerMass": 0.6717325258392486,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.4,
+          "qin": -0.005972122856774787,
+          "qout": 0.005972122856774787,
+          "concentration": 0.9999999990458509,
+          "residual": 6.413875845365236e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "cavityReconstruction": [
+          {
+            "name": "superior",
+            "volume": 0.6717325264801816,
+            "enclosureVolume": 0.7273471271967018,
+            "removedVolume": 0.055614600716520246,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 5.9010704840872215e-8,
+            "vertices": 16550,
+            "triangles": 26218,
+            "method": "principal connected enclosure minus original source solids"
+          },
+          {
+            "name": "inferior",
+            "volume": 0.106091377149476,
+            "enclosureVolume": 0.14189095748166,
+            "removedVolume": 0.035799580332184,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 5.428262481436288e-7,
+            "vertices": 11625,
+            "triangles": 14682,
+            "method": "principal connected enclosure minus original source solids"
+          }
+        ],
+        "optical": {
+          "tip": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "axis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "up": [
+            0.21317774300064504,
+            0.9677924098117692,
+            0.13391453020445493
+          ]
+        },
+        "sourceHashes": {
+          "anatomy": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+          "cavity": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+          "reconstructionBase": "d0b63243eb1a8ae4d78bbaa664e4e8cd3f59d96857df3f43facd09fe4a06b527",
+          "reconstruction": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+          "booleanOperands": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8"
+        },
+        "tool": {
+          "radius": 0.95,
+          "length": 63.1,
+          "overall": 115,
+          "bodyRadius": 24
+        },
+        "collisionSurfaces": [
+          "temporal",
+          "condyle",
+          "disc",
+          "dense skull",
+          "dense mandible"
+        ],
+        "preparation": {
+          "distraction": 2.5,
+          "mode": "prescribed disc-condyle co-translation",
+          "pathChecked": true
+        },
+        "denseSource": [
+          {
+            "name": "skull",
+            "sha256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4"
+          },
+          {
+            "name": "mandible",
+            "sha256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf"
+          }
+        ],
+        "geometryRevision": 5,
+        "locatorMode": "3d",
+        "section": null,
+        "washout": {
+          "enabled": false,
+          "active": false,
+          "fraction": 0.9999999990458509,
+          "density": 0,
+          "compartment": "superior",
+          "mapping": "illustrative distance fog",
+          "calibrated": false
+        },
+        "renderStats": {
+          "scopeRenders": 15,
+          "raycasts": 5,
+          "locatorRenders": 5
+        },
+        "performance": {
+          "startupMS": 5352.099999964237,
+          "scopeRenderMS": 23.30000001192093
+        },
+        "regionalVolumes": {
+          "anteriorML": 0.34854047736328175,
+          "posteriorML": 0.3231920491568915,
+          "totalML": 0.6717325265201732,
+          "plane": "model Y=0",
+          "separatePressures": false
+        },
+        "fieldSamples": [
+          {
+            "region": "Upper",
+            "name": "disc",
+            "distance": 3.672033156802099,
+            "point": [
+              4.9573438441035105,
+              -2.252745149225125,
+              1.2582322461347821
+            ]
+          },
+          {
+            "region": "Left",
+            "name": "temporal",
+            "distance": 6.075323257910083,
+            "point": [
+              3.0484921545283914,
+              -3.416070445520333,
+              3.6367986297264605
+            ]
+          },
+          {
+            "region": "Centre",
+            "name": "temporal",
+            "distance": 13.141896012573973,
+            "point": [
+              -4.450587680368098,
+              -1.7846006591725456,
+              3.7840032511377784
+            ]
+          },
+          {
+            "region": "Right",
+            "name": "disc",
+            "distance": 2.3843134791715577,
+            "point": [
+              5.653473258553894,
+              -3.4877523566345516,
+              0.007985669127644979
+            ]
+          },
+          {
+            "region": "Lower",
+            "name": "retrodiscal-temporal-lamina",
+            "distance": 1.7588426624773887,
+            "point": [
+              6.281665296650032,
+              -4.297399396901522,
+              0.5161053400010113
+            ]
+          }
+        ],
+        "viewMode": "instrument",
+        "atlasAngles": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "clinicalValidation": false,
+        "clinicalPortal": false,
+        "cannulaFit": false,
+        "internalSurface": "reconstructed compartment boundary, shared with fluid-volume mesh",
+        "motionLaw": "prescribed rigid disc-condyle cluster; inferior chamber co-moves; pressure deforms estimated superior soft lining only",
+        "liningContactGuard": "Actual Boolean cavity closedness/winding and self-intersections at midpoint and endpoint; continuous hard source and bounded moving-instrument sweep",
+        "appearance": {
+          "revision": "r48",
+          "geometryRevision": "r48",
+          "illumination": "co-located lens lights without shadow-map self-occlusion",
+          "wetFilm": "spatially varying clearcoat",
+          "pixelFootprintFilter": true,
+          "colourCalibration": false,
+          "autoExposure": true,
+          "exposureApplied": 0.8038568294838241,
+          "exposureMeter": 0.8389121568627449,
+          "normalSmoothingOnly": false,
+          "shading": "angle-weighted normals with local metric filtering",
+          "mesoscopicRelief": "rest-anchored shading only, no displacement",
+          "r46GeometryUnchanged": false,
+          "sourceHardRestGeometryUnchanged": true,
+          "rigidDisc": true,
+          "softFolds": {
+            "method": "source-corresponding enclosure minus exact rigid source solids",
+            "removedArtificialBridge": true,
+            "measuredSynovium": false
+          },
+          "liningMotion": [
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            },
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            }
+          ],
+          "vascularPattern": "deterministic branching pigment with restrained perivascular tint, restricted to synovial and retrodiscal regions",
+          "boneDiscVerticesExact": true,
+          "restAnchoredTexture": true,
+          "blendedRegions": true,
+          "exposure": 1.05,
+          "lightOrigin": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "lightDirection": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "calibratedOptics": false
+        },
+        "travel": null,
+        "renderFramePaced": true,
+        "increment": 0.5,
+        "liningBuffersShared": true,
+        "assumptions": {
+          "axis": "Derived line between means of authored jaw capsule anchors; not a measured hinge",
+          "softMotion": "Prescribed disc-condyle rigid cluster with harmonic superior soft-lining weights; inferior rigid co-motion",
+          "wall": "Outward-normal scalar compliant superior mode tapered into hard/contact anchors; uncalibrated",
+          "fluid": "Uniform pressure, two resistive lines and scalar wall spring; computational closure treated as sealed. No CFD, cannula resistance calibration, cavitation, leakage or clinical safety inference",
+          "distraction": "Prescribed inferior disc-condyle co-translation, disc shape preserved in this mode; upper soft tissues interpolate between fixed temporal and moving disc. No calibrated traction or tissue force law.",
+          "contact": "Continuous rigid bone/disc guard and full instrument sweep; strict sampled rebuilt-domain self-intersections; 0.00002 mm extent/penetration tolerance for Float32 clipping; not a force solver",
+          "motionFlow": "Moving-geometry backward Euler with boundary exchange per accepted 0.1 s step"
+        },
+        "frameNumber": 63,
+        "busy": false,
+        "blocked": null,
+        "lastCheck": {
+          "id": 6,
+          "accepted": true,
+          "pose": {
+            "yaw": -110,
+            "pitch": 10,
+            "depth": 23.8,
+            "roll": 75
+          },
+          "hits": [],
+          "method": "bounded moving-source instrument sweep",
+          "samples": 7,
+          "maxDepth": 2,
+          "liningContact": {
+            "clear": true,
+            "hits": [],
+            "method": "rebuilt cavity topology and sampled self-intersection",
+            "continuous": false,
+            "spatialToleranceMM": 0.00002,
+            "triangles": 40900,
+            "pairs": 375344,
+            "elapsedMS": 412
+          },
+          "contact": {
+            "clear": true,
+            "pairs": 0,
+            "hits": [],
+            "method": "continuous triangle-distance enclosure",
+            "tolerance": 0.000414569850188663
+          },
+          "fluid": {
+            "volume": 0.6717325264801816,
+            "wall": 0.02388849142709915,
+            "pressure": 0.11944245713549574,
+            "netIn": -0.004353583075924902,
+            "grossIn": 0,
+            "grossOut": 0.004353583075924902,
+            "tracerMass": 0.6717325258392486,
+            "initialVolume": 0.6760861089147189,
+            "elapsed": 0.4,
+            "qin": -0.005972122856774787,
+            "qout": 0.005972122856774787,
+            "concentration": 0.9999999990458509,
+            "residual": 6.413875845365236e-10,
+            "contactLimited": false,
+            "reactionPressure": 0
+          },
+          "fluidEvaluations": 3,
+          "domainMS": 451.19999998807907,
+          "geometry": {
+            "angle": 1,
+            "anterior": 0,
+            "distraction": 2.5,
+            "sourcePressure": 0,
+            "inletResistance": 20,
+            "outletResistance": 20,
+            "wallStiffness": 5,
+            "outletOpen": true,
+            "wall": 0.02388849142709915
+          }
+        },
+        "locator": {
+          "frameNumber": 5,
+          "frameCentre": [
+            1,
+            1,
+            -6
+          ],
+          "span": 49,
+          "frameFollowsScope": false,
+          "position": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "shaftAxis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "workingLength": 63.1,
+          "overallLength": 115,
+          "fullScopeVisible": true,
+          "completeInstrumentContext": "fixed whole-head inset",
+          "centreRayShared": true,
+          "sourceBuffersShared": true,
+          "separated": false,
+          "cutaway": true,
+          "entry": [
+            10.699721886056057,
+            -3.024726746535035,
+            -0.3784330201303674
+          ],
+          "pivot": [
+            30,
+            4,
+            -4
+          ],
+          "clinicalPortal": false,
+          "compartment": "Superior joint space",
+          "inspection": null,
+          "spaceAnchors": [
+            [
+              4,
+              -3,
+              2.3923846394664885
+            ],
+            [
+              0,
+              3,
+              -5.517672307735637
+            ]
+          ]
+        },
+        "lens": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "renderedCamera": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "inspection": null,
+        "dov": 29.999999999999993,
+        "fov": 65,
+        "internalOpaque": true,
+        "running": false,
+        "fluidResidual": 6.413875845365236e-10
+      }
+    },
+    {
+      "name": "anterior1",
+      "evidence": {
+        "schema": "tmj-studio-r48",
+        "pose": {
+          "yaw": -110,
+          "pitch": 10,
+          "depth": 23.8,
+          "roll": 75
+        },
+        "pivot": [
+          30,
+          4,
+          -4
+        ],
+        "parameters": {
+          "angle": 0,
+          "anterior": 1,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true
+        },
+        "fluid": {
+          "volume": 0.5864707387648436,
+          "wall": 0.09122833953009289,
+          "pressure": 0.4561416976504645,
+          "netIn": -0.0896153705310414,
+          "grossIn": 0,
+          "grossOut": 0.0896153705310414,
+          "tracerMass": 0.5864707383844077,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.0000000000000004,
+          "qin": -0.022807084882523226,
+          "qout": 0.022807084882523226,
+          "concentration": 0.9999999993513131,
+          "residual": 3.811660986841048e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "cavityReconstruction": [
+          {
+            "name": "superior",
+            "volume": 0.5864707387648436,
+            "enclosureVolume": 0.6420566087292927,
+            "removedVolume": 0.05558586996444914,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 1.7416412283596922e-8,
+            "vertices": 16562,
+            "triangles": 26152,
+            "method": "principal connected enclosure minus original source solids"
+          },
+          {
+            "name": "inferior",
+            "volume": 0.10609137947278821,
+            "enclosureVolume": 0.14189095699644855,
+            "removedVolume": 0.035799577523660336,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 5.428222146463291e-7,
+            "vertices": 11625,
+            "triangles": 14682,
+            "method": "principal connected enclosure minus original source solids"
+          }
+        ],
+        "optical": {
+          "tip": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "axis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "up": [
+            0.21317774300064504,
+            0.9677924098117692,
+            0.13391453020445493
+          ]
+        },
+        "sourceHashes": {
+          "anatomy": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+          "cavity": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+          "reconstructionBase": "d0b63243eb1a8ae4d78bbaa664e4e8cd3f59d96857df3f43facd09fe4a06b527",
+          "reconstruction": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+          "booleanOperands": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8"
+        },
+        "tool": {
+          "radius": 0.95,
+          "length": 63.1,
+          "overall": 115,
+          "bodyRadius": 24
+        },
+        "collisionSurfaces": [
+          "temporal",
+          "condyle",
+          "disc",
+          "dense skull",
+          "dense mandible"
+        ],
+        "preparation": {
+          "distraction": 2.5,
+          "mode": "prescribed disc-condyle co-translation",
+          "pathChecked": true
+        },
+        "denseSource": [
+          {
+            "name": "skull",
+            "sha256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4"
+          },
+          {
+            "name": "mandible",
+            "sha256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf"
+          }
+        ],
+        "geometryRevision": 26,
+        "locatorMode": "3d",
+        "section": null,
+        "washout": {
+          "enabled": false,
+          "active": false,
+          "fraction": 0.9999999993513131,
+          "density": 0,
+          "compartment": "superior",
+          "mapping": "illustrative distance fog",
+          "calibrated": false
+        },
+        "renderStats": {
+          "scopeRenders": 67,
+          "raycasts": 26,
+          "locatorRenders": 26
+        },
+        "performance": {
+          "startupMS": 5352.099999964237,
+          "scopeRenderMS": 7.800000011920929
+        },
+        "regionalVolumes": {
+          "anteriorML": 0.2653499027246908,
+          "posteriorML": 0.3211208358799279,
+          "totalML": 0.5864707386046186,
+          "plane": "model Y=0",
+          "separatePressures": false
+        },
+        "fieldSamples": [
+          {
+            "region": "Upper",
+            "name": "temporal",
+            "distance": 10.079447100646906,
+            "point": [
+              -0.3083819043074083,
+              0.8247194351770233,
+              3.2219780346852365
+            ]
+          },
+          {
+            "region": "Left",
+            "name": "temporal",
+            "distance": 6.065181219748633,
+            "point": [
+              3.056716522998415,
+              -3.4170726473828505,
+              3.630949160283482
+            ]
+          },
+          {
+            "region": "Centre",
+            "name": "temporal",
+            "distance": 13.141819506685541,
+            "point": [
+              -4.450515343989842,
+              -1.784613651727792,
+              3.783981995718388
+            ]
+          },
+          {
+            "region": "Right",
+            "name": "disc",
+            "distance": 5.117538107764592,
+            "point": [
+              2.9921253981612876,
+              -2.881729213236814,
+              -0.13512403004593226
+            ]
+          },
+          {
+            "region": "Lower",
+            "name": "retrodiscal-loose-tissue",
+            "distance": 2.292351857834688,
+            "point": [
+              5.7680006953656555,
+              -4.382630817577933,
+              0.6323651518348351
+            ]
+          }
+        ],
+        "viewMode": "instrument",
+        "atlasAngles": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "clinicalValidation": false,
+        "clinicalPortal": false,
+        "cannulaFit": false,
+        "internalSurface": "reconstructed compartment boundary, shared with fluid-volume mesh",
+        "motionLaw": "prescribed rigid disc-condyle cluster; inferior chamber co-moves; pressure deforms estimated superior soft lining only",
+        "liningContactGuard": "Actual Boolean cavity closedness/winding and self-intersections at midpoint and endpoint; continuous hard source and bounded moving-instrument sweep",
+        "appearance": {
+          "revision": "r48",
+          "geometryRevision": "r48",
+          "illumination": "co-located lens lights without shadow-map self-occlusion",
+          "wetFilm": "spatially varying clearcoat",
+          "pixelFootprintFilter": true,
+          "colourCalibration": false,
+          "autoExposure": true,
+          "exposureApplied": 1.2358482194987246,
+          "exposureMeter": 0.8005301960784313,
+          "normalSmoothingOnly": false,
+          "shading": "angle-weighted normals with local metric filtering",
+          "mesoscopicRelief": "rest-anchored shading only, no displacement",
+          "r46GeometryUnchanged": false,
+          "sourceHardRestGeometryUnchanged": true,
+          "rigidDisc": true,
+          "softFolds": {
+            "method": "source-corresponding enclosure minus exact rigid source solids",
+            "removedArtificialBridge": true,
+            "measuredSynovium": false
+          },
+          "liningMotion": [
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            },
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            }
+          ],
+          "vascularPattern": "deterministic branching pigment with restrained perivascular tint, restricted to synovial and retrodiscal regions",
+          "boneDiscVerticesExact": true,
+          "restAnchoredTexture": true,
+          "blendedRegions": true,
+          "exposure": 1.05,
+          "lightOrigin": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "lightDirection": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "calibratedOptics": false
+        },
+        "travel": null,
+        "renderFramePaced": true,
+        "increment": 0.5,
+        "liningBuffersShared": true,
+        "assumptions": {
+          "axis": "Derived line between means of authored jaw capsule anchors; not a measured hinge",
+          "softMotion": "Prescribed disc-condyle rigid cluster with harmonic superior soft-lining weights; inferior rigid co-motion",
+          "wall": "Outward-normal scalar compliant superior mode tapered into hard/contact anchors; uncalibrated",
+          "fluid": "Uniform pressure, two resistive lines and scalar wall spring; computational closure treated as sealed. No CFD, cannula resistance calibration, cavitation, leakage or clinical safety inference",
+          "distraction": "Prescribed inferior disc-condyle co-translation, disc shape preserved in this mode; upper soft tissues interpolate between fixed temporal and moving disc. No calibrated traction or tissue force law.",
+          "contact": "Continuous rigid bone/disc guard and full instrument sweep; strict sampled rebuilt-domain self-intersections; 0.00002 mm extent/penetration tolerance for Float32 clipping; not a force solver",
+          "motionFlow": "Moving-geometry backward Euler with boundary exchange per accepted 0.1 s step"
+        },
+        "frameNumber": 310,
+        "busy": false,
+        "blocked": null,
+        "lastCheck": {
+          "id": 28,
+          "accepted": true,
+          "pose": {
+            "yaw": -110,
+            "pitch": 10,
+            "depth": 23.8,
+            "roll": 75
+          },
+          "hits": [],
+          "method": "bounded moving-source instrument sweep",
+          "samples": 1,
+          "maxDepth": 0,
+          "liningContact": {
+            "clear": true,
+            "hits": [],
+            "method": "rebuilt cavity topology and sampled self-intersection",
+            "continuous": false,
+            "spatialToleranceMM": 0.00002,
+            "triangles": 40834,
+            "pairs": 384018,
+            "elapsedMS": 474.60000002384186
+          },
+          "contact": {
+            "clear": true,
+            "pairs": 3,
+            "hits": [],
+            "method": "continuous triangle-distance enclosure",
+            "tolerance": 0.00001
+          },
+          "fluid": {
+            "volume": 0.5864707387648436,
+            "wall": 0.09122833953009289,
+            "pressure": 0.4561416976504645,
+            "netIn": -0.0896153705310414,
+            "grossIn": 0,
+            "grossOut": 0.0896153705310414,
+            "tracerMass": 0.5864707383844077,
+            "initialVolume": 0.6760861089147189,
+            "elapsed": 2.0000000000000004,
+            "qin": -0.022807084882523226,
+            "qout": 0.022807084882523226,
+            "concentration": 0.9999999993513131,
+            "residual": 3.811660986841048e-10,
+            "contactLimited": false,
+            "reactionPressure": 0
+          },
+          "fluidEvaluations": 3,
+          "domainMS": 452.39999997615814,
+          "geometry": {
+            "angle": 0,
+            "anterior": 1,
+            "distraction": 2.5,
+            "sourcePressure": 0,
+            "inletResistance": 20,
+            "outletResistance": 20,
+            "wallStiffness": 5,
+            "outletOpen": true,
+            "wall": 0.09122833953009289
+          }
+        },
+        "locator": {
+          "frameNumber": 26,
+          "frameCentre": [
+            1,
+            1,
+            -6
+          ],
+          "span": 49,
+          "frameFollowsScope": false,
+          "position": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "shaftAxis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "workingLength": 63.1,
+          "overallLength": 115,
+          "fullScopeVisible": true,
+          "completeInstrumentContext": "fixed whole-head inset",
+          "centreRayShared": true,
+          "sourceBuffersShared": true,
+          "separated": false,
+          "cutaway": true,
+          "entry": null,
+          "pivot": [
+            30,
+            4,
+            -4
+          ],
+          "clinicalPortal": false,
+          "compartment": "Outside joint spaces",
+          "inspection": null,
+          "spaceAnchors": [
+            [
+              0,
+              -3,
+              2.508136929796688
+            ],
+            [
+              0,
+              -3,
+              -1.817926075369364
+            ]
+          ]
+        },
+        "lens": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "renderedCamera": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "inspection": null,
+        "dov": 29.999999999999993,
+        "fov": 65,
+        "internalOpaque": true,
+        "running": false,
+        "fluidResidual": 3.811660986841048e-10
+      }
+    },
+    {
+      "name": "distraction255",
+      "evidence": {
+        "schema": "tmj-studio-r48",
+        "pose": {
+          "yaw": -110,
+          "pitch": 10,
+          "depth": 23.8,
+          "roll": 75
+        },
+        "pivot": [
+          30,
+          4,
+          -4
+        ],
+        "parameters": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.55,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true
+        },
+        "fluid": {
+          "volume": 0.6850119607865244,
+          "wall": -0.17851704276492592,
+          "pressure": -0.8925852138246295,
+          "netIn": 0.008925852138246296,
+          "grossIn": 0.008925852138246296,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.1,
+          "qin": 0.04462926069123148,
+          "qout": -0.04462926069123148,
+          "concentration": 0.986969786831814,
+          "residual": -2.664407947744474e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "cavityReconstruction": [
+          {
+            "name": "superior",
+            "volume": 0.6850119607865244,
+            "enclosureVolume": 0.7406172960655476,
+            "removedVolume": 0.05560533527902323,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 6.302949122702919e-8,
+            "vertices": 16524,
+            "triangles": 26182,
+            "method": "principal connected enclosure minus original source solids"
+          },
+          {
+            "name": "inferior",
+            "volume": 0.1060913789269474,
+            "enclosureVolume": 0.1418909584928827,
+            "removedVolume": 0.0357995795659353,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 5.428232314517926e-7,
+            "vertices": 11625,
+            "triangles": 14682,
+            "method": "principal connected enclosure minus original source solids"
+          }
+        ],
+        "optical": {
+          "tip": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "axis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "up": [
+            0.21317774300064504,
+            0.9677924098117692,
+            0.13391453020445493
+          ]
+        },
+        "sourceHashes": {
+          "anatomy": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+          "cavity": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+          "reconstructionBase": "d0b63243eb1a8ae4d78bbaa664e4e8cd3f59d96857df3f43facd09fe4a06b527",
+          "reconstruction": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+          "booleanOperands": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8"
+        },
+        "tool": {
+          "radius": 0.95,
+          "length": 63.1,
+          "overall": 115,
+          "bodyRadius": 24
+        },
+        "collisionSurfaces": [
+          "temporal",
+          "condyle",
+          "disc",
+          "dense skull",
+          "dense mandible"
+        ],
+        "preparation": {
+          "distraction": 2.5,
+          "mode": "prescribed disc-condyle co-translation",
+          "pathChecked": true
+        },
+        "denseSource": [
+          {
+            "name": "skull",
+            "sha256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4"
+          },
+          {
+            "name": "mandible",
+            "sha256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf"
+          }
+        ],
+        "geometryRevision": 28,
+        "locatorMode": "3d",
+        "section": null,
+        "washout": {
+          "enabled": false,
+          "active": false,
+          "fraction": 0.986969786831814,
+          "density": 0,
+          "compartment": "superior",
+          "mapping": "illustrative distance fog",
+          "calibrated": false
+        },
+        "renderStats": {
+          "scopeRenders": 75,
+          "raycasts": 29,
+          "locatorRenders": 29
+        },
+        "performance": {
+          "startupMS": 5352.099999964237,
+          "scopeRenderMS": 18
+        },
+        "regionalVolumes": {
+          "anteriorML": 0.3519509232823008,
+          "posteriorML": 0.3330610371785779,
+          "totalML": 0.6850119604608786,
+          "plane": "model Y=0",
+          "separatePressures": false
+        },
+        "fieldSamples": [
+          {
+            "region": "Upper",
+            "name": "disc",
+            "distance": 3.6201742195340176,
+            "point": [
+              4.999962433077318,
+              -2.2776528646038963,
+              1.242338506390259
+            ]
+          },
+          {
+            "region": "Left",
+            "name": "temporal",
+            "distance": 6.075323257910083,
+            "point": [
+              3.0484921545283914,
+              -3.416070445520333,
+              3.6367986297264605
+            ]
+          },
+          {
+            "region": "Centre",
+            "name": "temporal",
+            "distance": 13.141896012573973,
+            "point": [
+              -4.450587680368098,
+              -1.7846006591725456,
+              3.7840032511377784
+            ]
+          },
+          {
+            "region": "Right",
+            "name": "disc",
+            "distance": 2.246757157049612,
+            "point": [
+              5.787412203685953,
+              -3.5182519774320875,
+              0.015188020398871724
+            ]
+          },
+          {
+            "region": "Lower",
+            "name": "retrodiscal-temporal-lamina",
+            "distance": 1.9503212247859425,
+            "point": [
+              6.097309037716466,
+              -4.327989291202603,
+              0.557831446725929
+            ]
+          }
+        ],
+        "viewMode": "instrument",
+        "atlasAngles": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "clinicalValidation": false,
+        "clinicalPortal": false,
+        "cannulaFit": false,
+        "internalSurface": "reconstructed compartment boundary, shared with fluid-volume mesh",
+        "motionLaw": "prescribed rigid disc-condyle cluster; inferior chamber co-moves; pressure deforms estimated superior soft lining only",
+        "liningContactGuard": "Actual Boolean cavity closedness/winding and self-intersections at midpoint and endpoint; continuous hard source and bounded moving-instrument sweep",
+        "appearance": {
+          "revision": "r48",
+          "geometryRevision": "r48",
+          "illumination": "co-located lens lights without shadow-map self-occlusion",
+          "wetFilm": "spatially varying clearcoat",
+          "pixelFootprintFilter": true,
+          "colourCalibration": false,
+          "autoExposure": true,
+          "exposureApplied": 0.795866234509392,
+          "exposureMeter": 0.8389121568627449,
+          "normalSmoothingOnly": false,
+          "shading": "angle-weighted normals with local metric filtering",
+          "mesoscopicRelief": "rest-anchored shading only, no displacement",
+          "r46GeometryUnchanged": false,
+          "sourceHardRestGeometryUnchanged": true,
+          "rigidDisc": true,
+          "softFolds": {
+            "method": "source-corresponding enclosure minus exact rigid source solids",
+            "removedArtificialBridge": true,
+            "measuredSynovium": false
+          },
+          "liningMotion": [
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            },
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            }
+          ],
+          "vascularPattern": "deterministic branching pigment with restrained perivascular tint, restricted to synovial and retrodiscal regions",
+          "boneDiscVerticesExact": true,
+          "restAnchoredTexture": true,
+          "blendedRegions": true,
+          "exposure": 1.05,
+          "lightOrigin": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "lightDirection": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "calibratedOptics": false
+        },
+        "travel": null,
+        "renderFramePaced": true,
+        "increment": 0.5,
+        "liningBuffersShared": true,
+        "assumptions": {
+          "axis": "Derived line between means of authored jaw capsule anchors; not a measured hinge",
+          "softMotion": "Prescribed disc-condyle rigid cluster with harmonic superior soft-lining weights; inferior rigid co-motion",
+          "wall": "Outward-normal scalar compliant superior mode tapered into hard/contact anchors; uncalibrated",
+          "fluid": "Uniform pressure, two resistive lines and scalar wall spring; computational closure treated as sealed. No CFD, cannula resistance calibration, cavitation, leakage or clinical safety inference",
+          "distraction": "Prescribed inferior disc-condyle co-translation, disc shape preserved in this mode; upper soft tissues interpolate between fixed temporal and moving disc. No calibrated traction or tissue force law.",
+          "contact": "Continuous rigid bone/disc guard and full instrument sweep; strict sampled rebuilt-domain self-intersections; 0.00002 mm extent/penetration tolerance for Float32 clipping; not a force solver",
+          "motionFlow": "Moving-geometry backward Euler with boundary exchange per accepted 0.1 s step"
+        },
+        "frameNumber": 339,
+        "busy": false,
+        "blocked": null,
+        "lastCheck": {
+          "id": 31,
+          "accepted": true,
+          "pose": {
+            "yaw": -110,
+            "pitch": 10,
+            "depth": 23.8,
+            "roll": 75
+          },
+          "hits": [],
+          "method": "bounded moving-source instrument sweep",
+          "samples": 1,
+          "maxDepth": 0,
+          "liningContact": {
+            "clear": true,
+            "hits": [],
+            "method": "rebuilt cavity topology and sampled self-intersection",
+            "continuous": false,
+            "spatialToleranceMM": 0.00002,
+            "triangles": 40864,
+            "pairs": 375684,
+            "elapsedMS": 367
+          },
+          "contact": {
+            "clear": true,
+            "pairs": 0,
+            "hits": [],
+            "method": "continuous triangle-distance enclosure",
+            "tolerance": 0.00001
+          },
+          "fluid": {
+            "volume": 0.6850119607865244,
+            "wall": -0.17851704276492592,
+            "pressure": -0.8925852138246295,
+            "netIn": 0.008925852138246296,
+            "grossIn": 0.008925852138246296,
+            "grossOut": 0,
+            "tracerMass": 0.6760861089147189,
+            "initialVolume": 0.6760861089147189,
+            "elapsed": 0.1,
+            "qin": 0.04462926069123148,
+            "qout": -0.04462926069123148,
+            "concentration": 0.986969786831814,
+            "residual": -2.664407947744474e-10,
+            "contactLimited": false,
+            "reactionPressure": 0
+          },
+          "fluidEvaluations": 4,
+          "domainMS": 478,
+          "geometry": {
+            "angle": 0,
+            "anterior": 0,
+            "distraction": 2.55,
+            "sourcePressure": 0,
+            "inletResistance": 20,
+            "outletResistance": 20,
+            "wallStiffness": 5,
+            "outletOpen": true,
+            "wall": -0.17851704276492592
+          }
+        },
+        "locator": {
+          "frameNumber": 29,
+          "frameCentre": [
+            1,
+            1,
+            -6
+          ],
+          "span": 49,
+          "frameFollowsScope": false,
+          "position": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "shaftAxis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "workingLength": 63.1,
+          "overallLength": 115,
+          "fullScopeVisible": true,
+          "completeInstrumentContext": "fixed whole-head inset",
+          "centreRayShared": true,
+          "sourceBuffersShared": true,
+          "separated": false,
+          "cutaway": true,
+          "entry": [
+            10.697947786799553,
+            -3.0253724658570365,
+            -0.3781001223737426
+          ],
+          "pivot": [
+            30,
+            4,
+            -4
+          ],
+          "clinicalPortal": false,
+          "compartment": "Superior joint space",
+          "inspection": null,
+          "spaceAnchors": [
+            [
+              -4,
+              0,
+              1.5863101944802764
+            ],
+            [
+              0,
+              3,
+              -5.5129914277143754
+            ]
+          ]
+        },
+        "lens": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "renderedCamera": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "inspection": null,
+        "dov": 29.999999999999993,
+        "fov": 65,
+        "internalOpaque": true,
+        "running": false,
+        "fluidResidual": -2.664407947744474e-10
+      }
+    },
+    {
+      "name": "irrigation",
+      "evidence": {
+        "schema": "tmj-studio-r48",
+        "pose": {
+          "yaw": -110,
+          "pitch": 10,
+          "depth": 23.8,
+          "roll": 75
+        },
+        "pivot": [
+          30,
+          4,
+          -4
+        ],
+        "parameters": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true
+        },
+        "fluid": {
+          "volume": 0.6815119651885653,
+          "wall": 0.29989460875148366,
+          "pressure": 1.4994730437574182,
+          "netIn": 0.00542585612479494,
+          "grossIn": 0.04771292806239747,
+          "grossOut": 0.04228707193760253,
+          "tracerMass": 0.6355995454294593,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.6,
+          "qin": 0.0750263478121291,
+          "qout": 0.07497365218787092,
+          "concentration": 0.9326315279785254,
+          "residual": 1.4905145694077415e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "cavityReconstruction": [
+          {
+            "name": "superior",
+            "volume": 0.6815119651885653,
+            "enclosureVolume": 0.7371356698404666,
+            "removedVolume": 0.05562370465190136,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 6.499725684115493e-8,
+            "vertices": 16555,
+            "triangles": 26230,
+            "method": "principal connected enclosure minus original source solids"
+          },
+          {
+            "name": "inferior",
+            "volume": 0.10609137788284195,
+            "enclosureVolume": 0.14189095671594745,
+            "removedVolume": 0.0357995788331055,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 5.428215496228039e-7,
+            "vertices": 11625,
+            "triangles": 14682,
+            "method": "principal connected enclosure minus original source solids"
+          }
+        ],
+        "optical": {
+          "tip": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "axis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "up": [
+            0.21317774300064504,
+            0.9677924098117692,
+            0.13391453020445493
+          ]
+        },
+        "sourceHashes": {
+          "anatomy": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+          "cavity": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+          "reconstructionBase": "d0b63243eb1a8ae4d78bbaa664e4e8cd3f59d96857df3f43facd09fe4a06b527",
+          "reconstruction": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+          "booleanOperands": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8"
+        },
+        "tool": {
+          "radius": 0.95,
+          "length": 63.1,
+          "overall": 115,
+          "bodyRadius": 24
+        },
+        "collisionSurfaces": [
+          "temporal",
+          "condyle",
+          "disc",
+          "dense skull",
+          "dense mandible"
+        ],
+        "preparation": {
+          "distraction": 2.5,
+          "mode": "prescribed disc-condyle co-translation",
+          "pathChecked": true
+        },
+        "denseSource": [
+          {
+            "name": "skull",
+            "sha256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4"
+          },
+          {
+            "name": "mandible",
+            "sha256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf"
+          }
+        ],
+        "geometryRevision": 35,
+        "locatorMode": "3d",
+        "section": null,
+        "washout": {
+          "enabled": false,
+          "active": false,
+          "fraction": 0.9326315279785254,
+          "density": 0,
+          "compartment": "superior",
+          "mapping": "illustrative distance fog",
+          "calibrated": false
+        },
+        "renderStats": {
+          "scopeRenders": 98,
+          "raycasts": 37,
+          "locatorRenders": 37
+        },
+        "performance": {
+          "startupMS": 5352.099999964237,
+          "scopeRenderMS": 12.100000023841858
+        },
+        "regionalVolumes": {
+          "anteriorML": 0.35292828786239056,
+          "posteriorML": 0.3285836773744322,
+          "totalML": 0.6815119652368228,
+          "plane": "model Y=0",
+          "separatePressures": false
+        },
+        "fieldSamples": [
+          {
+            "region": "Upper",
+            "name": "disc",
+            "distance": 3.406184500353846,
+            "point": [
+              5.175822957160471,
+              -2.3804315812553716,
+              1.1767548850547223
+            ]
+          },
+          {
+            "region": "Left",
+            "name": "temporal",
+            "distance": 6.075323257910083,
+            "point": [
+              3.0484921545283914,
+              -3.416070445520333,
+              3.6367986297264605
+            ]
+          },
+          {
+            "region": "Centre",
+            "name": "temporal",
+            "distance": 13.141896012573973,
+            "point": [
+              -4.450587680368098,
+              -1.7846006591725456,
+              3.7840032511377784
+            ]
+          },
+          {
+            "region": "Right",
+            "name": "disc",
+            "distance": 2.1740409627946464,
+            "point": [
+              5.858216149315539,
+              -3.5343749466740997,
+              0.018995388653939904
+            ]
+          },
+          {
+            "region": "Lower",
+            "name": "retrodiscal-temporal-lamina",
+            "distance": 1.9297521367453163,
+            "point": [
+              6.1171130307855925,
+              -4.324703251128736,
+              0.5533491279092961
+            ]
+          }
+        ],
+        "viewMode": "instrument",
+        "atlasAngles": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "clinicalValidation": false,
+        "clinicalPortal": false,
+        "cannulaFit": false,
+        "internalSurface": "reconstructed compartment boundary, shared with fluid-volume mesh",
+        "motionLaw": "prescribed rigid disc-condyle cluster; inferior chamber co-moves; pressure deforms estimated superior soft lining only",
+        "liningContactGuard": "Actual Boolean cavity closedness/winding and self-intersections at midpoint and endpoint; continuous hard source and bounded moving-instrument sweep",
+        "appearance": {
+          "revision": "r48",
+          "geometryRevision": "r48",
+          "illumination": "co-located lens lights without shadow-map self-occlusion",
+          "wetFilm": "spatially varying clearcoat",
+          "pixelFootprintFilter": true,
+          "colourCalibration": false,
+          "autoExposure": true,
+          "exposureApplied": 0.7828333177693909,
+          "exposureMeter": 0.8428337254901961,
+          "normalSmoothingOnly": false,
+          "shading": "angle-weighted normals with local metric filtering",
+          "mesoscopicRelief": "rest-anchored shading only, no displacement",
+          "r46GeometryUnchanged": false,
+          "sourceHardRestGeometryUnchanged": true,
+          "rigidDisc": true,
+          "softFolds": {
+            "method": "source-corresponding enclosure minus exact rigid source solids",
+            "removedArtificialBridge": true,
+            "measuredSynovium": false
+          },
+          "liningMotion": [
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            },
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            }
+          ],
+          "vascularPattern": "deterministic branching pigment with restrained perivascular tint, restricted to synovial and retrodiscal regions",
+          "boneDiscVerticesExact": true,
+          "restAnchoredTexture": true,
+          "blendedRegions": true,
+          "exposure": 1.05,
+          "lightOrigin": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "lightDirection": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "calibratedOptics": false
+        },
+        "travel": null,
+        "renderFramePaced": true,
+        "increment": 0.5,
+        "liningBuffersShared": true,
+        "assumptions": {
+          "axis": "Derived line between means of authored jaw capsule anchors; not a measured hinge",
+          "softMotion": "Prescribed disc-condyle rigid cluster with harmonic superior soft-lining weights; inferior rigid co-motion",
+          "wall": "Outward-normal scalar compliant superior mode tapered into hard/contact anchors; uncalibrated",
+          "fluid": "Uniform pressure, two resistive lines and scalar wall spring; computational closure treated as sealed. No CFD, cannula resistance calibration, cavitation, leakage or clinical safety inference",
+          "distraction": "Prescribed inferior disc-condyle co-translation, disc shape preserved in this mode; upper soft tissues interpolate between fixed temporal and moving disc. No calibrated traction or tissue force law.",
+          "contact": "Continuous rigid bone/disc guard and full instrument sweep; strict sampled rebuilt-domain self-intersections; 0.00002 mm extent/penetration tolerance for Float32 clipping; not a force solver",
+          "motionFlow": "Moving-geometry backward Euler with boundary exchange per accepted 0.1 s step"
+        },
+        "frameNumber": 428,
+        "busy": false,
+        "blocked": null,
+        "lastCheck": {
+          "id": 39,
+          "accepted": true,
+          "pose": {
+            "yaw": -110,
+            "pitch": 10,
+            "depth": 23.8,
+            "roll": 75
+          },
+          "hits": [],
+          "method": "unchanged admitted source geometry",
+          "liningContact": {
+            "clear": true,
+            "hits": [],
+            "method": "rebuilt cavity topology and sampled self-intersection",
+            "continuous": false,
+            "spatialToleranceMM": 0.00002,
+            "triangles": 40912,
+            "pairs": 374934,
+            "elapsedMS": 413.69999998807907
+          },
+          "contact": {
+            "clear": true,
+            "hits": [],
+            "method": "unchanged admitted source geometry"
+          },
+          "fluid": {
+            "volume": 0.6815119651885653,
+            "wall": 0.29989460875148366,
+            "pressure": 1.4994730437574182,
+            "netIn": 0.00542585612479494,
+            "grossIn": 0.04771292806239747,
+            "grossOut": 0.04228707193760253,
+            "tracerMass": 0.6355995454294593,
+            "initialVolume": 0.6760861089147189,
+            "elapsed": 0.6,
+            "qin": 0.0750263478121291,
+            "qout": 0.07497365218787092,
+            "concentration": 0.9326315279785254,
+            "residual": 1.4905145694077415e-10,
+            "contactLimited": false,
+            "reactionPressure": 0
+          },
+          "fluidEvaluations": 3,
+          "domainMS": 474.30000001192093,
+          "geometry": {
+            "angle": 0,
+            "anterior": 0,
+            "distraction": 2.5,
+            "sourcePressure": 3,
+            "inletResistance": 20,
+            "outletResistance": 20,
+            "wallStiffness": 5,
+            "outletOpen": true,
+            "wall": 0.29989460875148366
+          }
+        },
+        "locator": {
+          "frameNumber": 37,
+          "frameCentre": [
+            1,
+            1,
+            -6
+          ],
+          "span": 49,
+          "frameFollowsScope": false,
+          "position": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "shaftAxis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "workingLength": 63.1,
+          "overallLength": 115,
+          "fullScopeVisible": true,
+          "completeInstrumentContext": "fixed whole-head inset",
+          "centreRayShared": true,
+          "sourceBuffersShared": true,
+          "separated": false,
+          "cutaway": true,
+          "entry": [
+            10.902341943108617,
+            -2.950979076902583,
+            -0.41645330687176463
+          ],
+          "pivot": [
+            30,
+            4,
+            -4
+          ],
+          "clinicalPortal": false,
+          "compartment": "Superior joint space",
+          "inspection": null,
+          "spaceAnchors": [
+            [
+              -4,
+              0,
+              1.6113101962096046
+            ],
+            [
+              0,
+              3,
+              -5.462991351615887
+            ]
+          ]
+        },
+        "lens": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "renderedCamera": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "inspection": null,
+        "dov": 29.999999999999993,
+        "fov": 65,
+        "internalOpaque": true,
+        "running": false,
+        "fluidResidual": 1.4905145694077415e-10
+      }
+    },
+    {
+      "name": "closed-outlet",
+      "evidence": {
+        "schema": "tmj-studio-r48",
+        "pose": {
+          "yaw": -110,
+          "pitch": 10,
+          "depth": 23.8,
+          "roll": 75
+        },
+        "pivot": [
+          30,
+          4,
+          -4
+        ],
+        "parameters": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false
+        },
+        "fluid": {
+          "volume": 0.6869336863546867,
+          "wall": 0.5998987340019012,
+          "pressure": 2.999493670009506,
+          "netIn": 0.010847576811636688,
+          "grossIn": 0.010847576811636688,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.9999999999999999,
+          "qin": 0.000025316499524707937,
+          "qout": 0,
+          "concentration": 0.9842086977892552,
+          "residual": 6.283310937521547e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "cavityReconstruction": [
+          {
+            "name": "superior",
+            "volume": 0.6869336863546867,
+            "enclosureVolume": 0.7425663857812854,
+            "removedVolume": 0.055632699426598764,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 6.724030769725963e-8,
+            "vertices": 16577,
+            "triangles": 26262,
+            "method": "principal connected enclosure minus original source solids"
+          },
+          {
+            "name": "inferior",
+            "volume": 0.10609137788284195,
+            "enclosureVolume": 0.14189095671594745,
+            "removedVolume": 0.0357995788331055,
+            "connectedComponents": 1,
+            "excludedComponents": 1,
+            "excludedVolume": 5.428215496228039e-7,
+            "vertices": 11625,
+            "triangles": 14682,
+            "method": "principal connected enclosure minus original source solids"
+          }
+        ],
+        "optical": {
+          "tip": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "axis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "up": [
+            0.21317774300064504,
+            0.9677924098117692,
+            0.13391453020445493
+          ]
+        },
+        "sourceHashes": {
+          "anatomy": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+          "cavity": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+          "reconstructionBase": "d0b63243eb1a8ae4d78bbaa664e4e8cd3f59d96857df3f43facd09fe4a06b527",
+          "reconstruction": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+          "booleanOperands": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8"
+        },
+        "tool": {
+          "radius": 0.95,
+          "length": 63.1,
+          "overall": 115,
+          "bodyRadius": 24
+        },
+        "collisionSurfaces": [
+          "temporal",
+          "condyle",
+          "disc",
+          "dense skull",
+          "dense mandible"
+        ],
+        "preparation": {
+          "distraction": 2.5,
+          "mode": "prescribed disc-condyle co-translation",
+          "pathChecked": true
+        },
+        "denseSource": [
+          {
+            "name": "skull",
+            "sha256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4"
+          },
+          {
+            "name": "mandible",
+            "sha256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf"
+          }
+        ],
+        "geometryRevision": 48,
+        "locatorMode": "3d",
+        "section": null,
+        "washout": {
+          "enabled": false,
+          "active": false,
+          "fraction": 0.9842086977892552,
+          "density": 0,
+          "compartment": "superior",
+          "mapping": "illustrative distance fog",
+          "calibrated": false
+        },
+        "renderStats": {
+          "scopeRenders": 139,
+          "raycasts": 51,
+          "locatorRenders": 51
+        },
+        "performance": {
+          "startupMS": 5352.099999964237,
+          "scopeRenderMS": 11.5
+        },
+        "regionalVolumes": {
+          "anteriorML": 0.35744173035284293,
+          "posteriorML": 0.3294919560943888,
+          "totalML": 0.6869336864472317,
+          "plane": "model Y=0",
+          "separatePressures": false
+        },
+        "fieldSamples": [
+          {
+            "region": "Upper",
+            "name": "disc",
+            "distance": 3.406184500353846,
+            "point": [
+              5.175822957160471,
+              -2.3804315812553716,
+              1.1767548850547223
+            ]
+          },
+          {
+            "region": "Left",
+            "name": "temporal",
+            "distance": 6.075323257910083,
+            "point": [
+              3.0484921545283914,
+              -3.416070445520333,
+              3.6367986297264605
+            ]
+          },
+          {
+            "region": "Centre",
+            "name": "temporal",
+            "distance": 13.141896012573973,
+            "point": [
+              -4.450587680368098,
+              -1.7846006591725456,
+              3.7840032511377784
+            ]
+          },
+          {
+            "region": "Right",
+            "name": "disc",
+            "distance": 2.1740409627946464,
+            "point": [
+              5.858216149315539,
+              -3.5343749466740997,
+              0.018995388653939904
+            ]
+          },
+          {
+            "region": "Lower",
+            "name": "retrodiscal-temporal-lamina",
+            "distance": 1.92793260539231,
+            "point": [
+              6.118864882215895,
+              -4.324412569649332,
+              0.5529526242040799
+            ]
+          }
+        ],
+        "viewMode": "instrument",
+        "atlasAngles": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "clinicalValidation": false,
+        "clinicalPortal": false,
+        "cannulaFit": false,
+        "internalSurface": "reconstructed compartment boundary, shared with fluid-volume mesh",
+        "motionLaw": "prescribed rigid disc-condyle cluster; inferior chamber co-moves; pressure deforms estimated superior soft lining only",
+        "liningContactGuard": "Actual Boolean cavity closedness/winding and self-intersections at midpoint and endpoint; continuous hard source and bounded moving-instrument sweep",
+        "appearance": {
+          "revision": "r48",
+          "geometryRevision": "r48",
+          "illumination": "co-located lens lights without shadow-map self-occlusion",
+          "wetFilm": "spatially varying clearcoat",
+          "pixelFootprintFilter": true,
+          "colourCalibration": false,
+          "autoExposure": true,
+          "exposureApplied": 0.7828333177693909,
+          "exposureMeter": 0.8428337254901961,
+          "normalSmoothingOnly": false,
+          "shading": "angle-weighted normals with local metric filtering",
+          "mesoscopicRelief": "rest-anchored shading only, no displacement",
+          "r46GeometryUnchanged": false,
+          "sourceHardRestGeometryUnchanged": true,
+          "rigidDisc": true,
+          "softFolds": {
+            "method": "source-corresponding enclosure minus exact rigid source solids",
+            "removedArtificialBridge": true,
+            "measuredSynovium": false
+          },
+          "liningMotion": [
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            },
+            {
+              "method": "shared reconstructed soft lining; rigid hard boundary fields",
+              "measuredMechanics": false
+            }
+          ],
+          "vascularPattern": "deterministic branching pigment with restrained perivascular tint, restricted to synovial and retrodiscal regions",
+          "boneDiscVerticesExact": true,
+          "restAnchoredTexture": true,
+          "blendedRegions": true,
+          "exposure": 1.05,
+          "lightOrigin": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "lightDirection": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "calibratedOptics": false
+        },
+        "travel": null,
+        "renderFramePaced": true,
+        "increment": 0.5,
+        "liningBuffersShared": true,
+        "assumptions": {
+          "axis": "Derived line between means of authored jaw capsule anchors; not a measured hinge",
+          "softMotion": "Prescribed disc-condyle rigid cluster with harmonic superior soft-lining weights; inferior rigid co-motion",
+          "wall": "Outward-normal scalar compliant superior mode tapered into hard/contact anchors; uncalibrated",
+          "fluid": "Uniform pressure, two resistive lines and scalar wall spring; computational closure treated as sealed. No CFD, cannula resistance calibration, cavitation, leakage or clinical safety inference",
+          "distraction": "Prescribed inferior disc-condyle co-translation, disc shape preserved in this mode; upper soft tissues interpolate between fixed temporal and moving disc. No calibrated traction or tissue force law.",
+          "contact": "Continuous rigid bone/disc guard and full instrument sweep; strict sampled rebuilt-domain self-intersections; 0.00002 mm extent/penetration tolerance for Float32 clipping; not a force solver",
+          "motionFlow": "Moving-geometry backward Euler with boundary exchange per accepted 0.1 s step"
+        },
+        "frameNumber": 576,
+        "busy": false,
+        "blocked": null,
+        "lastCheck": {
+          "id": 54,
+          "accepted": true,
+          "pose": {
+            "yaw": -110,
+            "pitch": 10,
+            "depth": 23.8,
+            "roll": 75
+          },
+          "hits": [],
+          "method": "unchanged admitted source geometry",
+          "liningContact": {
+            "clear": true,
+            "hits": [],
+            "method": "rebuilt cavity topology and sampled self-intersection",
+            "continuous": false,
+            "spatialToleranceMM": 0.00002,
+            "triangles": 40944,
+            "pairs": 374963,
+            "elapsedMS": 443.69999998807907
+          },
+          "contact": {
+            "clear": true,
+            "hits": [],
+            "method": "unchanged admitted source geometry"
+          },
+          "fluid": {
+            "volume": 0.6869336863546867,
+            "wall": 0.5998987340019012,
+            "pressure": 2.999493670009506,
+            "netIn": 0.010847576811636688,
+            "grossIn": 0.010847576811636688,
+            "grossOut": 0,
+            "tracerMass": 0.6760861089147189,
+            "initialVolume": 0.6760861089147189,
+            "elapsed": 0.9999999999999999,
+            "qin": 0.000025316499524707937,
+            "qout": 0,
+            "concentration": 0.9842086977892552,
+            "residual": 6.283310937521547e-10,
+            "contactLimited": false,
+            "reactionPressure": 0
+          },
+          "fluidEvaluations": 3,
+          "domainMS": 489.5,
+          "geometry": {
+            "angle": 0,
+            "anterior": 0,
+            "distraction": 2.5,
+            "sourcePressure": 3,
+            "inletResistance": 20,
+            "outletResistance": 20,
+            "wallStiffness": 5,
+            "outletOpen": false,
+            "wall": 0.5998987340019012
+          }
+        },
+        "locator": {
+          "frameNumber": 51,
+          "frameCentre": [
+            1,
+            1,
+            -6
+          ],
+          "span": 49,
+          "frameFollowsScope": false,
+          "position": [
+            7.9750854341199044,
+            -4.0164133142364715,
+            0.1328266284729418
+          ],
+          "direction": [
+            -0.9455007939949696,
+            0.1698242516093984,
+            0.2778272343025247
+          ],
+          "shaftAxis": [
+            -0.9254165783983234,
+            -0.33682408883346515,
+            0.17364817766693033
+          ],
+          "workingLength": 63.1,
+          "overallLength": 115,
+          "fullScopeVisible": true,
+          "completeInstrumentContext": "fixed whole-head inset",
+          "centreRayShared": true,
+          "sourceBuffersShared": true,
+          "separated": false,
+          "cutaway": true,
+          "entry": [
+            11.050096084459256,
+            -2.89720096746139,
+            -0.44417837468142807
+          ],
+          "pivot": [
+            30,
+            4,
+            -4
+          ],
+          "clinicalPortal": false,
+          "compartment": "Superior joint space",
+          "inspection": null,
+          "spaceAnchors": [
+            [
+              -4,
+              0,
+              1.6113101962096046
+            ],
+            [
+              0,
+              3,
+              -5.462991351615887
+            ]
+          ]
+        },
+        "lens": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "renderedCamera": [
+          7.9750854341199044,
+          -4.0164133142364715,
+          0.1328266284729418
+        ],
+        "inspection": null,
+        "dov": 29.999999999999993,
+        "fov": 65,
+        "internalOpaque": true,
+        "running": false,
+        "fluidResidual": 6.283310937521547e-10
+      }
+    }
+  ],
+  "errors": []
+}

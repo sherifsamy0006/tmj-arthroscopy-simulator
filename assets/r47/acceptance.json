@@ -1,0 +1,70 @@
+{
+  "revision": "r47",
+  "allProjectGoalsComplete": false,
+  "clinicalValidation": false,
+  "reconstructionSHA256": "d0b63243eb1a8ae4d78bbaa664e4e8cd3f59d96857df3f43facd09fe4a06b527",
+  "goals": [
+    {
+      "goal": "Spatial orientation",
+      "status": "demonstrated within this model",
+      "result": "One admitted lens supplies the live image, locator cone, viewed-tissue marker, five-ray tissue guide and lens section. Fixed whole-head inset retains the complete telescope."
+    },
+    {
+      "goal": "Anatomical reconstruction",
+      "status": "partial",
+      "result": "Conforming reconstructed closure/soft transitions are rounded within 0.30 mm. Pure hard vertices and source meshes are unchanged. Discrete audits retain existing contacts without new/worsened extents. Specimen-specific synovial anatomy is unavailable."
+    },
+    {
+      "goal": "Internal optical appearance",
+      "status": "partial",
+      "result": "Matched physical-lens views show smoother lower transitions. Acute recesses, reconstructed ridges and coarse hard/mixed silhouettes remain. Clinical photorealism is not achieved."
+    },
+    {
+      "goal": "Instrument and entry",
+      "status": "partial",
+      "result": "Documented 1.9 mm telescope, 63.1 mm working length, 30 degree direction and 65 degree field retain finite-volume checks. Cannula outer/lumen dimensions, seating/lens offset and registered skin portal remain unknown."
+    },
+    {
+      "goal": "Instrument navigation and contact",
+      "status": "demonstrated for tested reconstructed scene",
+      "result": "Insertion/withdrawal, pivot, roll, last-admitted contact stops and synchronized travel are verified. This is not clinical path safety or haptic validation."
+    },
+    {
+      "goal": "Jaw motion and irrigation",
+      "status": "partial; jaw-motion limitation",
+      "result": "Bone and disc stay rigid; inferior chamber co-moves. Tapered superior scalar compliance, geometric regional volumes and mass-conserving flow are implemented. Small jaw, anterior and distraction requests stop at reconstructed lining contact. Two soft-contact samples per small step are not continuous soft CCD. No CFD, FEM or natural disc-condyle trajectory is claimed."
+    },
+    {
+      "goal": "Usability and recovery",
+      "status": "verified in tested Edge desktop and 390 px frame",
+      "result": "Paired mobile workspace, native input, loading-stage feedback, locked failure state and retry checked. Startup remains tens of seconds on this machine; no unsupported speed claim."
+    },
+    {
+      "goal": "Evidence, preservation and private release",
+      "status": "technical verification complete; publication recorded separately",
+      "result": "Primary-source review, failed experiments, numerical/browser evidence, historical files and unchanged unsent author draft retained. Existing owner-private audience must be preserved."
+    }
+  ],
+  "tests": {
+    "browserChecks": 82,
+    "recoveryChecks": 10,
+    "modelChecks": 22,
+    "distractionSnapshots": [
+      0,
+      1.5,
+      2.5,
+      3
+    ],
+    "note": "Counts establish their stated software scope, not anatomical or clinical validity."
+  },
+  "unresolvedInternalWork": [
+    "Reconstruct consistent source-shell attachments before extending usable jaw/distraction motion. Current corrective trials failed contact regression.",
+    "Remove remaining reconstructed angular silhouettes using anatomically justified geometry, rather than further texture-only edits."
+  ],
+  "externalEvidenceNeeded": [
+    "Specimen-specific superior/inferior synovial geometry and reviewed clinical landmarks",
+    "Exact cannula assembly dimensions and skin-portal registration",
+    "Measured tissue/fluid response and clinical expert validation"
+  ],
+  "contactPolicy": "No email or other author contact; request remains an unchanged local draft."
+}

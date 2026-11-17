@@ -1,0 +1,58 @@
+{
+  "revision": "r48",
+  "status": "Integrated software correction verified; clinical and measurement dependencies remain open",
+  "allProjectGoalsComplete": false,
+  "clinicalValidation": false,
+  "items": [
+    {
+      "area": "Internal anatomy and silhouette",
+      "result": "Original source solids now form the visible hard cavity boundaries. Removed false bridge and faired estimated soft lining; genuine original disc strips remain visible.",
+      "evidence": "geometry-verification.json"
+    },
+    {
+      "area": "Spatial orientation",
+      "result": "Actual lens, optical rays, joint locator, whole telescope/head inset, sections, tissue identification and regional fluid volume share admitted geometry.",
+      "evidence": "browser-verification.json"
+    },
+    {
+      "area": "Direct instrument movement",
+      "result": "Steer by default; visible In / out and Rotate lens modes. Wheel and Shift-drag change insertion. Incremental, admitted-pose gestures remove the blocked-request reversal dead zone. 8 unit, 15 focused browser and 8 native gesture assertions pass, including 390 px layout and physical camera/locator agreement. Contact limits remain active.",
+      "evidence": "input-verification.json"
+    },
+    {
+      "area": "Jaw motion",
+      "result": "Coupled inserted-instrument paths reach 8 degrees rotation, 1 mm anterior translation and 3 mm distraction individually. Compound 8 degrees + 1 mm is rejected by original temporal/disc contact.",
+      "evidence": "model-verification.json"
+    },
+    {
+      "area": "Flow",
+      "result": "Actual connected cavity volume drives storage, pressure and tracer exchange; open/closed outlet, pressure release and exact steady-domain reuse verified.",
+      "evidence": "model-verification.json"
+    },
+    {
+      "area": "Usability and recovery",
+      "result": "52 integrated browser assertions plus 10 failure/recovery checks; native Retry required in the cross-frame test. Reset interrupts long movement after an admitted step. Phone width has no horizontal overflow.",
+      "evidence": "browser-verification.json"
+    },
+    {
+      "area": "Preserved study tools",
+      "result": "Orientation exercises, local imaging/registration lab, original camera and instrument references remain accessible at their existing routes."
+    },
+    {
+      "area": "External evidence",
+      "result": "Exact cannula OD/lumen/seating/lens offset, specimen synovium and motion, registered skin portal, measured mechanics, expert and educational validation remain unavailable. Author request remains unchanged and unsent.",
+      "evidence": "../r47/primary-evidence.json"
+    }
+  ],
+  "preparedVolumeML": {
+    "superior": 0.6760861089147189,
+    "inferior": 0.10609137788284195
+  },
+  "excludedDisconnectedVolumeNL": {
+    "superior": 0.062788,
+    "inferior": 0.542822
+  },
+  "reconstructionSHA256": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+  "sourceOperandsSHA256": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8",
+  "publication": "User approved r48 replacement on the same existing owner-private Site on 2026-10-23; exact deployment is recorded separately after publication."
+}

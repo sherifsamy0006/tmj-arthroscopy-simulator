@@ -1,0 +1,19 @@
+{
+  "nativeRetryClick": true,
+  "result": {
+    "passed": true,
+    "checks": 10,
+    "results": [
+      "Asset fetch failure reproduced",
+      "Asset failure locks every control",
+      "Retry remains available",
+      "User sees readable recovery message",
+      "Retry restores checked lens and joint",
+      "Recovery action hidden after success",
+      "Pending movement failure cannot re-enable controls",
+      "Worker error offers recovery",
+      "Input and visibility cannot unlock failed engine",
+      "Worker failure has actionable text"
+    ]
+  }
+}

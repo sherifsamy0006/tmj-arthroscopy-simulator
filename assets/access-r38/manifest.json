@@ -1,0 +1,83 @@
+{
+  "units": "mm",
+  "source_commit": "be99072efb46cb0e3cbc19ef444efc699343a238",
+  "transform": {
+    "rotation": [
+      [
+        0.999319851398468,
+        0.012346948496997356,
+        0.03474776819348335
+      ],
+      [
+        -0.01780322939157486,
+        0.9867297410964966,
+        0.1613921970129013
+      ],
+      [
+        -0.032293956726789474,
+        -0.16190104186534882,
+        0.9862784147262573
+      ]
+    ],
+    "origin": [
+      -43.89161794808897,
+      -6.250099886256056,
+      -3.654853940943542
+    ],
+    "axis_sign": [
+      -1,
+      -1,
+      1
+    ]
+  },
+  "retained_region": "Every original triangle with any vertex x >= -35 mm; no clipping, simplification or new cap",
+  "minimum_retained_source_x": -35,
+  "parts": [
+    {
+      "name": "skull",
+      "file": "skull.bin",
+      "vertices": 111092,
+      "triangles": 220853,
+      "source_triangles": 220853,
+      "source_vertices": 261294,
+      "sha256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4",
+      "source_file": "skull_with_cartilage.obj",
+      "source_sha256": "95709096dfab3e6e95ad5b57b837d218b94fe30ee4c7851d576eed164ae58813",
+      "bounds": [
+        [
+          -35.87202453613281,
+          -73.24070739746094,
+          -41.70455551147461
+        ],
+        [
+          24.689992904663086,
+          89.5066909790039,
+          67.52185821533203
+        ]
+      ]
+    },
+    {
+      "name": "mandible",
+      "file": "mandible.bin",
+      "vertices": 20176,
+      "triangles": 40192,
+      "source_triangles": 40192,
+      "source_vertices": 46156,
+      "sha256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf",
+      "source_file": "mandible_with_cartilage.obj",
+      "source_sha256": "65dd04230c59a29bdcdcc2ef8029cc113f26c1e6f0bb71bc99d776247e65a085",
+      "bounds": [
+        [
+          -35.96390914916992,
+          -6.620837688446045,
+          -81.03636169433594
+        ],
+        [
+          12.81882381439209,
+          87.52366638183594,
+          3.7664265632629395
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "revision": "r54",
+  "clinicalValidation": false,
+  "scope": "Arthroscope handling is the user priority; improve folds texture and light against retained clinical images",
+  "checks": [
+    {
+      "name": "unchanged assets/r48/enclosure-source-repaired.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged assets/r48/closed-source-operands.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged assets/r47/geometry-candidate.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged tmj-anatomy-v21.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged joint-spaces-v26.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged assets\\access-r38\\skull.bin",
+      "passed": true
+    },
+    {
+      "name": "unchanged assets\\access-r38\\mandible.bin",
+      "passed": true
+    },
+    {
+      "name": "unchanged assets/r51/attachment-candidate.json",
+      "passed": true
+    },
+    {
+      "name": "historical distribution retained",
+      "passed": true
+    },
+    {
+      "name": "matching active routes",
+      "passed": true
+    },
+    {
+      "name": "author draft unchanged",
+      "passed": true
+    },
+    {
+      "name": "fold topology unchanged",
+      "passed": true
+    },
+    {
+      "name": "fold deformation fields unchanged",
+      "passed": true
+    },
+    {
+      "name": "reviewed fold hash",
+      "passed": true
+    },
+    {
+      "name": "input and optical contracts",
+      "passed": true
+    },
+    {
+      "name": "sampled cavity guards",
+      "passed": true
+    },
+    {
+      "name": "ordered motion and new fold fluid checks",
+      "passed": true
+    },
+    {
+      "name": "hard collision regression",
+      "passed": true
+    },
+    {
+      "name": "simulator-r54-touch-sequence.json",
+      "passed": true
+    },
+    {
+      "name": "tested frame 1280 with scrollbar gutter",
+      "passed": true
+    },
+    {
+      "name": "simulator-r54-mobile-sequence.json",
+      "passed": true
+    },
+    {
+      "name": "tested frame 375 with scrollbar gutter",
+      "passed": true
+    },
+    {
+      "name": "native mouse steering",
+      "passed": true
+    },
+    {
+      "name": "native mouse reversal",
+      "passed": true
+    },
+    {
+      "name": "native synchronized camera prepared",
+      "passed": true
+    },
+    {
+      "name": "native synchronized camera native-right",
+      "passed": true
+    },
+    {
+      "name": "native synchronized camera native-reverse",
+      "passed": true
+    },
+    {
+      "name": "matched lens posterior",
+      "passed": true
+    },
+    {
+      "name": "matched lens anterior",
+      "passed": true
+    },
+    {
+      "name": "matched lens roll",
+      "passed": true
+    }
+  ],
+  "motion": [
+    "Stable patient-fixed external hand frame independent of optical roll",
+    "Chronological native/coalesced input samples and midpoint coupled integration",
+    "Worker processes each bounded chronological segment with complete instrument sweep",
+    "Independently rechecked withdrawal and roll residual at contact",
+    "Shortest-arc roll interpolation",
+    "Independent camera-head horizon control, generic unmeasured coupler"
+  ],
+  "counts": {
+    "input": 31,
+    "orderedWorkerOperations": 50,
+    "orderedWorkerChecks": 12,
+    "geometryCalls": 23,
+    "distinctGeometryStates": 22,
+    "desktop": 29,
+    "phone": 29
+  },
+  "range": "Existing hard-source collision envelope and fixed model pivot unchanged; no clinical safe-range claim",
+  "coupledInputShaftErrorDegrees": 7.246521702720399e-05,
+  "geometry": {
+    "preparedUpperVolumeML": 0.6832689449005734,
+    "maxFoldDisplacementMM": 0.1169391,
+    "sourceHardGeometryUnchanged": true
+  },
+  "limits": [
+    "Effective portal/grip lever, complete cannula seating and camera coupler unmeasured",
+    "No soft tissue force response, tracked hand input or clinical validation",
+    "Physical touchscreen device not tested"
+  ]
+}

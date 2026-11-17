@@ -1,0 +1,59 @@
+{
+  "revision": "r51",
+  "checks": [
+    {
+      "name": "Mouse left, right and middle drags map to steering, roll and insertion",
+      "passed": true
+    },
+    {
+      "name": "Touch one finger steers in both axes and every selected mode works",
+      "passed": true
+    },
+    {
+      "name": "Two-finger translation, pinch and twist combine in a single checked pose request",
+      "passed": true
+    },
+    {
+      "name": "Adding/removing fingers rebases without jumping; remaining finger continues",
+      "passed": true
+    },
+    {
+      "name": "Third finger neither moves the pair nor resets its baseline",
+      "passed": true
+    },
+    {
+      "name": "Wheel combines with ongoing drag instead of replacing its queue",
+      "passed": true
+    },
+    {
+      "name": "Cancellation discards all pending travel; release drains it",
+      "passed": true
+    },
+    {
+      "name": "Reversal after contact preserves all newly reversed axes",
+      "passed": true
+    },
+    {
+      "name": "Handle grip reverses steering across the portal fulcrum",
+      "passed": true
+    },
+    {
+      "name": "Twist crosses the ±180 degree boundary by the short angular change",
+      "passed": true
+    },
+    {
+      "name": "Near-overlapping fingers cannot cause an unstable lens flip",
+      "passed": true
+    },
+    {
+      "name": "Rigid camera coupling starts upright, rolls continuously and preserves lens position",
+      "passed": true
+    },
+    {
+      "name": "Steering remains screen-relative with a rotated camera",
+      "passed": true
+    }
+  ],
+  "physicalTouchDeviceTested": false,
+  "scope": "Production gesture-controller and camera-basis contracts. Native browser and collision-worker checks recorded separately."
+}

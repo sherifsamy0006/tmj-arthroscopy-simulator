@@ -1,0 +1,190 @@
+{
+  "schema": "tmj-r47-primary-evidence-v1",
+  "review_date": "2026-10-23",
+  "scope": "Public primary anatomy, clinical image and device evidence for integrated implementation. Research files only; no site source edits or publication.",
+  "conduct": {
+    "skills": [
+      "agent-reach",
+      "pdf (read-only)"
+    ],
+    "retrieval": "Exa mcporter missing. Jina local DNS unavailable. Used web search/open and verified-TLS public HTTP downloads. No CAPTCHA bypass, login, email, contact, payment or form submission.",
+    "author_request_sha256": "cb64b1f7f563822953a55441698e1866543810023f14b37e4465db80eec2d359",
+    "draft_unchanged": true
+  },
+  "visual_review": {
+    "existing_inspected": [
+      "../references/all-figures/F23.png",
+      "../references/all-figures/F29.png",
+      "../references/all-figures/F34.png",
+      "../references/all-figures/F36.png",
+      "../references/all-figures/F38.png",
+      "../references/all-figures/F49.png",
+      "../references/all-figures/F50.png",
+      "../simulator-r46-live.png"
+    ],
+    "publisher": "https://www.intechopen.com/chapters/1176474",
+    "doi": "10.5772/intechopen.1004769",
+    "provenance": "Clinical photographs reproduced in Atteya 2024 with named clinician attribution; chapter is educational synthesis, not a new normal-anatomy trial. F23/F29 credited to Gonzalez-Garcia; F34/F36/F38 to Monje Gil. F49/F50 are the chapter's procedural photographs.",
+    "observations": [
+      "F23: broad pale/grey, taut medial lining with subtle vertical striae; no repeated large crumpled ridges.",
+      "F29/F49: posterior wall and rounded foreground margin form a continuous recess; elongated relief and vessels remain regionally restricted.",
+      "F34: smooth transition from vascular retrodiscal tissue into paler disc; the boundary is not a free triangular sheet.",
+      "F36: pale smooth disc in foreground occludes deeper vascular lining; discrete wet highlights coexist with low surface relief.",
+      "F38/F50: shallow anterior crease and broad smooth opposing surfaces; wall curvature and occlusion provide depth.",
+      "Clinical photographs vary substantially in white balance and exposure; matching one RGB tone is not anatomical validation."
+    ],
+    "r46_observation": "The live reference still has a broad angular dark wall, an acute basal valley and planar triangular lower shelves. The visible white region and wall meet in a crease whose geometry dominates the view. Shader continuity does not repair these silhouettes.",
+    "rights": "Research comparison only. No new clinical photographs projected as the camera scene. No permission to redistribute copyrighted photographs inferred from public access.",
+    "new_manufacturer_image": {
+      "file": "nexus501204-manufacturer.png",
+      "url": "https://images.squarespace-cdn.com/content/v1/62393b4fbce88619e4ad014d/c50610bd-b079-4e98-9c8b-85689ff6d217/warburton_collar-lock_cannula-notext.png",
+      "inspected": true,
+      "observation": "Visible collar hub, angled irrigation side connection and marked slender shaft. The single photo lacks scale calibration, cross-section and seated telescope, so it supplies appearance only."
+    },
+    "new_telescope_image": {
+      "file": "nexus501200-manufacturer.png",
+      "url": "https://images.squarespace-cdn.com/content/v1/62393b4fbce88619e4ad014d/a32c051b-72a2-4792-add0-e33eec876d40/1.9mm-arthroscope-30-degree-autoclavable-501200-cutout.png",
+      "inspected": true,
+      "observation": "Flared black eyepiece, elongated black neck, polygonal metal hub, angled lightpost, stepped distal collar and slim straight shaft. Appearance only; no component lengths inferred from pixels."
+    }
+  },
+  "anatomy": [
+    {
+      "id": "murakami-hoshino1982",
+      "title": "Regional Anatomical Nomenclature and Arthroscopic Terminology in Human Temporomandibular Joints",
+      "url": "https://www.jstage.jst.go.jp/article/ofaj1936/58/4-6/58_745/_article",
+      "pdf": "https://www.jstage.jst.go.jp/article/ofaj1936/58/4-6/58_745/_pdf",
+      "doi": "10.2535/ofaj1936.58.4-6_745",
+      "type": "Original cadaveric arthroscopic/gross anatomy study",
+      "sample": "20 TMJs from 19 cadavers",
+      "facts": [
+        "Temporary synovial folds can become less prominent with changed disc position; persistent plicae are distinguished.",
+        "Upper posterior pouch includes medial and lateral paradiscal grooves. Tongue-like plicae were observed behind the medial discal eminence in 11/20 joints.",
+        "The lower posterior pouch in opening forms a narrow deep groove; posterior lining shows underlying vascular fat-pad contours."
+      ],
+      "locators": "Printed pp749-752; figure captions pp754-758; Figures9-18.",
+      "limits": "Preserved cadavers, historical optics and nonregistered subjects. No current-head surface, contact state, imaging or motion law.",
+      "access": "Indexed primary full text read. Web PDF screenshots returned cache miss; direct public download repeatedly reset and is retained as .pdf.partial. It is not a valid or visually inspected PDF."
+    },
+    {
+      "id": "murakami2020",
+      "title": "Synovial plica, lateral impingement and intra-articular impingement/entrapment pathologies of the temporomandibular joint",
+      "url": "https://fomm.amegroups.org/article/view/44517/html",
+      "doi": "10.21037/fomm-20-45",
+      "type": "Review with authors' original clinical/cadaver figure data",
+      "facts": [
+        "Figure2 contains authors' surgical/arthroscopic plicae from recurrent luxation, including rounded and tongue-like forms.",
+        "Figure3A/B show the same internal-derangement joint closed/open; C/D show a medial band-like plica."
+      ],
+      "limits": "Pathological case images must not define universal healthy lining. Qualitative shape and movement reference; no instrument poses or registered surfaces.",
+      "access": "Primary full text acquired as HTML; figure2/3 captions read. Direct publisher image requests returned HTTP403 and were not bypassed. These new figures are not visually inspected; existing clinical photo inspection remains separate."
+    },
+    {
+      "id": "gonzalez2011",
+      "title": "Arthroscopic anatomy and lysis and lavage of the temporomandibular joint",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21878248/",
+      "doi": "10.1016/j.cxom.2011.05.002",
+      "type": "Original clinicians' anatomical technique atlas",
+      "access": "Bibliographic identity verified; selected clinical images re-inspected via the attributed IntechOpen reproductions. Do not claim full publisher PDF inspection."
+    }
+  ],
+  "device": {
+    "official_url": "https://www.nexuscmf.com/products/",
+    "confirmed": {
+      "model": "501200",
+      "shaft_diameter_mm": 1.9,
+      "working_length_mm": 63.1,
+      "direction_of_view_deg": 30,
+      "field_of_view_deg": 65,
+      "lightpost_diameter_mm": 5,
+      "lightpost_angle_deg": 55
+    },
+    "overall_length": {
+      "mm": 115,
+      "source": "Prior archived original manufacturer evidence in ../references/r34-cannula/evidence.json",
+      "current_page_lists_overall_length": false,
+      "endpoint_drawing": false
+    },
+    "cannula": {
+      "models": [
+        "501201",
+        "501204"
+      ],
+      "labels": "501201 1.9mm Scope/Operative Cannula; 501204 1.9mm Warburton Collar-Lock Scope Cannula (50mm).",
+      "unknown": [
+        "Actual OD",
+        "Lumen ID",
+        "Wall thickness",
+        "Distal/bevel profile dimensions",
+        "Seat/lock datum",
+        "Assembled optical window protrusion/setback",
+        "Rotational keying",
+        "Controlled exact-model CAD"
+      ],
+      "inference_prohibited": "Do not interpret nominal 1.9mm as OD or subtract 50mm from 63.1mm to obtain lens protrusion."
+    },
+    "extra_route": {
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K080560.pdf",
+      "result": "HSW general arthroscope family submission has short-scope family ranges and locking options; not an exact Nexus assembly drawing. Its 85-degree family FOV and circa60mm working length must not override the explicit Nexus65/63.1 figures. Referenced submission drawing sections are not contained in the public summary."
+    },
+    "negative_searches": [
+      "Exact501201/501204 + inner/outer diameter, IFU, instructions, drawing",
+      "Nexus Warburton collar-lock manufacturer/catalog queries",
+      "FDA exact device and HSW family route"
+    ],
+    "result": "No new exact cannula/assembly dimensions established. Search absence is not proof that documentation does not exist."
+  },
+  "mechanics": [
+    {
+      "id": "xu2013-motion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23787012/",
+      "doi": "10.1016/j.jfma.2012.02.015",
+      "type": "Original CT-arthrography/IAP and finite-volume study in one healthy individual",
+      "finding": "Opening reduced the anterior upper compartment while increasing posterior space; reported anterior pressure exceeded posterior pressure. This is regional redistribution, not uniform expansion.",
+      "implementation": "Use admitted geometry to recompute cavity volume. Treat rotation, translation and prescribed distraction as different inputs. Do not import the study's qualitative pattern as a calibrated movement law for a different head.",
+      "access": "Primary abstract read; no new registered meshes acquired."
+    },
+    {
+      "id": "hill2022-lcl",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724391/",
+      "doi": "10.1016/j.jbiomech.2021.110889",
+      "type": "Original human lateral capsule-ligament tensile study",
+      "sample": "22 cadaveric heads; 11 male and11 female",
+      "finding": "Anterior and posterior lateral capsule-ligament regions show different tensile behavior; the anterior region is stiffer at higher tested strains.",
+      "implementation": "Justifies regional material modeling if geometry/rest length/loading are known. Does not supply whole-capsule pressure inflation, synovial fold thickness, current-head pretension, or scope-force calibration."
+    },
+    {
+      "id": "zhu2017-lavage",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27663533/",
+      "doi": "10.1016/j.joms.2016.08.025",
+      "type": "Original two-phase lavage simulation with clinical B12 concentration comparison",
+      "finding": "Eight models with0.8/2.4mm cannula sizes predict spatially uneven early replacement and low-flow regions.",
+      "implementation": "A uniform-pressure, well-mixed tracer model cannot reproduce that spatial behavior. Keep its reduced-system label. Do not use these different devices to calibrate Nexus resistance.",
+      "source_discrepancy": "2016 IADR abstract reports25-27.5mL/30mL; final2017 article abstract reports109mL. Do not mix those thresholds or turn them into simulator treatment targets."
+    },
+    {
+      "id": "xu2013-lavage",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3815200/",
+      "doi": "10.1371/journal.pone.0078953",
+      "finding": "Original CFD used a rigid reconstructed wall and explicitly limited validity when pressure produces substantial capsule deformation.",
+      "implementation": "It does not validate a pressure-driven deformable joint. Existing r33 evidence already distinguishes source pressure, joint pressure, through-flow volume and retained volume."
+    }
+  ],
+  "implementation_recommendations": [
+    "Inspect mesh triangle region labels at the actual lens-visible acute valleys and planes. Determine whether each is genuine hard anatomy, mixed boundary or a computational closure before smoothing.",
+    "Use a continuous attachment-constrained soft surface for estimated synovium; retain source bone/disc exactly. Round soft recesses without uniformly adding folds. Broad taut medial lining and smooth disc should stay distinct.",
+    "Any topology/position change must feed lens, locator, classification, section and volume from the same physical buffers. Repeat surface and movement collision audits, including intermediate states, not just end poses.",
+    "Clinical-image comparison should show the actual physical lens pose, tissue target, clipping/occlusion and brightness alongside the reference. It is a regional morphological comparison, not an exactly registered clinical camera match.",
+    "Retain full finite shaft/proximal guards, continuous accepted-prefix movement and outward recovery. Do not solve visual sheets by bypassing contacts or expanding hard anatomy.",
+    "Keep pressure and tracer state tied to admitted volume; do not redraw illustrative local fluid jets or vortices unless a spatial solver and its validation are actually added."
+  ],
+  "remaining_external_dependencies": [
+    "Matched specimen high-resolution disc/capsule/synovial geometry and accepted contact state",
+    "Exact-model cannula/assembly controlled drawing or calibrated physical measurements",
+    "Same-head registered skin portal landmarks",
+    "Human review of arthroscopic regional morphology",
+    "Subject-specific force/displacement and irrigation calibration",
+    "Educational/clinical validation"
+  ],
+  "publication_boundary": "This evidence supports better model design and honest provenance; it does not establish that the integrated simulator has achieved clinical realism."
+}

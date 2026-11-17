@@ -1,0 +1,4013 @@
+{
+  "revision": "r48",
+  "paths": {
+    "results": [
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 0.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0.25,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.01749426237927366
+        },
+        "fluid": {
+          "volume": 0.675211395753211,
+          "wall": 0.01749426237927366,
+          "pressure": 0.08747131189636831,
+          "netIn": -0.0008747131189636831,
+          "grossIn": 0,
+          "grossOut": 0.0008747131189636831,
+          "tracerMass": 0.6752113957957002,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.1,
+          "qin": -0.004373565594818415,
+          "qout": 0.004373565594818415,
+          "concentration": 1.0000000000629272,
+          "residual": -4.2544206439038e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 4267.327
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 0.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0.5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.022195055453362273
+        },
+        "fluid": {
+          "volume": 0.6741016434216973,
+          "wall": 0.022195055453362273,
+          "pressure": 0.11097527726681136,
+          "netIn": -0.0019844658916317965,
+          "grossIn": 0,
+          "grossOut": 0.0019844658916317965,
+          "tracerMass": 0.6741016430236874,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.2,
+          "qin": -0.005548763863340568,
+          "qout": 0.005548763863340568,
+          "concentration": 0.9999999994095699,
+          "residual": 3.9861023769932613e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 4315.2425
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 0.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0.75,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.02349385225876295
+        },
+        "fluid": {
+          "volume": 0.6729269496731446,
+          "wall": 0.02349385225876295,
+          "pressure": 0.11746926129381476,
+          "netIn": -0.0031591585045699444,
+          "grossIn": 0,
+          "grossOut": 0.0031591585045699444,
+          "tracerMass": 0.6729269504094639,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.30000000000000004,
+          "qin": -0.005873463064690738,
+          "qout": 0.005873463064690738,
+          "concentration": 1.000000001094204,
+          "residual": -7.370043386342728e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 4327.369999999999
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 1
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 1,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.02388849142709915
+        },
+        "fluid": {
+          "volume": 0.6717325264801816,
+          "wall": 0.02388849142709915,
+          "pressure": 0.11944245713549574,
+          "netIn": -0.004353583075924902,
+          "grossIn": 0,
+          "grossOut": 0.004353583075924902,
+          "tracerMass": 0.6717325258392486,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.4,
+          "qin": -0.005972122856774787,
+          "qout": 0.005972122856774787,
+          "concentration": 0.9999999990458509,
+          "residual": 6.413875845365236e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 4199.942299999999
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 1.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 1.25,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.02404277998128501
+        },
+        "fluid": {
+          "volume": 0.6705303872939892,
+          "wall": 0.02404277998128501,
+          "pressure": 0.12021389990642505,
+          "netIn": -0.005555722074989153,
+          "grossIn": 0,
+          "grossOut": 0.005555722074989153,
+          "tracerMass": 0.6705303868409964,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.5,
+          "qin": -0.006010694995321253,
+          "qout": 0.006010694995321253,
+          "concentration": 0.9999999993244262,
+          "residual": 4.542594495005048e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 4340.641499999998
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 1.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 1.5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024133186531013734
+        },
+        "fluid": {
+          "volume": 0.6693237275869063,
+          "wall": 0.024133186531013734,
+          "pressure": 0.12066593265506867,
+          "netIn": -0.006762381401539839,
+          "grossIn": 0,
+          "grossOut": 0.006762381401539839,
+          "tracerMass": 0.669323727514576,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.6,
+          "qin": -0.0060332966327534335,
+          "qout": 0.0060332966327534335,
+          "concentration": 0.9999999998919353,
+          "residual": 7.372724479537407e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 4149.681099999998
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 1.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 1.75,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024206665786816527
+        },
+        "fluid": {
+          "volume": 0.6681133945069694,
+          "wall": 0.024206665786816527,
+          "pressure": 0.12103332893408264,
+          "netIn": -0.007972714690880666,
+          "grossIn": 0,
+          "grossOut": 0.007972714690880666,
+          "tracerMass": 0.6681133942257447,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.7,
+          "qin": -0.006051666446704133,
+          "qout": 0.006051666446704133,
+          "concentration": 0.9999999995790764,
+          "residual": 2.831311730205899e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3981.6028000000006
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 2
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 2,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.02427556616620049
+        },
+        "fluid": {
+          "volume": 0.6668996156773523,
+          "wall": 0.02427556616620049,
+          "pressure": 0.12137783083100245,
+          "netIn": -0.00918649299919069,
+          "grossIn": 0,
+          "grossOut": 0.00918649299919069,
+          "tracerMass": 0.6668996159169984,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.7999999999999999,
+          "qin": -0.006068891541550123,
+          "qout": 0.006068891541550123,
+          "concentration": 1.0000000003593437,
+          "residual": -2.3817584363095e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3967.3713999999964
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 2.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 2.25,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024343233213387886
+        },
+        "fluid": {
+          "volume": 0.6656824550069306,
+          "wall": 0.024343233213387886,
+          "pressure": 0.12171616606693943,
+          "netIn": -0.010403654659860083,
+          "grossIn": 0,
+          "grossOut": 0.010403654659860083,
+          "tracerMass": 0.6656824542576989,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.8999999999999999,
+          "qin": -0.0060858083033469715,
+          "qout": 0.0060858083033469715,
+          "concentration": 0.9999999988744909,
+          "residual": 7.520717815873157e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 4135.8736999999965
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 2.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 2.5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024410442741586227
+        },
+        "fluid": {
+          "volume": 0.6644619320967912,
+          "wall": 0.024410442741586227,
+          "pressure": 0.12205221370793114,
+          "netIn": -0.011624176796939395,
+          "grossIn": 0,
+          "grossOut": 0.011624176796939395,
+          "tracerMass": 0.6644619321205758,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.9999999999999999,
+          "qin": -0.006102610685396557,
+          "qout": 0.006102610685396557,
+          "concentration": 1.0000000000357954,
+          "residual": -2.0988316987158306e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3515.2342999999964
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 2.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 2.75,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.02447754456131002
+        },
+        "fluid": {
+          "volume": 0.6632380552303404,
+          "wall": 0.02447754456131002,
+          "pressure": 0.1223877228065501,
+          "netIn": -0.012848054025004895,
+          "grossIn": 0,
+          "grossOut": 0.012848054025004895,
+          "tracerMass": 0.6632380548931325,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.0999999999999999,
+          "qin": -0.006119386140327505,
+          "qout": 0.006119386140327505,
+          "concentration": 0.9999999994915734,
+          "residual": 3.406264263705605e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3549.8015000000014
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 3
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 3,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.02454447512315407
+        },
+        "fluid": {
+          "volume": 0.662010830900861,
+          "wall": 0.02454447512315407,
+          "pressure": 0.12272237561577035,
+          "netIn": -0.014075277781162599,
+          "grossIn": 0,
+          "grossOut": 0.014075277781162599,
+          "tracerMass": 0.6620108311365378,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.2,
+          "qin": -0.0061361187807885175,
+          "qout": 0.0061361187807885175,
+          "concentration": 1.0000000003560015,
+          "residual": -2.3269528491576263e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3576.3171
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 3.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 3.25,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024611364170810352
+        },
+        "fluid": {
+          "volume": 0.6607802637053188,
+          "wall": 0.024611364170810352,
+          "pressure": 0.12305682085405176,
+          "netIn": -0.015305845989703117,
+          "grossIn": 0,
+          "grossOut": 0.015305845989703117,
+          "tracerMass": 0.6607802629294423,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.3,
+          "qin": -0.006152841042702588,
+          "qout": 0.006152841042702588,
+          "concentration": 0.9999999988258176,
+          "residual": 7.803030790953791e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3625.8767000000007
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 3.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 3.5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024678194172200872
+        },
+        "fluid": {
+          "volume": 0.6595463531470206,
+          "wall": 0.024678194172200872,
+          "pressure": 0.12339097086100437,
+          "netIn": -0.01653975569831316,
+          "grossIn": 0,
+          "grossOut": 0.01653975569831316,
+          "tracerMass": 0.6595463532206944,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.4000000000000001,
+          "qin": -0.006169548543050219,
+          "qout": 0.006169548543050219,
+          "concentration": 1.0000000001117038,
+          "residual": -6.938512264742513e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3606.864499999996
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 3.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 3.75,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024744862955503877
+        },
+        "fluid": {
+          "volume": 0.6583091104421025,
+          "wall": 0.024744862955503877,
+          "pressure": 0.12372431477751938,
+          "netIn": -0.017776998846088354,
+          "grossIn": 0,
+          "grossOut": 0.017776998846088354,
+          "tracerMass": 0.6583091100736118,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.5000000000000002,
+          "qin": -0.006186215738875969,
+          "qout": 0.006186215738875969,
+          "concentration": 0.9999999994402468,
+          "residual": 3.734719755676963e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3727.319000000003
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 4
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 4,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024811477529184674
+        },
+        "fluid": {
+          "volume": 0.6570685363404491,
+          "wall": 0.024811477529184674,
+          "pressure": 0.12405738764592336,
+          "netIn": -0.019017572722547588,
+          "grossIn": 0,
+          "grossOut": 0.019017572722547588,
+          "tracerMass": 0.6570685361974226,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.6000000000000003,
+          "qin": -0.006202869382296168,
+          "qout": 0.006202869382296168,
+          "concentration": 0.9999999997823262,
+          "residual": 1.4827786221083272e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3560.372700000007
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 4.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 4.25,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024877989018883565
+        },
+        "fluid": {
+          "volume": 0.6558246365744477,
+          "wall": 0.024877989018883565,
+          "pressure": 0.12438994509441782,
+          "netIn": -0.020261472173491765,
+          "grossIn": 0,
+          "grossOut": 0.020261472173491765,
+          "tracerMass": 0.6558246367461528,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.7000000000000004,
+          "qin": -0.006219497254720891,
+          "qout": 0.006219497254720891,
+          "concentration": 1.0000000002618155,
+          "residual": -1.66779437482667e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3499.443800000008
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 4.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 4.5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.024944414133644503
+        },
+        "fluid": {
+          "volume": 0.6545774154459735,
+          "wall": 0.024944414133644503,
+          "pressure": 0.12472207066822252,
+          "netIn": -0.021508692880173992,
+          "grossIn": 0,
+          "grossOut": 0.021508692880173992,
+          "tracerMass": 0.6545774160383419,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.8000000000000005,
+          "qin": -0.006236103533411127,
+          "qout": 0.006236103533411127,
+          "concentration": 1.000000000904963,
+          "residual": -5.885714068898373e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3595.9351999999926
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 4.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 4.75,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025010710331269323
+        },
+        "fluid": {
+          "volume": 0.6533268806565827,
+          "wall": 0.025010710331269323,
+          "pressure": 0.12505355165634663,
+          "netIn": -0.022759228396737458,
+          "grossIn": 0,
+          "grossOut": 0.022759228396737458,
+          "tracerMass": 0.6533268805220359,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.9000000000000006,
+          "qin": -0.006252677582817332,
+          "qout": 0.006252677582817332,
+          "concentration": 0.999999999794059,
+          "residual": 1.386013144533127e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3489.2062999999907
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025076911937966934
+        },
+        "fluid": {
+          "volume": 0.6520730341480508,
+          "wall": 0.025076911937966934,
+          "pressure": 0.12538455968983467,
+          "netIn": -0.024013073993635805,
+          "grossIn": 0,
+          "grossOut": 0.024013073993635805,
+          "tracerMass": 0.6520730349236462,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.0000000000000004,
+          "qin": -0.006269227984491733,
+          "qout": 0.006269227984491733,
+          "concentration": 1.00000000118943,
+          "residual": -7.73032225037662e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3348.294099999999
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 5.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 5.25,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025143025387918076
+        },
+        "fluid": {
+          "volume": 0.6508158836948649,
+          "wall": 0.025143025387918076,
+          "pressure": 0.1257151269395904,
+          "netIn": -0.025270225263031708,
+          "grossIn": 0,
+          "grossOut": 0.025270225263031708,
+          "tracerMass": 0.6508158836543286,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.1000000000000005,
+          "qin": -0.00628575634697952,
+          "qout": 0.00628575634697952,
+          "concentration": 0.9999999999377147,
+          "residual": 4.3177704467378675e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3464.6782999999996
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 5.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 5.5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.0252089522169142
+        },
+        "fluid": {
+          "volume": 0.6495554362558493,
+          "wall": 0.0252089522169142,
+          "pressure": 0.12604476108457102,
+          "netIn": -0.02653067287387742,
+          "grossIn": 0,
+          "grossOut": 0.02653067287387742,
+          "tracerMass": 0.6495554360438942,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.2000000000000006,
+          "qin": -0.006302238054228551,
+          "qout": 0.006302238054228551,
+          "concentration": 0.999999999673692,
+          "residual": 2.15007872617079e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3449.070099999997
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 5.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 5.75,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025274840419211023
+        },
+        "fluid": {
+          "volume": 0.6482916936548925,
+          "wall": 0.025274840419211023,
+          "pressure": 0.12637420209605513,
+          "netIn": -0.02779441489483797,
+          "grossIn": 0,
+          "grossOut": 0.02779441489483797,
+          "tracerMass": 0.6482916940222176,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.3000000000000007,
+          "qin": -0.006318710104802757,
+          "qout": 0.006318710104802757,
+          "concentration": 1.0000000005666048,
+          "residual": -3.649884283696281e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3540.044900000008
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 6
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 6,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025340578074648956
+        },
+        "fluid": {
+          "volume": 0.6470246648989509,
+          "wall": 0.025340578074648956,
+          "pressure": 0.12670289037324478,
+          "netIn": -0.029061443798570417,
+          "grossIn": 0,
+          "grossOut": 0.029061443798570417,
+          "tracerMass": 0.6470246651180561,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.400000000000001,
+          "qin": -0.006335144518662239,
+          "qout": 0.006335144518662239,
+          "concentration": 1.000000000338635,
+          "residual": -2.1719751691628986e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3601.7387000000017
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 6.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 6.25,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.02540617649869676
+        },
+        "fluid": {
+          "volume": 0.6457543557845864,
+          "wall": 0.02540617649869676,
+          "pressure": 0.1270308824934838,
+          "netIn": -0.030331752623505254,
+          "grossIn": 0,
+          "grossOut": 0.030331752623505254,
+          "tracerMass": 0.6457543562921229,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.500000000000001,
+          "qin": -0.00635154412467419,
+          "qout": 0.00635154412467419,
+          "concentration": 1.000000000785959,
+          "residual": -5.066272228126945e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3350.7400000000052
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 6.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 6.5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025471613608955244
+        },
+        "fluid": {
+          "volume": 0.6444807753746014,
+          "wall": 0.025471613608955244,
+          "pressure": 0.12735806804477623,
+          "netIn": -0.031605333303953015,
+          "grossIn": 0,
+          "grossOut": 0.031605333303953015,
+          "tracerMass": 0.6444807756112075,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.600000000000001,
+          "qin": -0.006367903402238812,
+          "qout": 0.006367903402238812,
+          "concentration": 1.0000000003671268,
+          "residual": -2.361645046189409e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3397.859500000006
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 6.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 6.75,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025536991490077772
+        },
+        "fluid": {
+          "volume": 0.643203925950926,
+          "wall": 0.025536991490077772,
+          "pressure": 0.12768495745038885,
+          "netIn": -0.0328821828784569,
+          "grossIn": 0,
+          "grossOut": 0.0328821828784569,
+          "tracerMass": 0.6432039260365338,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.700000000000001,
+          "qin": -0.006384247872519443,
+          "qout": 0.006384247872519443,
+          "concentration": 1.0000000001330958,
+          "residual": -8.533596052018311e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3533.119499999986
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 7
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 7,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025602196965052344
+        },
+        "fluid": {
+          "volume": 0.64192381616596,
+          "wall": 0.025602196965052344,
+          "pressure": 0.12801098482526171,
+          "netIn": -0.034162292726709516,
+          "grossIn": 0,
+          "grossOut": 0.034162292726709516,
+          "tracerMass": 0.6419238161882367,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.800000000000001,
+          "qin": -0.006400549241263086,
+          "qout": 0.006400549241263086,
+          "concentration": 1.0000000000347031,
+          "residual": -2.2049410908220324e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3388.752099999998
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 7.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 7.25,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.02566719991233674
+        },
+        "fluid": {
+          "volume": 0.6406404566984025,
+          "wall": 0.02566719991233674,
+          "pressure": 0.1283359995616837,
+          "netIn": -0.03544565272232635,
+          "grossIn": 0,
+          "grossOut": 0.03544565272232635,
+          "tracerMass": 0.640640456193631,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.9000000000000012,
+          "qin": -0.006416799978084186,
+          "qout": 0.006416799978084186,
+          "concentration": 0.9999999992120829,
+          "residual": 5.06010004730495e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3305.0861000000004
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 7.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 7.5,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025732145176732914
+        },
+        "fluid": {
+          "volume": 0.6393538495535928,
+          "wall": 0.025732145176732914,
+          "pressure": 0.12866072588366456,
+          "netIn": -0.036732259981163,
+          "grossIn": 0,
+          "grossOut": 0.036732259981163,
+          "tracerMass": 0.6393538489360371,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 3.0000000000000013,
+          "qin": -0.006433036294183229,
+          "qout": 0.006433036294183229,
+          "concentration": 0.9999999990340941,
+          "residual": 6.20036882947872e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 1,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3287.477500000008
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 7.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 7.75,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025796913740355542
+        },
+        "fluid": {
+          "volume": 0.6380640029060931,
+          "wall": 0.025796913740355542,
+          "pressure": 0.1289845687017777,
+          "netIn": -0.038022105668180775,
+          "grossIn": 0,
+          "grossOut": 0.038022105668180775,
+          "tracerMass": 0.6380640032483275,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 3.1000000000000014,
+          "qin": -0.006449228435088886,
+          "qout": 0.006449228435088886,
+          "concentration": 1.0000000005363636,
+          "residual": -3.404449916422081e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 1,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3557.534400000004
+      },
+      {
+        "label": "jaw-path",
+        "changes": {
+          "angle": 8
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 8,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.025861502930316336
+        },
+        "fluid": {
+          "volume": 0.6367709282052882,
+          "wall": 0.025861502930316336,
+          "pressure": 0.1293075146515817,
+          "netIn": -0.03931518081469659,
+          "grossIn": 0,
+          "grossOut": 0.03931518081469659,
+          "tracerMass": 0.6367709281020213,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 3.2000000000000015,
+          "qin": -0.006465375732579085,
+          "qout": 0.006465375732579085,
+          "concentration": 0.9999999998378272,
+          "residual": 1.0526596261328791e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 2,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.000414569850188663
+        },
+        "elapsedMS": 3949.804600000003
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.05
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.05,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.06697876229681837
+        },
+        "fluid": {
+          "volume": 0.6727371710524662,
+          "wall": 0.06697876229681837,
+          "pressure": 0.33489381148409186,
+          "netIn": -0.003348938114840919,
+          "grossIn": 0,
+          "grossOut": 0.003348938114840919,
+          "tracerMass": 0.6727371708011292,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.1,
+          "qin": -0.016744690574204593,
+          "qout": 0.016744690574204593,
+          "concentration": 0.9999999996263963,
+          "residual": 2.5258826454044314e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 4230.271500000003
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.1
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.1,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.08484949734946785
+        },
+        "fluid": {
+          "volume": 0.6684946954562577,
+          "wall": 0.08484949734946785,
+          "pressure": 0.42424748674733925,
+          "netIn": -0.007591412982314312,
+          "grossIn": 0,
+          "grossOut": 0.007591412982314312,
+          "tracerMass": 0.6684946959306451,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.2,
+          "qin": -0.021212374337366963,
+          "qout": 0.021212374337366963,
+          "concentration": 1.0000000007096352,
+          "residual": -4.761468372360689e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3479.471000000005
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.15000000000000002
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.15000000000000002,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.08959057511148845
+        },
+        "fluid": {
+          "volume": 0.6640151674202024,
+          "wall": 0.08959057511148845,
+          "pressure": 0.44795287555744223,
+          "netIn": -0.012070941737888734,
+          "grossIn": 0,
+          "grossOut": 0.012070941737888734,
+          "tracerMass": 0.6640151671767134,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.30000000000000004,
+          "qin": -0.022397643777872112,
+          "qout": 0.022397643777872112,
+          "concentration": 0.9999999996333081,
+          "residual": 2.4337224943660196e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3482.2525000000023
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.2
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.2,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09084059607781018
+        },
+        "fluid": {
+          "volume": 0.6594731372597724,
+          "wall": 0.09084059607781018,
+          "pressure": 0.45420298038905094,
+          "netIn": -0.016612971541779244,
+          "grossIn": 0,
+          "grossOut": 0.016612971541779244,
+          "tracerMass": 0.6594731373720496,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.4,
+          "qin": -0.02271014901945255,
+          "qout": 0.02271014901945255,
+          "concentration": 1.000000000170253,
+          "residual": -1.1316721865162194e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3405.695799999987
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.25
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.25,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09116749431199293
+        },
+        "fluid": {
+          "volume": 0.6549147627764612,
+          "wall": 0.09116749431199293,
+          "pressure": 0.4558374715599647,
+          "netIn": -0.02117134625737889,
+          "grossIn": 0,
+          "grossOut": 0.02117134625737889,
+          "tracerMass": 0.6549147626572795,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.5,
+          "qin": -0.022791873577998237,
+          "qout": 0.022791873577998237,
+          "concentration": 0.9999999998180196,
+          "residual": 1.1912122677149029e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3274.4741000000213
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.30000000000000004
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.30000000000000004,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09125148702606264
+        },
+        "fluid": {
+          "volume": 0.6503521877204541,
+          "wall": 0.09125148702606264,
+          "pressure": 0.45625743513031325,
+          "netIn": -0.025733920608682022,
+          "grossIn": 0,
+          "grossOut": 0.025733920608682022,
+          "tracerMass": 0.6503521883018972,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.6,
+          "qin": -0.022812871756515665,
+          "qout": 0.022812871756515665,
+          "concentration": 1.0000000008940435,
+          "residual": -5.855827420186976e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3801.7423000000126
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.35000000000000003
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.35000000000000003,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09127191473801868
+        },
+        "fluid": {
+          "volume": 0.6457885927833404,
+          "wall": 0.09127191473801868,
+          "pressure": 0.4563595736900934,
+          "netIn": -0.030297516345582955,
+          "grossIn": 0,
+          "grossOut": 0.030297516345582955,
+          "tracerMass": 0.6457885925665283,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.7,
+          "qin": -0.02281797868450467,
+          "qout": 0.02281797868450467,
+          "concentration": 0.9999999996642677,
+          "residual": 2.1420452217535413e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3561.189000000013
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.4
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.4,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09127569757635733
+        },
+        "fluid": {
+          "volume": 0.6412248075821156,
+          "wall": 0.09127569757635733,
+          "pressure": 0.45637848788178664,
+          "netIn": -0.03486130122440082,
+          "grossIn": 0,
+          "grossOut": 0.03486130122440082,
+          "tracerMass": 0.6412248076869642,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.7999999999999999,
+          "qin": -0.022818924394089335,
+          "qout": 0.022818924394089335,
+          "concentration": 1.000000000163513,
+          "residual": -1.082024123078007e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3465.7883000000147
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.45
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.45,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09127503998012156
+        },
+        "fluid": {
+          "volume": 0.6366610555800254,
+          "wall": 0.09127503998012156,
+          "pressure": 0.45637519990060776,
+          "netIn": -0.0394250532234069,
+          "grossIn": 0,
+          "grossOut": 0.0394250532234069,
+          "tracerMass": 0.6366610556871899,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.8999999999999999,
+          "qin": -0.02281875999503039,
+          "qout": 0.02281875999503039,
+          "concentration": 1.0000000001683227,
+          "residual": -1.1128658411463377e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3307.056500000006
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.5
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.5,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.0912731845851215
+        },
+        "fluid": {
+          "volume": 0.6320973964463124,
+          "wall": 0.0912731845851215,
+          "pressure": 0.4563659229256075,
+          "netIn": -0.043988712452662976,
+          "grossIn": 0,
+          "grossOut": 0.043988712452662976,
+          "tracerMass": 0.6320973964578505,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.9999999999999999,
+          "qin": -0.02281829614628038,
+          "qout": 0.02281829614628038,
+          "concentration": 1.0000000000182536,
+          "residual": -1.5743545356272648e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3342.323300000018
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.55
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.55,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.0912707997409147
+        },
+        "fluid": {
+          "volume": 0.62753385638206,
+          "wall": 0.0912707997409147,
+          "pressure": 0.4563539987045735,
+          "netIn": -0.04855225243970871,
+          "grossIn": 0,
+          "grossOut": 0.04855225243970871,
+          "tracerMass": 0.627533856470164,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.0999999999999999,
+          "qin": -0.022817699935228676,
+          "qout": 0.022817699935228676,
+          "concentration": 1.0000000001403972,
+          "residual": -9.295011288434907e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3103.7323000000033
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.6000000000000001
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.6000000000000001,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09126816156977267
+        },
+        "fluid": {
+          "volume": 0.6229704485436403,
+          "wall": 0.09126816156977267,
+          "pressure": 0.4563408078488634,
+          "netIn": -0.05311566051819735,
+          "grossIn": 0,
+          "grossOut": 0.05311566051819735,
+          "tracerMass": 0.6229704483927805,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.2,
+          "qin": -0.022817040392443172,
+          "qout": 0.022817040392443172,
+          "concentration": 0.999999999757838,
+          "residual": 1.4711872692307892e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2897.642200000002
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.65
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.65,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09126519702265486
+        },
+        "fluid": {
+          "volume": 0.6184071883922828,
+          "wall": 0.09126519702265486,
+          "pressure": 0.45632598511327427,
+          "netIn": -0.05767892036933009,
+          "grossIn": 0,
+          "grossOut": 0.05767892036933009,
+          "tracerMass": 0.6184071885405537,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.3,
+          "qin": -0.022816299255663714,
+          "qout": 0.022816299255663714,
+          "concentration": 1.0000000002397624,
+          "residual": -1.53105972344747e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2995.6250999999756
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.7000000000000001
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.7000000000000001,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09126175283425939
+        },
+        "fluid": {
+          "volume": 0.6138441008829393,
+          "wall": 0.09126175283425939,
+          "pressure": 0.45630876417129695,
+          "netIn": -0.06224200801104306,
+          "grossIn": 0,
+          "grossOut": 0.06224200801104306,
+          "tracerMass": 0.6138441008987233,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.4000000000000001,
+          "qin": -0.02281543820856485,
+          "qout": 0.02281543820856485,
+          "concentration": 1.0000000000257134,
+          "residual": -2.0736537487131557e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2929.640299999999
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.75,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09125790729588314
+        },
+        "fluid": {
+          "volume": 0.6092812054452841,
+          "wall": 0.09125790729588314,
+          "pressure": 0.45628953647941567,
+          "netIn": -0.06680490337583721,
+          "grossIn": 0,
+          "grossOut": 0.06680490337583721,
+          "tracerMass": 0.6092812055332701,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.5000000000000002,
+          "qin": -0.022814476823970784,
+          "qout": 0.022814476823970784,
+          "concentration": 1.0000000001444096,
+          "residual": -9.359758801341655e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3124.6875
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.8
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.8,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09125350519399977
+        },
+        "fluid": {
+          "volume": 0.6047185304655225,
+          "wall": 0.09125350519399977,
+          "pressure": 0.45626752596999887,
+          "netIn": -0.0713675786355372,
+          "grossIn": 0,
+          "grossOut": 0.0713675786355372,
+          "tracerMass": 0.6047185302750075,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.6000000000000003,
+          "qin": -0.022813376298499943,
+          "qout": 0.022813376298499943,
+          "concentration": 0.9999999996849527,
+          "residual": 1.8634080389823282e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2948.767499999987
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.8500000000000001
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.8500000000000001,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09124857278847907
+        },
+        "fluid": {
+          "volume": 0.6001561019947133,
+          "wall": 0.09124857278847907,
+          "pressure": 0.4562428639423954,
+          "netIn": -0.07593000727496114,
+          "grossIn": 0,
+          "grossOut": 0.07593000727496114,
+          "tracerMass": 0.6001561016382931,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.7000000000000004,
+          "qin": -0.022812143197119772,
+          "qout": 0.022812143197119772,
+          "concentration": 0.9999999994061209,
+          "residual": 3.5495552330733204e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2916.7808000000077
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.9
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.9,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09124282853241461
+        },
+        "fluid": {
+          "volume": 0.5955939602028273,
+          "wall": 0.09124282853241461,
+          "pressure": 0.45621414266207305,
+          "netIn": -0.08049214870158188,
+          "grossIn": 0,
+          "grossOut": 0.08049214870158188,
+          "tracerMass": 0.5955939602116053,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.8000000000000005,
+          "qin": -0.022810707133103653,
+          "qout": 0.022810707133103653,
+          "concentration": 1.0000000000147382,
+          "residual": -1.0309711417910705e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2987.4469999999856
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 0.9500000000000001
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0.9500000000000001,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09123609705909785
+        },
+        "fluid": {
+          "volume": 0.5910321552676424,
+          "wall": 0.09123609705909785,
+          "pressure": 0.45618048529548927,
+          "netIn": -0.08505395355453677,
+          "grossIn": 0,
+          "grossOut": 0.08505395355453677,
+          "tracerMass": 0.5910321553579533,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.9000000000000006,
+          "qin": -0.022809024264774463,
+          "qout": 0.022809024264774463,
+          "concentration": 1.000000000152802,
+          "residual": -9.253969812661467e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2990.1780000000144
+      },
+      {
+        "label": "anterior-path",
+        "changes": {
+          "anterior": 1
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 1,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.09122833953009289
+        },
+        "fluid": {
+          "volume": 0.5864707387648436,
+          "wall": 0.09122833953009289,
+          "pressure": 0.4561416976504645,
+          "netIn": -0.0896153705310414,
+          "grossIn": 0,
+          "grossOut": 0.0896153705310414,
+          "tracerMass": 0.5864707383844077,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 2.0000000000000004,
+          "qin": -0.022807084882523226,
+          "qout": 0.022807084882523226,
+          "concentration": 0.9999999993513131,
+          "residual": 3.811660986841048e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 3,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3115.6390000000247
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.55
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.55,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.17851704276492592
+        },
+        "fluid": {
+          "volume": 0.6850119607865244,
+          "wall": -0.17851704276492592,
+          "pressure": -0.8925852138246295,
+          "netIn": 0.008925852138246296,
+          "grossIn": 0.008925852138246296,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.1,
+          "qin": 0.04462926069123148,
+          "qout": -0.04462926069123148,
+          "concentration": 0.986969786831814,
+          "residual": -2.664407947744474e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3304.3763000000035
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.6
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.6,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.22610273776927353
+        },
+        "fluid": {
+          "volume": 0.696317097954303,
+          "wall": -0.22610273776927353,
+          "pressure": -1.1305136888463676,
+          "netIn": 0.020230989026709972,
+          "grossIn": 0.020230989026709972,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.2,
+          "qin": 0.05652568444231838,
+          "qout": -0.05652568444231838,
+          "concentration": 0.9709457241549571,
+          "residual": 1.28741184379777e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3441.043400000024
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.65
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.65,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.23874195850555022
+        },
+        "fluid": {
+          "volume": 0.7082541959529817,
+          "wall": -0.23874195850555022,
+          "pressure": -1.1937097925277511,
+          "netIn": 0.03216808695198749,
+          "grossIn": 0.03216808695198749,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.30000000000000004,
+          "qin": 0.05968548962638756,
+          "qout": -0.05968548962638756,
+          "concentration": 0.954581155717716,
+          "residual": 8.627530634353064e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2976.6192000000156
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.7
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.7,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.24208579761503438
+        },
+        "fluid": {
+          "volume": 0.7203584858050933,
+          "wall": -0.24208579761503438,
+          "pressure": -1.210428988075172,
+          "netIn": 0.044272376832739206,
+          "grossIn": 0.044272376832739206,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.4,
+          "qin": 0.0605214494037586,
+          "qout": -0.0605214494037586,
+          "concentration": 0.9385411878074923,
+          "residual": 5.763523686086458e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2819.3559999999998
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.75
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.75,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.24296645790665786
+        },
+        "fluid": {
+          "volume": 0.7325068079819477,
+          "wall": -0.24296645790665786,
+          "pressure": -1.2148322895332893,
+          "netIn": 0.0564206997280721,
+          "grossIn": 0.0564206997280721,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.5,
+          "qin": 0.060741614476664464,
+          "qout": -0.060741614476664464,
+          "concentration": 0.9229758707326318,
+          "residual": -6.608433036903172e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2830.988699999987
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.8
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.8,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.24319688867005232
+        },
+        "fluid": {
+          "volume": 0.744666653490062,
+          "wall": -0.24319688867005232,
+          "pressure": -1.2159844433502616,
+          "netIn": 0.06858054416157472,
+          "grossIn": 0.06858054416157472,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.6,
+          "qin": 0.06079922216751308,
+          "qout": -0.06079922216751308,
+          "concentration": 0.9079043700239245,
+          "residual": 4.1376840842488605e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3008.410600000003
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.85
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.85,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.24325638926131557
+        },
+        "fluid": {
+          "volume": 0.7568294724413858,
+          "wall": -0.24325638926131557,
+          "pressure": -1.216281946306578,
+          "netIn": 0.0807433636246405,
+          "grossIn": 0.0807433636246405,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.7,
+          "qin": 0.0608140973153289,
+          "qout": -0.0608140973153289,
+          "concentration": 0.8933136638215153,
+          "residual": -9.797361533170346e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3416.9184999999998
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.9
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.9,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.24327114464898664
+        },
+        "fluid": {
+          "volume": 0.7689930297884008,
+          "wall": -0.24327114464898664,
+          "pressure": -1.2163557232449331,
+          "netIn": 0.09290692085708983,
+          "grossIn": 0.09290692085708983,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.7999999999999999,
+          "qin": 0.06081778616224666,
+          "qout": -0.06081778616224666,
+          "concentration": 0.8791836632131158,
+          "residual": 1.6592074936205847e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3898.3695000000007
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 2.95
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.95,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.24327427221430584
+        },
+        "fluid": {
+          "volume": 0.7811567432321426,
+          "wall": -0.24327427221430584,
+          "pressure": -1.2163713610715292,
+          "netIn": 0.10507063446780512,
+          "grossIn": 0.10507063446780512,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.8999999999999999,
+          "qin": 0.060818568053576466,
+          "qout": -0.060818568053576466,
+          "concentration": 0.8654935322164926,
+          "residual": -1.5038142953116562e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 3063.6775999999954
+      },
+      {
+        "label": "distraction-path",
+        "changes": {
+          "distraction": 3
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 3,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": -0.2432743614902676
+        },
+        "fluid": {
+          "volume": 0.7933204616941735,
+          "wall": -0.2432743614902676,
+          "pressure": -1.2163718074513379,
+          "netIn": 0.11723435254231851,
+          "grossIn": 0.11723435254231851,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.9999999999999999,
+          "qin": 0.0608185903725669,
+          "qout": -0.0608185903725669,
+          "concentration": 0.852223208097904,
+          "residual": 2.37136088543366e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "pairs": 0,
+          "hits": [],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 1e-05
+        },
+        "elapsedMS": 2554.8407000000007
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.34810067665652394
+        },
+        "fluid": {
+          "volume": 0.682383592325078,
+          "wall": 0.34810067665652394,
+          "pressure": 1.7405033832826198,
+          "netIn": 0.006297483083586901,
+          "grossIn": 0.006297483083586901,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.1,
+          "qin": 0.06297483083586901,
+          "qout": 0,
+          "concentration": 0.9907713440340766,
+          "residual": 3.2677217182142115e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2598.844599999982
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.4943009506183962
+        },
+        "fluid": {
+          "volume": 0.6850260677229678,
+          "wall": 0.4943009506183962,
+          "pressure": 2.471504753091981,
+          "netIn": 0.008939959318126996,
+          "grossIn": 0.008939959318126996,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.2,
+          "qin": 0.026424762345400945,
+          "qout": 0,
+          "concentration": 0.9869494618825742,
+          "residual": -5.09878058177482e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2678.6277999999875
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5556587748665612
+        },
+        "fluid": {
+          "volume": 0.6861345986664557,
+          "wall": 0.5556587748665612,
+          "pressure": 2.7782938743328063,
+          "netIn": 0.010048489946462964,
+          "grossIn": 0.010048489946462964,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.30000000000000004,
+          "qin": 0.011085306283359686,
+          "qout": 0,
+          "concentration": 0.9853549292350704,
+          "residual": -1.9472618656424245e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2594.5494999999937
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5814006914355956
+        },
+        "fluid": {
+          "volume": 0.6865995815478846,
+          "wall": 0.5814006914355956,
+          "pressure": 2.9070034571779777,
+          "netIn": 0.010513472660573077,
+          "grossIn": 0.010513472660573077,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.4,
+          "qin": 0.004649827141101115,
+          "qout": 0,
+          "concentration": 0.9846876215545254,
+          "residual": -2.7407366307019565e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2667.902299999987
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5921986999794733
+        },
+        "fluid": {
+          "volume": 0.6867946148363318,
+          "wall": 0.5921986999794733,
+          "pressure": 2.9609934998973664,
+          "netIn": 0.010708505161086245,
+          "grossIn": 0.010708505161086245,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.5,
+          "qin": 0.0019503250051316813,
+          "qout": 0,
+          "concentration": 0.9844079937578357,
+          "residual": 7.605266312549208e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2179.5934000000125
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5967278902444829
+        },
+        "fluid": {
+          "volume": 0.6868764166884004,
+          "wall": 0.5967278902444829,
+          "pressure": 2.9836394512224147,
+          "netIn": 0.010790307904974171,
+          "grossIn": 0.010790307904974171,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.6,
+          "qin": 0.0008180274388792652,
+          "qout": 0,
+          "concentration": 0.984290758116716,
+          "residual": -1.31292664240501e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2215.0584999999846
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5986275735429948
+        },
+        "fluid": {
+          "volume": 0.686910727172297,
+          "wall": 0.5986275735429948,
+          "pressure": 2.993137867714974,
+          "netIn": 0.0108246185663993,
+          "grossIn": 0.0108246185663993,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.7,
+          "qin": 0.0003431066142512984,
+          "qout": 0,
+          "concentration": 0.9842415938063187,
+          "residual": -3.088212220669906e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2161.3244000000122
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5994243669797539
+        },
+        "fluid": {
+          "volume": 0.6869251182634186,
+          "wall": 0.5994243669797539,
+          "pressure": 2.9971218348987696,
+          "netIn": 0.010839009391905453,
+          "grossIn": 0.010839009391905453,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.7999999999999999,
+          "qin": 0.00014390825506152005,
+          "qout": 0,
+          "concentration": 0.984220973930752,
+          "residual": -4.320570637372789e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2244.3701
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5997585692088494
+        },
+        "fluid": {
+          "volume": 0.686931154480406,
+          "wall": 0.5997585692088494,
+          "pressure": 2.998792846044247,
+          "netIn": 0.010845045161684217,
+          "grossIn": 0.010845045161684217,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.8999999999999999,
+          "qin": 6.035769778764966e-05,
+          "qout": 0,
+          "concentration": 0.9842123253619348,
+          "residual": 4.0400288843500665e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2154.864900000015
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5998987340019012
+        },
+        "fluid": {
+          "volume": 0.6869336863546867,
+          "wall": 0.5998987340019012,
+          "pressure": 2.999493670009506,
+          "netIn": 0.010847576811636688,
+          "grossIn": 0.010847576811636688,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.9999999999999999,
+          "qin": 2.5316499524707937e-05,
+          "qout": 0,
+          "concentration": 0.9842086977892552,
+          "residual": 6.283310937521547e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2228.8115999999864
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5999575250938611
+        },
+        "fluid": {
+          "volume": 0.6869347474995969,
+          "wall": 0.5999575250938611,
+          "pressure": 2.9997876254693057,
+          "netIn": 0.01084863868429016,
+          "grossIn": 0.01084863868429016,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.0999999999999999,
+          "qin": 1.061872653471685e-05,
+          "qout": 0,
+          "concentration": 0.9842071774293462,
+          "residual": -9.941210354913466e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2182.285600000003
+      },
+      {
+        "label": "closed-outlet",
+        "changes": {
+          "sourcePressure": 3,
+          "outletOpen": false
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 3,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": false,
+          "wall": 0.5999821854724369
+        },
+        "fluid": {
+          "volume": 0.6869351927608897,
+          "wall": 0.5999821854724369,
+          "pressure": 2.9999109273621842,
+          "netIn": 0.01084908404747924,
+          "grossIn": 0.01084908404747924,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.2,
+          "qin": 4.453631890788401e-06,
+          "qout": 0,
+          "concentration": 0.9842065394807233,
+          "residual": -2.0130845775068185e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2165.5525999999954
+      },
+      {
+        "label": "release-distension",
+        "changes": {
+          "sourcePressure": 1,
+          "outletOpen": true
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 1,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.23275073646764266
+        },
+        "fluid": {
+          "volume": 0.6802976559938847,
+          "wall": 0.23275073646764266,
+          "pressure": 1.1637536823382133,
+          "netIn": 0.004211547224097107,
+          "grossIn": 0.01084908404747924,
+          "grossOut": 0.006637536823382133,
+          "tracerMass": 0.6695534017676382,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.3,
+          "qin": -0.008187684116910666,
+          "qout": 0.058187684116910665,
+          "concentration": 0.984206539399949,
+          "residual": -1.4493128398795907e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2675.3983000000007
+      },
+      {
+        "label": "release-distension",
+        "changes": {
+          "sourcePressure": 1,
+          "outletOpen": true
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 1,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.1352696977826842
+        },
+        "fluid": {
+          "volume": 0.6785341712741755,
+          "wall": 0.1352696977826842,
+          "pressure": 0.6763484889134209,
+          "netIn": 0.0024480623349628977,
+          "grossIn": 0.012467341602912135,
+          "grossOut": 0.010019279267949238,
+          "tracerMass": 0.6662329672212232,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.4000000000000001,
+          "qin": 0.016182575554328955,
+          "qout": 0.03381742444567105,
+          "concentration": 0.9818709144303629,
+          "residual": 2.4493706542172422e-11,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2623.901899999997
+      },
+      {
+        "label": "release-distension",
+        "changes": {
+          "sourcePressure": 1,
+          "outletOpen": true
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 1,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.10937204892514833
+        },
+        "fluid": {
+          "volume": 0.6780655680599409,
+          "wall": 0.10937204892514833,
+          "pressure": 0.5468602446257417,
+          "netIn": 0.0019794598887054806,
+          "grossIn": 0.014733040379783426,
+          "grossOut": 0.012753580491077946,
+          "tracerMass": 0.6635571711475841,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.5000000000000002,
+          "qin": 0.022656987768712916,
+          "qout": 0.027343012231287087,
+          "concentration": 0.9786032537327212,
+          "residual": -7.434834627291498e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2128.6888000000035
+      },
+      {
+        "label": "release-distension",
+        "changes": {
+          "sourcePressure": 1,
+          "outletOpen": true
+        },
+        "accepted": true,
+        "hits": [],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 1,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.10249050597092844
+        },
+        "fluid": {
+          "volume": 0.6779410439600546,
+          "wall": 0.10249050597092844,
+          "pressure": 0.5124525298546422,
+          "netIn": 0.0018549345901590587,
+          "grossIn": 0.017170777730510216,
+          "grossOut": 0.015315843140351157,
+          "tracerMass": 0.6610587148744466,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 1.6000000000000003,
+          "qin": 0.02437737350726789,
+          "qout": 0.02562262649273211,
+          "concentration": 0.9750976442037004,
+          "residual": 4.5517667846689536e-10,
+          "contactLimited": false,
+          "reactionPressure": 0
+        },
+        "contact": {
+          "clear": true,
+          "hits": [],
+          "method": "unchanged admitted source geometry"
+        },
+        "elapsedMS": 2252.1118000000133
+      },
+      {
+        "label": "hard-contact-rejection",
+        "changes": {
+          "angle": 8,
+          "anterior": 1
+        },
+        "accepted": false,
+        "hits": [
+          {
+            "surface": "temporal ↔ disc",
+            "kind": "tissue contact",
+            "time": 0.96875,
+            "distance": 0.3597893171992093,
+            "point": [
+              -4.816673755645752,
+              1.293352723121643,
+              1.0203713178634644
+            ],
+            "iterations": 11,
+            "triangles": [
+              1546,
+              1173
+            ]
+          }
+        ],
+        "geometry": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "contact": {
+          "clear": false,
+          "pairs": 653,
+          "hits": [
+            {
+              "surface": "temporal ↔ disc",
+              "kind": "tissue contact",
+              "time": 0.96875,
+              "distance": 0.3597893171992093,
+              "point": [
+                -4.816673755645752,
+                1.293352723121643,
+                1.0203713178634644
+              ],
+              "iterations": 11,
+              "triangles": [
+                1546,
+                1173
+              ]
+            }
+          ],
+          "method": "continuous triangle-distance enclosure",
+          "tolerance": 0.4141214558298864
+        },
+        "elapsedMS": 161.36170000000857
+      }
+    ]
+  },
+  "steadyDomainCache": {
+    "passed": true,
+    "results": [
+      {
+        "label": "steady-cached-domain",
+        "accepted": true,
+        "cavityUnchanged": true,
+        "domainMS": 0,
+        "fluid": {
+          "volume": 0.6760861089147189,
+          "wall": 0,
+          "pressure": 0,
+          "netIn": 0,
+          "grossIn": 0,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.1,
+          "qin": 0,
+          "qout": 0,
+          "concentration": 1,
+          "residual": 0,
+          "contactLimited": false,
+          "reactionPressure": 0
+        }
+      },
+      {
+        "label": "steady-cached-domain",
+        "accepted": true,
+        "cavityUnchanged": true,
+        "domainMS": 0,
+        "fluid": {
+          "volume": 0.6760861089147189,
+          "wall": 0,
+          "pressure": 0,
+          "netIn": 0,
+          "grossIn": 0,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.2,
+          "qin": 0,
+          "qout": 0,
+          "concentration": 1,
+          "residual": 0,
+          "contactLimited": false,
+          "reactionPressure": 0
+        }
+      },
+      {
+        "label": "steady-cached-domain",
+        "accepted": true,
+        "cavityUnchanged": true,
+        "domainMS": 0,
+        "fluid": {
+          "volume": 0.6760861089147189,
+          "wall": 0,
+          "pressure": 0,
+          "netIn": 0,
+          "grossIn": 0,
+          "grossOut": 0,
+          "tracerMass": 0.6760861089147189,
+          "initialVolume": 0.6760861089147189,
+          "elapsed": 0.30000000000000004,
+          "qin": 0,
+          "qout": 0,
+          "concentration": 1,
+          "residual": 0,
+          "contactLimited": false,
+          "reactionPressure": 0
+        }
+      }
+    ]
+  },
+  "solverChecks": {
+    "passed": true,
+    "checks": 7,
+    "analyticOpen": {
+      "volume": 1.0042857142857142,
+      "wall": 0.2142857142857143,
+      "pressure": 1.0714285714285716,
+      "netIn": 0.004285714285714284,
+      "grossIn": 0.009642857142857142,
+      "grossOut": 0.005357142857142859,
+      "tracerMass": 0.9946940219313759,
+      "initialVolume": 1,
+      "elapsed": 0.1,
+      "qin": 0.09642857142857142,
+      "qout": 0.05357142857142858,
+      "concentration": 0.9904492394764768,
+      "residual": -5.811323644522304e-17,
+      "contactLimited": false,
+      "reactionPressure": 0
+    },
+    "analyticClosed": {
+      "volume": 1.0066666666666666,
+      "wall": 0.3333333333333334,
+      "pressure": 1.6666666666666672,
+      "netIn": 0.0066666666666666645,
+      "grossIn": 0.0066666666666666645,
+      "grossOut": 0,
+      "tracerMass": 1,
+      "initialVolume": 1,
+      "elapsed": 0.1,
+      "qin": 0.06666666666666664,
+      "qout": 0,
+      "concentration": 0.9933774834437087,
+      "residual": -6.591949208711867e-17,
+      "contactLimited": false,
+      "reactionPressure": 0
+    },
+    "stationaryNearRoof": {
+      "accepted": true,
+      "pose": {
+        "yaw": -90,
+        "pitch": 0,
+        "roll": 75,
+        "depth": 23.8
+      },
+      "hits": [],
+      "method": "bounded moving-source instrument sweep",
+      "samples": 1,
+      "maxDepth": 0
+    },
+    "midpathContact": {
+      "hits": [
+        {
+          "surface": "test plane",
+          "count": 2,
+          "radialOverlap": 0.9499999999999986,
+          "point": [
+            9,
+            4,
+            -4
+          ]
+        }
+      ],
+      "candidates": 2,
+      "surfaceClear": false,
+      "accepted": false,
+      "pose": null,
+      "time": 0.5,
+      "method": "bounded moving-source instrument sweep",
+      "samples": 1,
+      "maxDepth": 0
+    },
+    "separating": {
+      "accepted": true,
+      "pose": {
+        "yaw": -90,
+        "pitch": 0,
+        "roll": 75,
+        "depth": 23.8
+      },
+      "hits": [],
+      "method": "bounded moving-source instrument sweep",
+      "samples": 1,
+      "maxDepth": 0
+    }
+  },
+  "invalidDomainChecks": {
+    "passed": true,
+    "results": [
+      {
+        "name": "Valid closed solid",
+        "expected": true,
+        "clear": true,
+        "hits": []
+      },
+      {
+        "name": "Missing triangle leaves an open cavity",
+        "expected": false,
+        "clear": false,
+        "hits": [
+          {
+            "surface": "tetrahedron",
+            "kind": "cavity is not closed and consistently wound"
+          }
+        ]
+      },
+      {
+        "name": "Incorrect winding is rejected",
+        "expected": false,
+        "clear": false,
+        "hits": [
+          {
+            "surface": "tetrahedron",
+            "kind": "cavity is not closed and consistently wound"
+          }
+        ]
+      },
+      {
+        "name": "Nonfinite vertex is rejected",
+        "expected": false,
+        "clear": false,
+        "hits": [
+          {
+            "surface": "tetrahedron",
+            "kind": "invalid cavity coordinates or volume"
+          }
+        ]
+      },
+      {
+        "name": "Reported fluid volume must match rendered volume",
+        "expected": false,
+        "clear": false,
+        "hits": [
+          {
+            "surface": "tetrahedron",
+            "kind": "rendered volume or orientation mismatch"
+          }
+        ]
+      },
+      {
+        "name": "Duplicate faces cannot masquerade as a closed surface",
+        "expected": false,
+        "clear": false,
+        "hits": [
+          {
+            "surface": "tetrahedron",
+            "kind": "rendered volume or orientation mismatch"
+          }
+        ]
+      },
+      {
+        "name": "Crossing closed components remain rejected",
+        "expected": false,
+        "clear": false,
+        "hits": [
+          {
+            "surface": "tetrahedron",
+            "kind": "rebuilt cavity self-intersection",
+            "faces": [
+              3,
+              4
+            ],
+            "point": [
+              0.15,
+              0.7,
+              0.15
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Explicit property seam is welded without changing positions",
+        "expected": true,
+        "clear": true,
+        "hits": []
+      }
+    ]
+  },
+  "directDomainChecks": {
+    "results": [
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "validation": {
+          "clear": true,
+          "hits": [],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "spatialToleranceMM": 2e-05,
+          "triangles": 40862,
+          "pairs": 374781,
+          "elapsedMS": 435.703
+        },
+        "volumes": [
+          0.6760861089147189,
+          0.10609137788284195
+        ],
+        "buildMS": 484.33669999999995
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 0,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "validation": {
+          "clear": true,
+          "hits": [],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "spatialToleranceMM": 2e-05,
+          "triangles": 39686,
+          "pairs": 394727,
+          "elapsedMS": 373.14340000000016
+        },
+        "volumes": [
+          0.06882362621806377,
+          0.10609137784400222
+        ],
+        "buildMS": 475.0037
+      },
+      {
+        "state": {
+          "angle": 1,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "validation": {
+          "clear": true,
+          "hits": [],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "spatialToleranceMM": 2e-05,
+          "triangles": 40902,
+          "pairs": 375364,
+          "elapsedMS": 373.44090000000006
+        },
+        "volumes": [
+          0.6713009289323041,
+          0.106091377149476
+        ],
+        "buildMS": 426.33359999999993
+      },
+      {
+        "state": {
+          "angle": 4,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "validation": {
+          "clear": true,
+          "hits": [],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "spatialToleranceMM": 2e-05,
+          "triangles": 41010,
+          "pairs": 378329,
+          "elapsedMS": 556.4142999999999
+        },
+        "volumes": [
+          0.656622246858269,
+          0.10609137775661773
+        ],
+        "buildMS": 460.7132999999999
+      },
+      {
+        "state": {
+          "angle": 8,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "validation": {
+          "clear": true,
+          "hits": [],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "spatialToleranceMM": 2e-05,
+          "triangles": 41082,
+          "pairs": 383118,
+          "elapsedMS": 578.6233000000002
+        },
+        "volumes": [
+          0.6363072540181582,
+          0.10609137966465836
+        ],
+        "buildMS": 607.3130999999998
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 1,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "validation": {
+          "clear": true,
+          "hits": [],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "spatialToleranceMM": 2e-05,
+          "triangles": 40822,
+          "pairs": 383824,
+          "elapsedMS": 530.5652
+        },
+        "volumes": [
+          0.5850610166725492,
+          0.10609137947278821
+        ],
+        "buildMS": 538.3373000000001
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 3,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "validation": {
+          "clear": true,
+          "hits": [],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "spatialToleranceMM": 2e-05,
+          "triangles": 41022,
+          "pairs": 376359,
+          "elapsedMS": 571.9030000000002
+        },
+        "volumes": [
+          0.7974970529872324,
+          0.1060913788250276
+        ],
+        "buildMS": 556.0668000000005
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.3
+        },
+        "validation": {
+          "clear": true,
+          "hits": [],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "spatialToleranceMM": 2e-05,
+          "triangles": 40912,
+          "pairs": 374935,
+          "elapsedMS": 575.8069000000005
+        },
+        "volumes": [
+          0.6815138715360237,
+          0.10609137788284195
+        ],
+        "buildMS": 577.1788000000006
+      },
+      {
+        "state": {
+          "angle": 8,
+          "anterior": 1,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.3
+        },
+        "validation": {
+          "clear": false,
+          "hits": [
+            {
+              "surface": "superior",
+              "kind": "rebuilt cavity self-intersection",
+              "faces": [
+                5493,
+                14819
+              ],
+              "point": [
+                -6.840806755878363,
+                5.288279872263455,
+                -4.832028755972234
+              ]
+            }
+          ],
+          "method": "rebuilt cavity topology and sampled self-intersection",
+          "continuous": false,
+          "pairs": 76896,
+          "elapsedMS": 138.3071
+        },
+        "volumes": [
+          0.5350963295044253,
+          0.10609137987259959
+        ],
+        "buildMS": 582.7021000000004
+      }
+    ]
+  },
+  "maximumMassResidualML": 7.803030790953791e-10,
+  "importantLimits": [
+    "Prescribed rigid disc-condyle cluster; natural lower-space rolling is not represented.",
+    "Continuous hard-source collision and bounded whole-instrument sweeps; soft-cavity self-intersections sampled at midpoint/end of each admitted step.",
+    "20 nm extent/penetration tolerance for Float32 Boolean slivers; no historical penetration allowance.",
+    "Uniform pressure and well-mixed tracer in one connected upper domain; uncalibrated scalar wall law, no CFD/cavitation/leakage or clinical pressure inference.",
+    "Geometric checks run slower than simulation time; queued requests interrupt after the next admitted small step."
+  ]
+}

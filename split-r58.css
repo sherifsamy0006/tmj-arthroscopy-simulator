@@ -1,0 +1,162 @@
+@import url('./studio-r55.css');
+
+/* r58 · lens on the left, position map on the right, procedure above both. */
+.map-wrap .space-badge, .map-wrap .map-help, .overview > span { display: none; }
+
+.split-heading, .split-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
+
+/* Page chrome: compact in split view, so the two halves fill the screen. */
+.heading .workspace-bar { display: flex; align-items: center; gap: .5rem; margin: 0 0 0 auto; padding: 0; width: auto; font-size: .8rem; }
+.heading .workspace-bar label { font-weight: 600; color: var(--muted); white-space: nowrap; }
+.heading .workspace-bar select { min-height: 34px; font-size: .8rem; }
+@media (min-width: 901px) { body.split-layout header { height: 58px; min-height: 0; padding: 0; } }
+body.split-layout .heading { padding: .5rem 0 .55rem; gap: .4rem 1rem; flex-wrap: wrap; }
+body.split-layout .heading > div:first-child { display: flex; align-items: baseline; gap: .7rem; flex-wrap: wrap; }
+body.split-layout .heading h1 { font-size: 1.05rem; letter-spacing: -.01em; margin: 0; }
+body.split-layout .load-box { max-width: 290px; font-size: .72rem; line-height: 1.3; }
+
+/* Procedure strip */
+.procedure {
+  grid-column: 1 / -1;
+  order: -90;
+  border: 1px solid #314952;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #13232c, #0e1c25);
+  padding: .55rem .8rem .6rem;
+  margin: 0 0 .6rem;
+}
+.procedure-head { display: flex; align-items: center; gap: .5rem .8rem; flex-wrap: wrap; }
+.procedure-steps { display: flex; flex: 1; gap: .35rem; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; counter-reset: step; }
+.procedure-steps li {
+  counter-increment: step;
+  display: flex; align-items: center; gap: .4rem;
+  font-size: .76rem; color: #94acb9;
+  padding: .26rem .65rem .26rem .32rem;
+  border: 1px solid #263b48; border-radius: 999px; background: #0d1a22;
+}
+.procedure-steps li::before {
+  content: counter(step);
+  display: grid; place-items: center;
+  width: 1.3rem; height: 1.3rem; border-radius: 50%;
+  background: #1c313b; color: #c0d5db; font-size: .7rem; font-weight: 650;
+}
+.procedure-steps li[data-state=done] { color: #a5e5da; border-color: #2c5a58; }
+.procedure-steps li[data-state=done]::before { content: '✓'; background: #1f5b55; color: #dff8f3; }
+.procedure-steps li[data-state=current] { color: #102b30; background: #b7e9de; border-color: #b7e9de; font-weight: 650; }
+.procedure-steps li[data-state=current]::before { background: #102b30; color: #b7e9de; }
+.procedure-actions { display: flex; gap: .4rem; align-items: center; margin-left: auto; }
+.procedure-actions button { flex: none; max-width: none; min-height: 38px; padding: .45rem .95rem; font-size: .84rem; white-space: nowrap; }
+.procedure-actions button.primary { background: #80d9cb; border-color: #80d9cb; color: #0c2529; font-weight: 700; }
+.procedure-actions button.primary:disabled { background: #2a474b; border-color: #35575b; color: #8fb1b1; }
+.procedure-actions button[hidden] { display: none; }
+.procedure-body { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: .5rem 1.1rem; align-items: center; margin-top: .5rem; }
+.procedure-text { min-width: 0; }
+.procedure-text h2 { margin: 0 0 .1rem; font-size: 1rem; }
+.procedure-text p { margin: 0; font-size: .84rem; line-height: 1.4; color: #d6e6ec; max-width: 80ch; }
+.procedure-text small { display: block; margin-top: .15rem; font-size: .7rem; line-height: 1.3; color: #94acb9; }
+.fluid-bar {
+  display: flex; align-items: center; gap: .45rem .7rem; flex-wrap: wrap;
+  margin: 0; padding: 0 0 0 1.1rem; border-left: 1px solid #263b48; font-size: .8rem;
+}
+.fluid-bar button { flex: none; max-width: none; min-height: 34px; padding: .3rem .8rem; font-size: .8rem; }
+.fluid-bar button[aria-pressed=true] { background: #b7e9de; border-color: #b7e9de; color: #102b30; font-weight: 650; }
+#fx-bleed { border-color: #8b4750; background: #3a2328; color: #ffc9c4; }
+.fluid-bar .toggle { display: inline-flex; align-items: center; gap: .35rem; }
+.clarity { display: inline-flex; align-items: center; gap: .4rem; color: #c0d5db; }
+.clarity meter { width: 5rem; height: .7rem; }
+.clarity output { min-width: 2.6rem; font-variant-numeric: tabular-nums; }
+.fx-status { flex: 1 1 100%; color: #f3d197; font-size: .76rem; }
+@media (max-width: 980px) {
+  .procedure-body { grid-template-columns: 1fr; }
+  .fluid-bar { border-left: 0; border-top: 1px solid #263b48; padding: .5rem 0 0; }
+}
+
+/* Split deck */
+.workspace.split { display: block; padding: 0; }
+.workspace.split > article { display: none; }
+.split-deck {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  border: 1px solid #314952; border-radius: 14px; overflow: hidden; background: #0d1c26;
+}
+.split-deck[hidden] { display: none; }
+.split-col { min-width: 0; display: flex; flex-direction: column; }
+.split-lens-col { background: #04080b; border-right: 1px solid #233846; }
+.split-heading { padding: .5rem .85rem; background: #142a34; min-height: 2.5rem; }
+.split-heading h2 { margin: 0; font-size: .98rem; }
+.split-heading small, .split-options { font-size: .74rem; color: #c0d5db; }
+#split-target .hit { color: #f3d197; margin: 0; min-height: 0; font-size: .78rem; }
+#split-lens { flex: 1; display: grid; place-items: center; padding: 10px; min-height: 0; }
+#split-lens .scope-circle {
+  width: min(100%, max(240px, calc(100svh - 26.5rem)), 780px);
+  margin: 0; border-width: 6px; border-color: #010305;
+  box-shadow: 0 0 0 1px #2c3d47, 0 0 0 9px #05090c, 0 0 0 10px #1b2a33, 0 18px 40px #0008;
+}
+#split-where { padding: 0 .85rem; }
+#split-where .where { margin: .1rem 0; }
+#split-where .where > div { display: flex; align-items: baseline; gap: .55rem; flex-wrap: wrap; }
+#split-where .where strong { font-size: .95rem; }
+#split-controls { padding: .35rem .85rem .7rem; }
+#split-controls .instrument-toolbar { margin: 0; }
+#split-controls .gesture-hint { margin: .35rem 0 0; }
+#split-controls .motion-status { margin-top: .4rem; }
+#split-map { flex: 1; min-height: 0; display: flex; }
+#split-map .map-wrap { flex: 1; height: auto; min-height: max(280px, calc(100svh - 26.5rem)); margin: 0; border: 0; }
+#split-map .overview { display: none; }
+.split-options { padding: .4rem .85rem .55rem; border-top: 1px solid #233846; }
+#split-map-key .anatomy-key { background: none; border: 0; margin: 0; padding: 0; font-size: .72rem; gap: .4rem .8rem; }
+#split-map-key small { display: none; }
+#split-map-options { display: flex; gap: .3rem .9rem; flex-wrap: wrap; }
+.roof-visibility, .guide-visibility, .rim-visibility { display: inline-flex; gap: .4rem; align-items: center; font-size: .78rem; }
+.anatomy > .roof-visibility, .anatomy > .guide-visibility, .anatomy > .rim-visibility { margin: .4rem .9rem 0 0; }
+
+/* Lens furniture */
+.lens-standby {
+  position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .3rem;
+  text-align: center; color: #c9d9df; pointer-events: none; background: radial-gradient(circle, #0c1418, #010203 70%);
+}
+.lens-standby[hidden] { display: none; }
+.lens-standby b { font-size: .95rem; letter-spacing: .02em; }
+.lens-standby small { color: #94acb9; font-size: .74rem; }
+.lens-rim { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.lens-rim[hidden] { display: none; }
+.lens-rim span {
+  position: absolute; left: 50%; top: 50%;
+  font: 650 9px/1 system-ui, sans-serif; letter-spacing: .08em;
+  padding: 2px 4px; border-radius: 6px; background: #05090cb8; white-space: nowrap; will-change: transform, opacity;
+}
+.lens-rim span[data-axis=ant], .lens-rim span[data-axis=post] { color: #9fe3a8; }
+.lens-rim span[data-axis=sup], .lens-rim span[data-axis=inf] { color: #8fd3ff; }
+.lens-rim span[data-axis=lat], .lens-rim span[data-axis=med] { color: #f0b8f2; }
+.scope-circle .optical-tag { z-index: 2; }
+/* The state tag appears only while a movement is checked or stopped. */
+#split-lens .scope-state:not([data-kind=blocked]) { display: none; }
+#split-lens .scope-state { top: 13%; }
+#split-lens .optical-tag { bottom: 12%; }
+
+/* Narrow portrait screens: lens first, map directly below it. */
+@media (max-width: 700px) and (orientation: portrait) {
+  .split-deck { grid-template-columns: 1fr; }
+  .split-lens-col { border-right: 0; border-bottom: 1px solid #233846; }
+  #split-lens .scope-circle { width: min(84vw, 44svh); }
+  #split-map .map-wrap { min-height: 0; height: clamp(210px, 36svh, 340px); flex: none; width: 100%; }
+  .procedure-actions { width: 100%; }
+  .procedure-actions button { flex: 1; white-space: normal; }
+  .procedure-steps li { font-size: .7rem; padding-right: .5rem; }
+}
+@media (max-width: 760px) {
+  .heading .workspace-bar { margin: .35rem 0; }
+  .procedure-text small { display: none; }
+  .workspace.split { display: block; border: 0; background: none; padding: 0; overflow: visible; }
+  .procedure { padding: .6rem .7rem; }
+  .procedure-text p { font-size: .8rem; }
+}
+@media (max-height: 520px) and (orientation: landscape) {
+  #split-lens .scope-circle { width: min(100%, max(200px, calc(100svh - 7rem))); }
+  #split-map .map-wrap { min-height: max(200px, calc(100svh - 7rem)); }
+}

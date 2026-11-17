@@ -1,0 +1,476 @@
+{
+  "results": [
+    {
+      "name": "prepared initialization",
+      "accepted": true,
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 0,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40862,
+        "pairs": 374781,
+        "elapsedMS": 409.89789999999994
+      },
+      "contact": {
+        "clear": true,
+        "pairs": 9129,
+        "hits": [],
+        "method": "continuous triangle-distance enclosure",
+        "tolerance": 0.00001
+      },
+      "elapsedMS": 3389.9977
+    },
+    {
+      "name": "full insertion",
+      "accepted": true,
+      "method": "exact translational union",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "elapsedMS": 5.9461999999998625
+    },
+    {
+      "name": "left yaw",
+      "accepted": true,
+      "method": "adaptive enclosed angular sweep",
+      "pose": {
+        "yaw": -119,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "elapsedMS": 1482.5928
+    },
+    {
+      "name": "right yaw",
+      "accepted": true,
+      "method": "adaptive enclosed angular sweep",
+      "pose": {
+        "yaw": -81,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "elapsedMS": 2891.5474000000004
+    },
+    {
+      "name": "centre",
+      "accepted": true,
+      "method": "adaptive enclosed angular sweep",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "elapsedMS": 1107.2402000000002
+    },
+    {
+      "name": "moving joint against complete instrument",
+      "accepted": true,
+      "method": "bounded moving-source instrument sweep",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40872,
+        "pairs": 374880,
+        "elapsedMS": 377.2398000000012
+      },
+      "fluid": {
+        "volume": 0.675211395753211,
+        "wall": 0.01749426237927366,
+        "pressure": 0.08747131189636831,
+        "netIn": -0.0008747131189636831,
+        "grossIn": 0,
+        "grossOut": 0.0008747131189636831,
+        "tracerMass": 0.6752113957957002,
+        "initialVolume": 0.6760861089147189,
+        "elapsed": 0.1,
+        "qin": -0.004373565594818415,
+        "qout": 0.004373565594818415,
+        "concentration": 1.0000000000629272,
+        "residual": -4.2544206439038e-11,
+        "contactLimited": false,
+        "reactionPressure": 0
+      },
+      "contact": {
+        "clear": true,
+        "pairs": 0,
+        "hits": [],
+        "method": "continuous triangle-distance enclosure",
+        "tolerance": 0.000414569850188663
+      },
+      "elapsedMS": 3174.5957000000017
+    },
+    {
+      "name": "joint reversal",
+      "accepted": true,
+      "method": "bounded moving-source instrument sweep",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40862,
+        "pairs": 374955,
+        "elapsedMS": 342.452299999999
+      },
+      "fluid": {
+        "volume": 0.6758536047549392,
+        "wall": -0.012844179646169959,
+        "pressure": -0.0642208982308498,
+        "netIn": -0.00023250413665518513,
+        "grossIn": 0.000642208982308498,
+        "grossOut": 0.0008747131189636831,
+        "tracerMass": 0.6752113957957002,
+        "initialVolume": 0.6760861089147189,
+        "elapsed": 0.2,
+        "qin": 0.00321104491154249,
+        "qout": -0.00321104491154249,
+        "concentration": 0.999049780966291,
+        "residual": -2.3124526599138662e-11,
+        "contactLimited": false,
+        "reactionPressure": 0
+      },
+      "contact": {
+        "clear": true,
+        "pairs": 0,
+        "hits": [],
+        "method": "continuous triangle-distance enclosure",
+        "tolerance": 0.000414569850188663
+      },
+      "elapsedMS": 3130.1618
+    },
+    {
+      "name": "coupled irrigation step 0",
+      "accepted": true,
+      "method": "unchanged admitted source geometry",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40868,
+        "pairs": 374681,
+        "elapsedMS": 361.4308999999994
+      },
+      "fluid": {
+        "volume": 0.6766887912568675,
+        "wall": 0.03329625220402431,
+        "pressure": 0.16648126102012156,
+        "netIn": 0.0006026832531435994,
+        "grossIn": 0.0023098026772078906,
+        "grossOut": 0.001707119424064291,
+        "tracerMass": 0.6743818273258743,
+        "initialVolume": 0.6760861089147189,
+        "elapsed": 0.30000000000000004,
+        "qin": 0.016675936948993924,
+        "qout": 0.00832406305100608,
+        "concentration": 0.9965908051665694,
+        "residual": -9.109949356293431e-10,
+        "contactLimited": false,
+        "reactionPressure": 0
+      },
+      "contact": {
+        "clear": true,
+        "hits": [],
+        "method": "unchanged admitted source geometry"
+      },
+      "elapsedMS": 2034.9451000000008
+    },
+    {
+      "name": "coupled irrigation step 1",
+      "accepted": true,
+      "method": "unchanged admitted source geometry",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40864,
+        "pairs": 374548,
+        "elapsedMS": 375.84130000000005
+      },
+      "fluid": {
+        "volume": 0.676910766019293,
+        "wall": 0.04556052690802133,
+        "pressure": 0.22780263454010663,
+        "netIn": 0.0008246569077425332,
+        "grossIn": 0.0036707895045073576,
+        "grossOut": 0.0028461325967648245,
+        "tracerMass": 0.6732489757147885,
+        "initialVolume": 0.6760861089147189,
+        "elapsed": 0.4,
+        "qin": 0.01360986827299467,
+        "qout": 0.011390131727005332,
+        "concentration": 0.994590438668839,
+        "residual": 1.9683160038929531e-10,
+        "contactLimited": false,
+        "reactionPressure": 0
+      },
+      "contact": {
+        "clear": true,
+        "hits": [],
+        "method": "unchanged admitted source geometry"
+      },
+      "elapsedMS": 2040.7884999999987
+    },
+    {
+      "name": "coupled irrigation step 2",
+      "accepted": true,
+      "method": "unchanged admitted source geometry",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40864,
+        "pairs": 374562,
+        "elapsedMS": 397.1254999999983
+      },
+      "fluid": {
+        "volume": 0.6769697603535528,
+        "wall": 0.04882009513208065,
+        "pressure": 0.24410047566040327,
+        "netIn": 0.0008836521511385003,
+        "grossIn": 0.004950287126205342,
+        "grossOut": 0.004066634975066841,
+        "tracerMass": 0.6720373659037904,
+        "initialVolume": 0.6760861089147189,
+        "elapsed": 0.5,
+        "qin": 0.012794976216979836,
+        "qout": 0.012205023783020165,
+        "concentration": 0.9927140106713386,
+        "residual": -7.123045458589522e-10,
+        "contactLimited": false,
+        "reactionPressure": 0
+      },
+      "contact": {
+        "clear": true,
+        "hits": [],
+        "method": "unchanged admitted source geometry"
+      },
+      "elapsedMS": 2075.729900000002
+    },
+    {
+      "name": "coupled irrigation step 3",
+      "accepted": true,
+      "method": "unchanged admitted source geometry",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40864,
+        "pairs": 374567,
+        "elapsedMS": 358.1983
+      },
+      "fluid": {
+        "volume": 0.6769854398936638,
+        "wall": 0.04968643317291582,
+        "pressure": 0.2484321658645791,
+        "netIn": 0.0008993304924927093,
+        "grossIn": 0.006208126296882446,
+        "grossOut": 0.005308795804389737,
+        "tracerMass": 0.6708065423706915,
+        "initialVolume": 0.6760861089147189,
+        "elapsed": 0.6,
+        "qin": 0.012578391706771046,
+        "qout": 0.012421608293228956,
+        "concentration": 0.990872924055881,
+        "residual": 4.864521917875494e-10,
+        "contactLimited": false,
+        "reactionPressure": 0
+      },
+      "contact": {
+        "clear": true,
+        "hits": [],
+        "method": "unchanged admitted source geometry"
+      },
+      "elapsedMS": 2052.9506
+    },
+    {
+      "name": "coupled irrigation step 4",
+      "accepted": true,
+      "method": "unchanged admitted source geometry",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40864,
+        "pairs": 374568,
+        "elapsedMS": 347.85469999999987
+      },
+      "fluid": {
+        "volume": 0.676989606825903,
+        "wall": 0.0499166586671129,
+        "pressure": 0.2495832933355645,
+        "netIn": 0.0009034975591370643,
+        "grossIn": 0.0074602098302046236,
+        "grossOut": 0.00655671227106756,
+        "tracerMass": 0.6695722984643446,
+        "initialVolume": 0.6760861089147189,
+        "elapsed": 0.7,
+        "qin": 0.012520835333221776,
+        "qout": 0.012479164666778226,
+        "concentration": 0.9890436894646953,
+        "residual": 3.5204709470954693e-10,
+        "contactLimited": false,
+        "reactionPressure": 0
+      },
+      "contact": {
+        "clear": true,
+        "hits": [],
+        "method": "unchanged admitted source geometry"
+      },
+      "elapsedMS": 2053.290399999998
+    },
+    {
+      "name": "coupled irrigation step 5",
+      "accepted": true,
+      "method": "unchanged admitted source geometry",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": 75
+      },
+      "hits": [],
+      "liningContact": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40864,
+        "pairs": 374570,
+        "elapsedMS": 342.8755999999994
+      },
+      "fluid": {
+        "volume": 0.6769907141182473,
+        "wall": 0.049977842981913524,
+        "pressure": 0.24988921490956761,
+        "netIn": 0.0009046054100413883,
+        "grossIn": 0.008710763755656785,
+        "grossOut": 0.007806158345615398,
+        "tracerMass": 0.6683388202230909,
+        "initialVolume": 0.6760861089147189,
+        "elapsed": 0.7999999999999999,
+        "qin": 0.01250553925452162,
+        "qout": 0.012494460745478381,
+        "concentration": 0.9872200700619281,
+        "residual": -2.0651296916019551e-10,
+        "contactLimited": false,
+        "reactionPressure": 0
+      },
+      "contact": {
+        "clear": true,
+        "hits": [],
+        "method": "unchanged admitted source geometry"
+      },
+      "elapsedMS": 1999.773799999999
+    },
+    {
+      "name": "roll under pressure",
+      "accepted": true,
+      "method": "unchanged admitted axisymmetric envelope",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 23,
+        "roll": -179
+      },
+      "hits": [],
+      "elapsedMS": 0.04010000000198488
+    },
+    {
+      "name": "withdraw under pressure",
+      "accepted": true,
+      "method": "exact translational union",
+      "pose": {
+        "yaw": -100,
+        "pitch": 10,
+        "depth": 22,
+        "roll": -179
+      },
+      "hits": [],
+      "elapsedMS": 3.622400000000198
+    }
+  ],
+  "fluidBalanceResidual": -2.0651296916019551e-10
+}

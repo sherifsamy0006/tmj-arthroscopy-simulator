@@ -1,0 +1,270 @@
+{
+  "experiment": "camera-r26-1",
+  "geometry_revision": 26,
+  "anatomy_revision": 21,
+  "position_mm": [
+    6.84,
+    -4.28,
+    1.50598
+  ],
+  "compartment": "superior",
+  "region": "posterolateral in model coordinates",
+  "axes": {
+    "+X": "lateral",
+    "+Y": "anterior",
+    "+Z": "superior"
+  },
+  "yaw_deg": -85,
+  "pitch_deg": 20,
+  "direction": [
+    -0.9361168146133423,
+    0.08189960569143295,
+    0.3420201539993286
+  ],
+  "vertical_fov_deg": 65,
+  "aspect": 1,
+  "near_mm": 0.01,
+  "far_mm": 100,
+  "cavity_winding": 1.0,
+  "cavity_clearance_mm": 0.1529339700937271,
+  "nearest_surfaces": {
+    "temporal": {
+      "distance_mm": 0.15582160651683807,
+      "point_mm": [
+        6.87296724319458,
+        -4.382741928100586,
+        1.6183974742889404
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "condyle": {
+      "distance_mm": 2.4363279342651367,
+      "point_mm": [
+        6.144457817077637,
+        -2.8267030715942383,
+        -0.32154330611228943
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "disc": {
+      "distance_mm": 0.1885489970445633,
+      "point_mm": [
+        6.80800724029541,
+        -4.099708080291748,
+        1.4610141515731812
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "capsule-superior": {
+      "distance_mm": 2.990386486053467,
+      "point_mm": [
+        9.316699981689453,
+        -3.3910000324249268,
+        0.08540000021457672
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "medial-superior-continuity": {
+      "distance_mm": 15.557403564453125,
+      "point_mm": [
+        -5.468800067901611,
+        4.588799953460693,
+        -1.9393999576568604
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "capsule-inferior": {
+      "distance_mm": 10.868894577026367,
+      "point_mm": [
+        1.7658207416534424,
+        2.801116466522217,
+        -4.993508815765381
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "lateral-discal-attachment": {
+      "distance_mm": 2.9903640747070312,
+      "point_mm": [
+        9.316690444946289,
+        -3.3910000324249268,
+        0.08543000370264053
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "medial-discal-attachment": {
+      "distance_mm": 15.026180267333984,
+      "point_mm": [
+        -6.150672435760498,
+        0.47278887033462524,
+        -4.362538814544678
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "retrodiscal-temporal-lamina": {
+      "distance_mm": 0.23165245354175568,
+      "point_mm": [
+        6.820082664489746,
+        -4.267306327819824,
+        1.275534749031067
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "retrodiscal-condylar-lamina": {
+      "distance_mm": 0.599510669708252,
+      "point_mm": [
+        6.654578685760498,
+        -4.133094787597656,
+        0.9551163911819458
+      ],
+      "method": "BVH nearest triangle, float32"
+    },
+    "retrodiscal-loose-tissue": {
+      "distance_mm": 0.23165245354175568,
+      "point_mm": [
+        6.820082664489746,
+        -4.267306327819824,
+        1.275534749031067
+      ],
+      "method": "BVH nearest triangle, float32"
+    }
+  },
+  "minimum_tissue_clearance_mm": 0.15582160651683807,
+  "near_square_corner_radius_mm": 0.013460003842535316,
+  "all_orientations_near_plane_inside_empty_ball": true,
+  "solid_exclusion": {
+    "disc": {
+      "winding": -1.766974823035287e-17
+    },
+    "retrodiscal-loose-tissue": {
+      "winding": 3.533949646070574e-17
+    },
+    "temporal": {
+      "full_source_three_ray_hit_counts": [
+        2,
+        2,
+        4
+      ],
+      "outside_all_rays": true
+    },
+    "condyle": {
+      "full_source_three_ray_hit_counts": [
+        0,
+        0,
+        0
+      ],
+      "outside_all_rays": true
+    }
+  },
+  "default_circular_field": {
+    "rays": 5025,
+    "first_hit_counts": {
+      "retrodiscal-loose-tissue": 771,
+      "retrodiscal-temporal-lamina": 101,
+      "disc": 1433,
+      "computational-closure": 439,
+      "temporal": 2281
+    },
+    "minimum_ray_mm": 0.27099764347076416,
+    "maximum_ray_mm": 10.026671409606934,
+    "minimum_axial_depth_mm": 0.2290476341737886,
+    "hits_clipped_by_near": 0
+  },
+  "centre_ray": {
+    "distance_mm": 5.841873645782471,
+    "first_hit": "temporal"
+  },
+  "direction_search_top10": [
+    [
+      5.841873645782471,
+      -85,
+      20,
+      "temporal"
+    ],
+    [
+      5.721811294555664,
+      -90,
+      15,
+      "temporal"
+    ],
+    [
+      5.126250267028809,
+      -80,
+      25,
+      "temporal"
+    ],
+    [
+      4.526113033294678,
+      -75,
+      30,
+      "temporal"
+    ],
+    [
+      4.468275547027588,
+      -65,
+      35,
+      "temporal"
+    ],
+    [
+      3.9056079387664795,
+      -55,
+      40,
+      "temporal"
+    ],
+    [
+      3.66316819190979,
+      -70,
+      35,
+      "temporal"
+    ],
+    [
+      3.5190696716308594,
+      -80,
+      20,
+      "disc"
+    ],
+    [
+      3.2338688373565674,
+      -60,
+      40,
+      "temporal"
+    ],
+    [
+      2.821010112762451,
+      -40,
+      45,
+      "temporal"
+    ]
+  ],
+  "source_hashes": {
+    "tmj-anatomy-v21.json.gz": "fb415f696f7dc2590a0b6c919b89ea9594b051d50ecf27d8c2d017f05132dd58",
+    "joint-spaces-v26.json.gz": "404c5523a263a765738b33f6b2d4d90547f6cf01209c8f023aecbf786dd042f6",
+    "tmj-anatomy-v21.json": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+    "joint-spaces-v26.json": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+    "sections-v26.json": "3990e8cb5f72e2156895e51ca98f4559882598737810be3b3756a0eaae706652",
+    "sections-v26.mjs": "9c537a874c4ad63efd82fa9023c17069ff9763b3b7f16a80ad763bc12d6746c3"
+  },
+  "geometry_modified": false,
+  "render_contract": {
+    "all_current_anatomy_opaque": true,
+    "backface_culling": false,
+    "clipping_planes": [],
+    "mesh_translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "mesh_scale": [
+      1,
+      1,
+      1
+    ],
+    "closures": "opaque striped magenta audit stops, explicitly non-tissue"
+  },
+  "limits": [
+    "Fixed pinhole, no instrument diameter or access path.",
+    "Estimated attachment sheets; no reconstructed synovial lining or fascia.",
+    "Cavity containment is numerical, not physiological validation.",
+    "Closure masks block unsupported sightlines; no new tissue is inferred.",
+    "All distances describe this frozen model."
+  ]
+}

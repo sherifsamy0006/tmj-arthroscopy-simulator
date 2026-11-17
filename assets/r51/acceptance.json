@@ -1,0 +1,35 @@
+{
+  "revision": "r51",
+  "status": "Combined four-DOF controls and improved estimated posterior attachment. Exact clinical realism remains unfulfilled.",
+  "input": [
+    "Mouse left drag steers; right/Alt drag rolls; middle/Shift drag changes depth; wheel depth shares the active gesture queue.",
+    "Two fingers combine centroid steering, spread/pinch depth and twist rotation; transitions rebase without jumps.",
+    "Handle control reverses steering across the fixed portal; camera coupling follows telescope rotation, with an optional upright view."
+  ],
+  "anatomy": {
+    "changedDerivedVertices": 321,
+    "changedDerivedAnchors": 71,
+    "originalSourcesPreserved": true,
+    "geometryRenderingContactAndVolumeShared": true,
+    "preparedUpperVolumeChangeMicrolitres": -0.7889980732572743
+  },
+  "appearanceReview": "visual-review.json",
+  "evidence": [
+    "input-verification.json",
+    "lining-verification.json",
+    "geometry-verification.json",
+    "worker-verification.json",
+    "browser-verification.json",
+    "source-preservation.json"
+  ],
+  "physicalTouchDeviceTested": false,
+  "allProjectGoalsComplete": false,
+  "visualRealismComplete": false,
+  "remaining": [
+    "Measured synovial geometry and specimen-specific motion",
+    "Measured cannula geometry and assembly",
+    "Natural disc kinematics, calibrated tissue mechanics and haptics",
+    "Clinical and educational validation"
+  ],
+  "publication": "Same authorized owner-private Site."
+}

@@ -1,0 +1,377 @@
+{
+  "experiment": "camera-r26-position-comparison-02",
+  "geometry_modified": false,
+  "source_hashes": {
+    "tmj-anatomy-v21.json.gz": "fb415f696f7dc2590a0b6c919b89ea9594b051d50ecf27d8c2d017f05132dd58",
+    "joint-spaces-v26.json.gz": "404c5523a263a765738b33f6b2d4d90547f6cf01209c8f023aecbf786dd042f6",
+    "tmj-anatomy-v21.json": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+    "joint-spaces-v26.json": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+    "sections-v26.json": "3990e8cb5f72e2156895e51ca98f4559882598737810be3b3756a0eaae706652",
+    "sections-v26.mjs": "9c537a874c4ad63efd82fa9023c17069ff9763b3b7f16a80ad763bc12d6746c3"
+  },
+  "presets": [
+    {
+      "id": "original",
+      "label": "Original",
+      "region": "Posterolateral",
+      "position_mm": [
+        6.84,
+        -4.28,
+        1.50598
+      ],
+      "yaw_deg": -85,
+      "pitch_deg": 20,
+      "direction": [
+        -0.9361168146133423,
+        0.08189960569143295,
+        0.3420201539993286
+      ],
+      "fov_deg": 65,
+      "near_mm": 0.01,
+      "audit": {
+        "cavity_winding": 1.0,
+        "cavity_clearance_mm": 0.1529339700937271,
+        "nearest_surfaces_mm": {
+          "temporal": 0.15582160651683807,
+          "condyle": 2.4363279342651367,
+          "disc": 0.1885489970445633,
+          "capsule-superior": 2.990386486053467,
+          "medial-superior-continuity": 15.557403564453125,
+          "capsule-inferior": 10.868894577026367,
+          "lateral-discal-attachment": 2.9903640747070312,
+          "medial-discal-attachment": 15.026180267333984,
+          "retrodiscal-temporal-lamina": 0.23165245354175568,
+          "retrodiscal-condylar-lamina": 0.599510669708252,
+          "retrodiscal-loose-tissue": 0.23165245354175568
+        },
+        "minimum_tissue_clearance_mm": 0.15582160651683807,
+        "solid_winding": {
+          "disc": -1.766974823035287e-17,
+          "retrodiscal-loose-tissue": 3.533949646070574e-17
+        },
+        "near_square_corner_radius_mm": 0.013460003842535316,
+        "near_safe_all_directions": true,
+        "full_source_bones": {
+          "temporal": {
+            "three_ray_counts": [
+              2,
+              2,
+              4
+            ],
+            "outside_all": true
+          },
+          "condyle": {
+            "three_ray_counts": [
+              0,
+              0,
+              0
+            ],
+            "outside_all": true
+          }
+        }
+      },
+      "field": {
+        "rays": 5025,
+        "first_hit_counts": {
+          "retrodiscal-loose-tissue": 485,
+          "retrodiscal-temporal-lamina": 387,
+          "disc": 1433,
+          "computational-closure": 439,
+          "temporal": 2281
+        },
+        "closure_fraction": 0.08736318407960199,
+        "open_fraction": 0,
+        "roof_disc_balance": 0.5703482587064677,
+        "rays_at_least_1mm_fraction": 0.17233830845771145,
+        "distance_percentiles_mm": [
+          0.27099764347076416,
+          0.3407989501953125,
+          0.555365800857544,
+          1.5796298742294312,
+          10.026671409606934
+        ],
+        "minimum_axial_depth_mm": 0.2290476341737886,
+        "hits_clipped_by_near": 0,
+        "score": 1.3927721475893826
+      },
+      "dense_field": {
+        "rays": 20081,
+        "first_hit_counts": {
+          "retrodiscal-loose-tissue": 1953,
+          "retrodiscal-temporal-lamina": 1538,
+          "disc": 5718,
+          "computational-closure": 1741,
+          "temporal": 9131
+        },
+        "closure_fraction": 0.08669886957820826,
+        "open_fraction": 0,
+        "roof_disc_balance": 0.5694935511179722,
+        "rays_at_least_1mm_fraction": 0.1723021761864449,
+        "distance_percentiles_mm": [
+          0.2695934772491455,
+          0.3415008783340454,
+          0.5550286173820496,
+          1.5796345472335815,
+          10.212135314941406
+        ],
+        "minimum_axial_depth_mm": 0.22740780885212697,
+        "hits_clipped_by_near": 0,
+        "score": 1.3930334262176176
+      },
+      "centre": {
+        "surface": "temporal",
+        "distance_mm": 5.841873645782471
+      },
+      "landmarks": "Temporal roof and disc surface; estimated interfaces remain explicitly labelled. No clinical landmark-recognition validation."
+    },
+    {
+      "id": "medial",
+      "label": "Medial view",
+      "region": "Posteromedial",
+      "position_mm": [
+        -11.3100004196167,
+        -3.7100000381469727,
+        -1.6446352005004883
+      ],
+      "yaw_deg": 40,
+      "pitch_deg": 20,
+      "direction": [
+        0.6040228009223938,
+        0.7198463082313538,
+        0.3420201539993286
+      ],
+      "fov_deg": 65,
+      "near_mm": 0.01,
+      "audit": {
+        "cavity_winding": 1.0000000000000002,
+        "cavity_clearance_mm": 0.18970948457717896,
+        "nearest_surfaces_mm": {
+          "temporal": 0.1919221132993698,
+          "condyle": 2.890831470489502,
+          "disc": 1.1813236474990845,
+          "capsule-superior": 10.152663230895996,
+          "medial-superior-continuity": 0.2607698142528534,
+          "capsule-inferior": 7.176446914672852,
+          "lateral-discal-attachment": 20.701576232910156,
+          "medial-discal-attachment": 1.5837310552597046,
+          "retrodiscal-temporal-lamina": 1.060880422592163,
+          "retrodiscal-condylar-lamina": 1.6405221223831177,
+          "retrodiscal-loose-tissue": 0.9150182604789734
+        },
+        "minimum_tissue_clearance_mm": 0.1919221132993698,
+        "solid_winding": {
+          "disc": -4.417437057588218e-18,
+          "retrodiscal-loose-tissue": -3.092205940311753e-17
+        },
+        "near_square_corner_radius_mm": 0.013460003842535316,
+        "near_safe_all_directions": true,
+        "full_source_bones": {
+          "temporal": {
+            "three_ray_counts": [
+              2,
+              4,
+              2
+            ],
+            "outside_all": true
+          },
+          "condyle": {
+            "three_ray_counts": [
+              2,
+              0,
+              0
+            ],
+            "outside_all": true
+          }
+        }
+      },
+      "field": {
+        "rays": 5025,
+        "first_hit_counts": {
+          "disc": 2527,
+          "medial-superior-continuity": 82,
+          "temporal": 2416
+        },
+        "closure_fraction": 0,
+        "open_fraction": 0,
+        "roof_disc_balance": 0.9615920398009951,
+        "rays_at_least_1mm_fraction": 0.7558208955223881,
+        "distance_percentiles_mm": [
+          0.4278433322906494,
+          0.6281053304672242,
+          1.3068491220474243,
+          2.3392305850982673,
+          6.460838317871094
+        ],
+        "minimum_axial_depth_mm": 0.36083941402408115,
+        "hits_clipped_by_near": 0,
+        "score": 2.9084840926549904
+      },
+      "dense_field": {
+        "rays": 20081,
+        "first_hit_counts": {
+          "disc": 10110,
+          "medial-superior-continuity": 319,
+          "temporal": 9652
+        },
+        "closure_fraction": 0,
+        "open_fraction": 0,
+        "roof_disc_balance": 0.9613067078332752,
+        "rays_at_least_1mm_fraction": 0.7555400627458791,
+        "distance_percentiles_mm": [
+          0.4278433322906494,
+          0.6276072263717651,
+          1.3072264194488525,
+          2.337639093399048,
+          6.741832733154297
+        ],
+        "minimum_axial_depth_mm": 0.36083941402408115,
+        "hits_clipped_by_near": 0,
+        "score": 2.9071837877291133
+      },
+      "centre": {
+        "surface": "disc",
+        "distance_mm": 2.616936206817627
+      },
+      "landmarks": "Temporal roof and disc surface; estimated interfaces remain explicitly labelled. No clinical landmark-recognition validation."
+    },
+    {
+      "id": "anterior",
+      "label": "Anterior view",
+      "region": "Anterior",
+      "position_mm": [
+        -2.9100000858306885,
+        6.489999771118164,
+        -1.5100188255310059
+      ],
+      "yaw_deg": -180,
+      "pitch_deg": 25,
+      "direction": [
+        -1.1099069092822633e-16,
+        -0.9063078165054321,
+        0.4226182699203491
+      ],
+      "fov_deg": 65,
+      "near_mm": 0.01,
+      "audit": {
+        "cavity_winding": 1.0,
+        "cavity_clearance_mm": 0.195924311876297,
+        "nearest_surfaces_mm": {
+          "temporal": 0.2003510594367981,
+          "condyle": 4.578376770019531,
+          "disc": 0.9419933557510376,
+          "capsule-superior": 0.21480920910835266,
+          "medial-superior-continuity": 3.2165799140930176,
+          "capsule-inferior": 1.1262402534484863,
+          "lateral-discal-attachment": 12.157069206237793,
+          "medial-discal-attachment": 4.710555076599121,
+          "retrodiscal-temporal-lamina": 12.13396167755127,
+          "retrodiscal-condylar-lamina": 11.905435562133789,
+          "retrodiscal-loose-tissue": 11.9883451461792
+        },
+        "minimum_tissue_clearance_mm": 0.2003510594367981,
+        "solid_winding": {
+          "disc": 3.3130777931911635e-17,
+          "retrodiscal-loose-tissue": 0.0
+        },
+        "near_square_corner_radius_mm": 0.013460003842535316,
+        "near_safe_all_directions": true,
+        "full_source_bones": {
+          "temporal": {
+            "three_ray_counts": [
+              2,
+              4,
+              2
+            ],
+            "outside_all": true
+          },
+          "condyle": {
+            "three_ray_counts": [
+              0,
+              0,
+              0
+            ],
+            "outside_all": true
+          }
+        }
+      },
+      "field": {
+        "rays": 5025,
+        "first_hit_counts": {
+          "capsule-superior": 149,
+          "disc": 2410,
+          "temporal": 2382,
+          "computational-closure": 84
+        },
+        "closure_fraction": 0.01671641791044776,
+        "open_fraction": 0,
+        "roof_disc_balance": 0.9480597014925373,
+        "rays_at_least_1mm_fraction": 0.5016915422885572,
+        "distance_percentiles_mm": [
+          0.34508928656578064,
+          0.45933910012245177,
+          1.0006757974624634,
+          1.4143956899642944,
+          2.472900867462158
+        ],
+        "minimum_axial_depth_mm": 0.291045363459963,
+        "hits_clipped_by_near": 0,
+        "score": 2.5908383507471573
+      },
+      "dense_field": {
+        "rays": 20081,
+        "first_hit_counts": {
+          "capsule-superior": 599,
+          "disc": 9631,
+          "temporal": 9514,
+          "computational-closure": 337
+        },
+        "closure_fraction": 0.016782032767292464,
+        "open_fraction": 0,
+        "roof_disc_balance": 0.9475623723918132,
+        "rays_at_least_1mm_fraction": 0.5030625964842388,
+        "distance_percentiles_mm": [
+          0.34508928656578064,
+          0.4585765302181244,
+          1.001916527748108,
+          1.4133670330047607,
+          2.48702073097229
+        ],
+        "minimum_axial_depth_mm": 0.291045363459963,
+        "hits_clipped_by_near": 0,
+        "score": 2.591170248771284
+      },
+      "centre": {
+        "surface": "disc",
+        "distance_mm": 1.4186573028564453
+      },
+      "landmarks": "Temporal roof and disc surface; estimated interfaces remain explicitly labelled. No clinical landmark-recognition validation."
+    }
+  ],
+  "method": {
+    "xy_step_mm": 0.6,
+    "vertical_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "min_clearance_mm": 0.04,
+    "spatial_bin_mm": 1.2,
+    "columns": 1218,
+    "eligible_points": 1286,
+    "coarse_positions": 211,
+    "coarse_directions_per_position": 90,
+    "coarse_rays": 81,
+    "final_rays": 5025,
+    "score": "2*(2*min(roof,disc)) + fraction(distance>=1mm) + 0.3*tissue entropy - 3*(closure+open)",
+    "limits": "Deterministic sampled comparison, not a global optimum or clinical landmark recognition metric."
+  },
+  "comparison_contract": {
+    "fov_deg": 65,
+    "near_mm": 0.01,
+    "same_materials_and_lighting": true,
+    "same_pixel_sampling": true,
+    "all_tissues_opaque": true,
+    "transitions": "Discrete point changes only; no interpolated motion or insertion path.",
+    "shaft": "Illustration only; follows current position and optical direction; no diameter or path validation."
+  }
+}

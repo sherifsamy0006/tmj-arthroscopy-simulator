@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "distinctPalette": true,
+    "sourceBuffersShared": true,
+    "separationWorks": true,
+    "naturalHidesKey": true,
+    "coloursRestored": true,
+    "spacesOffByDefault": true,
+    "synchronized": true
+  },
+  "palette": {
+    "condyle": "#2689bb",
+    "disc": "#c23c78",
+    "temporal": "#c6a15b"
+  },
+  "scopeAppearance": "r54",
+  "sourceHashes": {
+    "anatomy": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+    "attachment": "a22a5f082635fa28ed0fae78a345f616b8e23078dcb78ae08c2e09d80a3bba3f",
+    "booleanOperands": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8",
+    "cavity": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+    "posteriorEnvelope": "7a20df4c9fd5bf8ba47906243de2e3c6d56e266a55748b0fbd73a09d753b1323",
+    "reconstruction": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+    "reconstructionBase": "d0b63243eb1a8ae4d78bbaa664e4e8cd3f59d96857df3f43facd09fe4a06b527"
+  },
+  "revision": "r55",
+  "purpose": "Make the external 3D anatomy distinguishable",
+  "changes": [
+    "Gold temporal bone, blue mandibular condyle, deep pink disc with matching key",
+    "Same teaching palette in the whole-head inset",
+    "Neutral lower-intensity lighting and matte anatomical surfaces",
+    "Outline-backed labels and optional lower-opacity joint-space overlays"
+  ],
+  "sourceAssetsPreserved": 8,
+  "scopeRenderingAndMovementModulesUnchanged": true
+}

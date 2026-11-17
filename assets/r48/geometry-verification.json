@@ -1,0 +1,1756 @@
+{
+  "revision": "r48",
+  "construction": {
+    "schema": "r48-derived-cavity-geometry-final-v1",
+    "status": "Selected fair40 geometry; runtime integration, continuous hard-source collision checks, and publication owned by parent task.",
+    "candidate": {
+      "path": "enclosure-source-faired.json",
+      "sha256": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+      "identicalToTestedFile": "trial-fair-40.json",
+      "superiorVertices": 35346,
+      "superiorTriangles": 70648,
+      "inferiorVertices": 16796,
+      "keys": {
+        "superior": [
+          "p",
+          "i",
+          "faceBoundaries",
+          "w",
+          "d",
+          "r",
+          "parentFace"
+        ],
+        "inferior": [
+          "p",
+          "w"
+        ]
+      },
+      "arrayContract": "Apply optional fullarrays p,i,faceBoundaries,parentFace and w,d,r onto frozen r47 candidate before all geometry creation. Dynamic Boolean difference shared by lens, locator, classifier, sections and volume.",
+      "geometryFrozen": true
+    },
+    "closedSourceOperands": {
+      "path": "closed-source-operands.json",
+      "sha256": "7e83f43cda4927ef6d8647178c3d5ff90f3003421f3aa57eb0481c94c25189b8",
+      "fidelityReport": "operand-fidelity-report.json",
+      "caps": "Remote computational caps only. None enters modeled cavity in audited full parameter box."
+    },
+    "sourceIntegrity": [
+      {
+        "path": "dist/tmj-anatomy-v21.json",
+        "expectedSHA256": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+        "actualSHA256": "a1a1cd919140449b4f2669a6db2a0f8302e95a4cb9121e5a2436f5583f8b2a89",
+        "unchanged": true
+      },
+      {
+        "path": "dist/joint-spaces-v26.json",
+        "expectedSHA256": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+        "actualSHA256": "e117e7b104b1575d60efabb1b890c9537f8b33d9cb84639ae9ca64cb5f02a7c5",
+        "unchanged": true
+      },
+      {
+        "path": "dist/assets/access-r38/skull.bin",
+        "expectedSHA256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4",
+        "actualSHA256": "3e0234cc6cb2b14977b2e0ec82c53f91a067401f3772a447dccdf183429b7ff4",
+        "unchanged": true
+      },
+      {
+        "path": "dist/assets/access-r38/mandible.bin",
+        "expectedSHA256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf",
+        "actualSHA256": "198e95b5072b846ddf75190f956e197eec6cfbea7f5e3661855a56271af7cbbf",
+        "unchanged": true
+      }
+    ],
+    "construction": [
+      "Close only remote crop cuts in originally open true-source bone solids; preserve local original triangles exactly.",
+      "Align derived hard envelope coordinates to genuine named source facets, with invisible0.08mm inward computational inset; additional8temporal vertices use0.085mm.",
+      "Replace one84face artificial annulus around an omitted height-field sample hole with28source-interior cap faces and2cap vertices. Supplied models show a real hard-surface gap in that footprint.",
+      "Correct local derived attachment correspondence to actual disc facets, then fair soft vertices and their motion coefficients with identical convex weights.",
+      "Subtract exact prescribed rigid disc and closed true-source bone solids at every state; actual output, not enclosing operands, defines the cavity."
+    ],
+    "fairing": {
+      "method": "Positive inverse-edge-weight Laplacian fairing of derived soft positions and their displacement-field coefficients using identical convex weights. All original source-labelled enclosing anchor vertices remain fixed. Source solids and collision meshes unchanged.",
+      "iterations": 40,
+      "step": 0.15,
+      "softVertices": 7968,
+      "maxRestDisplacementMM": 0.5948264893294921,
+      "medianRestDisplacementMM": 0.024847223132585857,
+      "maxPreparedDisplacementMM": 0.5108165144005491,
+      "maxFieldChange": 0.11699857746599585,
+      "changedLabels": {
+        "medial-superior-continuity": 2034,
+        "disc|medial-superior-continuity": 421,
+        "capsule-superior|medial-superior-continuity": 48,
+        "capsule-superior": 6800,
+        "capsule-superior|disc": 940,
+        "disc|retrodiscal-temporal-lamina": 627,
+        "retrodiscal-temporal-lamina": 3700,
+        "capsule-superior|disc|medial-superior-continuity": 2,
+        "closure": 2490
+      },
+      "unchangedPureHardAnchorVertices": 27350,
+      "maxHardAnchorDisplacementMM": 0.0,
+      "preparedVolumeBeforeML": 0.677509033330401,
+      "preparedVolumeAfterML": 0.6760861717031633,
+      "preparedVolumeChangeMicroliters": -1.4228616272377037,
+      "maxNetSuperiorOriginalVertexDisplacementFromR47MM": 0.5938470465066328,
+      "historicalMetadataCorrection": "The asset retains trial provenance for ten anterior attachment candidates. Three vertices33901,34684,34771 were reverted before this final fairing. Seven local anterior source-correspondence corrections remain in its construction history, then all free soft vertices and fields were faired."
+    },
+    "sourceAlignmentMismatchBeforeCorrectionMM": [
+      {
+        "name": "superior",
+        "sourceNearestDistancesMM": {
+          "temporal": {
+            "count": 16634,
+            "min": 8.596304041930125e-07,
+            "median": 0.004274513339623809,
+            "max": 0.11229785531759262
+          },
+          "disc": {
+            "count": 10706,
+            "min": 0.0006495161214843392,
+            "median": 0.004413980059325695,
+            "max": 0.1606086790561676
+          }
+        },
+        "hardVertices": 27340,
+        "maxEnclosureDisplacementMM": 0.24060898490719643,
+        "maxSoftDisplacementMM": 0.08883404308110598,
+        "convergenceError": 7.894950115463345e-06,
+        "iterations": 600
+      },
+      {
+        "name": "inferior",
+        "sourceNearestDistancesMM": {
+          "disc": {
+            "count": 6509,
+            "min": 0.0004930145223625004,
+            "median": 0.003951212391257286,
+            "max": 0.24887964129447937
+          },
+          "condyle": {
+            "count": 8398,
+            "min": 0.0005807792185805738,
+            "median": 0.0047770345117896795,
+            "max": 0.02720079943537712
+          }
+        },
+        "hardVertices": 14907,
+        "maxEnclosureDisplacementMM": 0.3288796916202296,
+        "maxSoftDisplacementMM": 0.14097133862943897,
+        "convergenceError": 5.685423353288255e-07,
+        "iterations": 600
+      }
+    ],
+    "capDomain": {
+      "range": {
+        "angleDeg": [
+          0,
+          8
+        ],
+        "anteriorMM": [
+          0,
+          2
+        ],
+        "distractionMM": [
+          0,
+          3
+        ],
+        "wall": [
+          0,
+          0.75
+        ]
+      },
+      "method": "All translation/distraction/wall endpoint combinations at every one-degree angle. Conservative half-degree derivative bound covers intervening angles. Linear interpolation covers other parameter values.",
+      "results": [
+        {
+          "part": "superior",
+          "sampledStates": 72,
+          "minCapPlaneClearanceMM": {
+            "skull": 5.313440322875977,
+            "mandible": 5.303179722853981
+          },
+          "criticalState": {
+            "skull": {
+              "angle": 0,
+              "anterior": 0,
+              "distraction": 0,
+              "wall": 0
+            },
+            "mandible": {
+              "angle": 8,
+              "anterior": 0,
+              "distraction": 0,
+              "wall": 0
+            }
+          },
+          "betweenAngleSamplesBoundMM": 1.11501407604268,
+          "guaranteedClearanceEntireParameterBoxMM": {
+            "skull": 4.1984262468332965,
+            "mandible": 4.188165646811301
+          }
+        },
+        {
+          "part": "inferior",
+          "sampledStates": 72,
+          "minCapPlaneClearanceMM": {
+            "skull": 6.665930674494241,
+            "mandible": 6.665930674494232
+          },
+          "criticalState": {
+            "skull": {
+              "angle": 0,
+              "anterior": 0,
+              "distraction": 0,
+              "wall": 0
+            },
+            "mandible": {
+              "angle": 8,
+              "anterior": 0,
+              "distraction": 0,
+              "wall": 0
+            }
+          },
+          "betweenAngleSamplesBoundMM": 1.0869898292613676,
+          "guaranteedClearanceEntireParameterBoxMM": {
+            "skull": 5.578940845232873,
+            "mandible": 5.578940845232864
+          }
+        }
+      ]
+    },
+    "hardBoundaryProvenance": {
+      "testedStates": 166,
+      "retainedDerivedHardLabelledFaces": 0,
+      "explanation": "Pure hard surfaces visible on the actual cavity are clipped original source facets. Mixed soft attachments remain estimated geometry."
+    },
+    "independentAudits": [
+      {
+        "file": "fair40-standard-output-audit.json",
+        "states": 12,
+        "compartmentAudits": 12,
+        "failures": [],
+        "segmentToleranceMM": 2e-05,
+        "coplanarAreaToleranceMM2": 1e-09
+      },
+      {
+        "file": "fair40-sweep-output-audit.json",
+        "states": 93,
+        "compartmentAudits": 93,
+        "failures": [
+          {
+            "state": {
+              "name": "compound-8-1-0",
+              "angle": 8,
+              "anterior": 1,
+              "distraction": 2.5,
+              "wall": 0
+            },
+            "part": "superior",
+            "unexpected": 4,
+            "nonTwoEdges": 0,
+            "degenerate": 0
+          },
+          {
+            "state": {
+              "name": "compound-8-1-0.3",
+              "angle": 8,
+              "anterior": 1,
+              "distraction": 2.5,
+              "wall": 0.3
+            },
+            "part": "superior",
+            "unexpected": 4,
+            "nonTwoEdges": 0,
+            "degenerate": 0
+          }
+        ],
+        "segmentToleranceMM": 2e-05,
+        "coplanarAreaToleranceMM2": 1e-09
+      },
+      {
+        "file": "root-fair40-output-audit.json",
+        "states": 8,
+        "compartmentAudits": 16,
+        "failures": [],
+        "segmentToleranceMM": 2e-05,
+        "coplanarAreaToleranceMM2": 1e-09
+      },
+      {
+        "file": "root-final-both-output-audit.json",
+        "states": 6,
+        "compartmentAudits": 12,
+        "failures": [],
+        "segmentToleranceMM": 2e-05,
+        "coplanarAreaToleranceMM2": 1e-09
+      },
+      {
+        "file": "fair40-distraction-output-audit.json",
+        "states": 61,
+        "compartmentAudits": 61,
+        "failures": [],
+        "segmentToleranceMM": 2e-05,
+        "coplanarAreaToleranceMM2": 1e-09
+      }
+    ],
+    "visualAttribution": {
+      "cameraFile": "r48-prepared-view.json",
+      "beforeScreenshot": "r48-rebuilt-prepared.png",
+      "afterScreenshot": "r48-fair40-prepared.png",
+      "provenanceImage": "root-fair40-provenance.png",
+      "provenanceColors": {
+        "originalDisc": "pink",
+        "originalTemporal": "blue-gray",
+        "derivedRetrodiscalLamina": "green",
+        "derivedMixedDiscLamina": "yellow",
+        "derivedClosure": "blue"
+      },
+      "fullViewPixelCounts": {
+        "disc:disc": 51256,
+        "temporal:temporal": 62164,
+        "superior:disc|retrodiscal-temporal-lamina": 5639,
+        "superior:retrodiscal-temporal-lamina": 31693,
+        "superior:closure": 8277
+      },
+      "sourceStripAndSoftLipRays": [
+        {
+          "pixel": [
+            290,
+            265
+          ],
+          "source": {
+            "source": "disc",
+            "face": 949,
+            "label": "disc"
+          },
+          "position": [
+            3.493366241455078,
+            -3.5994887351989746,
+            0.519599437713623
+          ],
+          "distance": 4.517657279968262
+        },
+        {
+          "pixel": [
+            295,
+            270
+          ],
+          "source": {
+            "source": "disc",
+            "face": 949,
+            "label": "disc"
+          },
+          "position": [
+            3.422478199005127,
+            -3.644930124282837,
+            0.45474356412887573
+          ],
+          "distance": 4.579067230224609
+        },
+        {
+          "pixel": [
+            300,
+            270
+          ],
+          "source": {
+            "source": "disc",
+            "face": 949,
+            "label": "disc"
+          },
+          "position": [
+            3.5351052284240723,
+            -3.6439545154571533,
+            0.3873736262321472
+          ],
+          "distance": 4.4628400802612305
+        },
+        {
+          "pixel": [
+            305,
+            270
+          ],
+          "source": {
+            "source": "disc",
+            "face": 1911,
+            "label": "disc"
+          },
+          "position": [
+            3.7567214965820312,
+            -3.6529526710510254,
+            0.3186098337173462
+          ],
+          "distance": 4.238067150115967
+        },
+        {
+          "pixel": [
+            315,
+            268
+          ],
+          "source": {
+            "source": "disc",
+            "face": 218,
+            "label": "disc"
+          },
+          "position": [
+            4.133838653564453,
+            -3.6473886966705322,
+            0.2038344442844391
+          ],
+          "distance": 3.8595848083496094
+        },
+        {
+          "pixel": [
+            310,
+            269
+          ],
+          "source": {
+            "source": "superior",
+            "face": 15679,
+            "label": "disc|retrodiscal-temporal-lamina"
+          },
+          "position": [
+            4.034122467041016,
+            -3.6572768688201904,
+            0.2558944821357727
+          ],
+          "distance": 3.9592061042785645
+        },
+        {
+          "pixel": [
+            300,
+            275
+          ],
+          "source": {
+            "source": "superior",
+            "face": 15679,
+            "label": "disc|retrodiscal-temporal-lamina"
+          },
+          "position": [
+            4.0433268547058105,
+            -3.7399611473083496,
+            0.3503238260746002
+          ],
+          "distance": 3.9474618434906006
+        },
+        {
+          "pixel": [
+            310,
+            275
+          ],
+          "source": {
+            "source": "superior",
+            "face": 16470,
+            "label": "disc|retrodiscal-temporal-lamina"
+          },
+          "position": [
+            4.717759132385254,
+            -3.77236270904541,
+            0.22702957689762115
+          ],
+          "distance": 3.2678139209747314
+        }
+      ],
+      "interpretation": "Large gray left wall and upright right surface are true temporal/disc source geometry. Long lower lip is derived mixed/lamina geometry and visibly rounds after fairing. Several remaining narrow junction strips hit original disc facets949,1911,218; no unknown tissue is invented to cover them."
+    },
+    "rejectedTrials": [
+      {
+        "trial": "Direct Boolean with unclosed source bones",
+        "reason": "Original remote boundary holes make them invalid solid operands."
+      },
+      {
+        "trial": "Blender exact Boolean around close contacts",
+        "reason": "Produced nonmanifold or degenerate numerical output; official Manifold used instead."
+      },
+      {
+        "trial": "Field-only optimization and edge-flip closure",
+        "reason": "Did not remove defective height-field annulus attachment folds."
+      },
+      {
+        "trial": "Ten-vertex local anterior correction",
+        "reason": "Cleared anterior path but introduced angle7.25–8soft intersections. Three responsible local changes reverted before fairing."
+      },
+      {
+        "trial": "Stronger fair100",
+        "reason": "New self intersection at angle2.75deg in dense sweep despite clean endpoint probes. Rejected; fair40 selected."
+      }
+    ],
+    "limits": [
+      "Discrete independent geometry checks do not establish continuous soft collision freedom. Runtime validates its sampled actual domain and keeps continuous whole hard-source collision protection.",
+      "Independent source guard found true temporal-disc collision at compound angle8deg plus anterior1mm; those states remain rejected, with or without wall expansion.",
+      "Soft lining, its attachments, fairing and compliance are estimated computational geometry, not patient-calibrated tissue mechanics or FEM.",
+      "Disc and condyle move as a prescribed rigid cluster. This does not simulate natural lower-compartment condylar rolling.",
+      "Visible original source facets are preserved, including remaining sharp disc strips. No source smoothing or invented cartilage cover was applied."
+    ],
+    "finitePrecisionCoupledProbe": {
+      "files": [
+        "coupled-anterior-0.5.json",
+        "coupled-anterior-1.json",
+        "coupled-anterior-output-audit.json",
+        "coupled-pair-diagnosis.json"
+      ],
+      "state": {
+        "angle": 0,
+        "anterior": 0.75,
+        "distraction": 2.5,
+        "wall": 0.09125794184184785
+      },
+      "sourceFaces": [
+        "temporal3446",
+        "superior2209 medial-superior-continuity"
+      ],
+      "outputFaces": [
+        1650,
+        14378
+      ],
+      "sharedVertex": 1245,
+      "shortClipSliverEdgeMM": 6.4e-06,
+      "temporalDoubleAreaMM2": 9.7549e-08,
+      "maximumSliverPenetrationAcrossSoftPlaneMM": 4.7060992072744945e-07,
+      "mathematicalIntersectionLengthMM": 0.17356634635888923,
+      "interpretation": "Float32 clip sliver: subnanometer transverse penetration can produce a long intersection along a skinny near-boundary triangle. The ordinary independent BVH/1e-7 plane threshold does not report it; a more stringent direct pair test detects it. It lies below the declared20nm spatial tolerance. Runtime should apply that tolerance to geometric penetration with topology-aware noncoplanar separation, preserving coplanar overlap tests. No geometry or hard-source guard relaxation was made by this subtask."
+    },
+    "connectedFluidDomainSelection": {
+      "preselectionAudit": "runtime-connected-components-audit.json",
+      "verification": "connected-selection-verification.json",
+      "selection": "Manifold.decompose(); largest positive connected volume retained. Tiny detached computational pockets omitted from all shared output uses. Significant exclusions above min(0.00001 mL, 0.001 times total volume) reject the domain.",
+      "auditedStates": 8,
+      "compartmentAudits": 16,
+      "everyOutputOneConnectedComponent": true,
+      "mainOrientedTriangleCoordinatesExactlyPreserved": true,
+      "restPropertiesExactlyPreserved": true,
+      "sourceFaceProvenanceExactlyPreserved": true,
+      "maxRenderedVolumeDifferenceFromPriorMainComponentML": 1.1102230246251565e-16,
+      "preparedSelectedVolumesML": {
+        "superior": 0.6760861089147189,
+        "inferior": 0.10609137788284195
+      },
+      "preparedExcludedPocketVolumesML": {
+        "superior": 6.278844443829626e-08,
+        "inferior": 5.428215496228039e-07
+      },
+      "geometryAssetUnchanged": true
+    }
+  },
+  "connectedSelection": {
+    "method": "Explicit seam welding; shared-edge component traversal; exact cyclic oriented triangle coordinates, rest-coordinate properties and source-face provenance compared to the previously audited largest component. No spatial rounding or matching tolerance used in preservation checks.",
+    "geometryAssetSHA256": "2156fbf404fcae63e8da8005536861b4f7ebfb0570671a3d40a748f7a15932c2",
+    "states": [
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "file": "root-connected/cavity-1.json",
+        "parts": [
+          {
+            "name": "superior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 26180,
+            "actualTriangles": 26180,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.6760861087790785,
+            "actualRenderedVolumeML": 0.6760861087790785,
+            "actualReportedVolumeML": 0.6760861089147189,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 6.278844443829626e-08,
+            "expectedDetachedVolumeML": 6.278831385103489e-08,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 26180,
+              "vertices": 13084,
+              "edges": 39270,
+              "eulerCharacteristic": -6,
+              "orientableGenus": 4.0,
+              "signedVolumeML": 0.6760861087790785,
+              "absoluteVolumeMicroliters": 676.0861087790785,
+              "surfaceAreaMM2": 896.5999777273048,
+              "bboxMM": {
+                "min": [
+                  -12.096327781677246,
+                  -8.104371070861816,
+                  -6.796493053436279
+                ],
+                "max": [
+                  12.574278831481934,
+                  9.175121307373047,
+                  4.580992221832275
+                ]
+              },
+              "labelFaceCounts": {
+                "temporal": 4398,
+                "disc": 3071,
+                "medial-superior-continuity": 2074,
+                "closure": 3417,
+                "retrodiscal-temporal-lamina": 3702,
+                "disc|retrodiscal-temporal-lamina": 843,
+                "disc|medial-superior-continuity": 467,
+                "capsule-superior|medial-superior-continuity": 49,
+                "capsule-superior": 6951,
+                "capsule-superior|disc|medial-superior-continuity": 3,
+                "capsule-superior|disc": 1205
+              },
+              "sourceFaceCounts": {
+                "temporal": 4398,
+                "disc": 3071,
+                "superior": 18711
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -11.899444173873535,
+                -3.8869748564756303,
+                -2.1006285383630354
+              ],
+              "selfWindingAtProbe": 0.9999999999999993,
+              "otherShellWindingAtProbe": {}
+            }
+          },
+          {
+            "name": "inferior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 14682,
+            "actualTriangles": 14682,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.10609137760634098,
+            "actualRenderedVolumeML": 0.10609137760634098,
+            "actualReportedVolumeML": 0.10609137788284195,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.428215496228039e-07,
+            "expectedDetachedVolumeML": 5.42819082436816e-07,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 14682,
+              "vertices": 7251,
+              "edges": 22023,
+              "eulerCharacteristic": -90,
+              "orientableGenus": 46.0,
+              "signedVolumeML": 0.10609137760634098,
+              "absoluteVolumeMicroliters": 106.09137760634098,
+              "surfaceAreaMM2": 600.3183340963337,
+              "bboxMM": {
+                "min": [
+                  -9.962996482849121,
+                  -6.988895893096924,
+                  -9.65425968170166
+                ],
+                "max": [
+                  11.33406925201416,
+                  5.4690351486206055,
+                  -0.3589913845062256
+                ]
+              },
+              "labelFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "closure": 4162,
+                "retrodiscal-condylar-lamina": 2467,
+                "medial-discal-attachment|retrodiscal-condylar-lamina": 9,
+                "medial-discal-attachment": 47,
+                "disc|medial-discal-attachment": 51,
+                "disc|retrodiscal-condylar-lamina": 413,
+                "disc|medial-discal-attachment|retrodiscal-condylar-lamina": 3,
+                "lateral-discal-attachment": 584,
+                "disc|lateral-discal-attachment": 69,
+                "capsule-inferior": 216,
+                "capsule-inferior|disc": 78,
+                "capsule-inferior|lateral-discal-attachment": 18,
+                "capsule-inferior|disc|lateral-discal-attachment": 3
+              },
+              "sourceFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "inferior": 8120
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -7.3907429311122685,
+                -5.454472522692234,
+                -6.457837440193697
+              ],
+              "selfWindingAtProbe": 0.9999999999999962,
+              "otherShellWindingAtProbe": {}
+            }
+          }
+        ]
+      },
+      {
+        "state": {
+          "angle": 1,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "file": "root-connected/cavity-2.json",
+        "parts": [
+          {
+            "name": "superior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 26220,
+            "actualTriangles": 26220,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.6713009286570419,
+            "actualRenderedVolumeML": 0.6713009286570419,
+            "actualReportedVolumeML": 0.6713009289323041,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.884420750175309e-08,
+            "expectedDetachedVolumeML": 5.884400218779565e-08,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 26220,
+              "vertices": 13104,
+              "edges": 39330,
+              "eulerCharacteristic": -6,
+              "orientableGenus": 4.0,
+              "signedVolumeML": 0.6713009286570419,
+              "absoluteVolumeMicroliters": 671.3009286570419,
+              "surfaceAreaMM2": 898.3232431744835,
+              "bboxMM": {
+                "min": [
+                  -12.09615421295166,
+                  -8.100973129272461,
+                  -6.909121513366699
+                ],
+                "max": [
+                  12.574156761169434,
+                  9.178531646728516,
+                  4.580992221832275
+                ]
+              },
+              "labelFaceCounts": {
+                "temporal": 4404,
+                "disc": 3078,
+                "closure": 3435,
+                "medial-superior-continuity": 2072,
+                "retrodiscal-temporal-lamina": 3700,
+                "disc|retrodiscal-temporal-lamina": 849,
+                "disc|medial-superior-continuity": 470,
+                "capsule-superior|medial-superior-continuity": 51,
+                "capsule-superior": 6951,
+                "capsule-superior|disc|medial-superior-continuity": 3,
+                "capsule-superior|disc": 1207
+              },
+              "sourceFaceCounts": {
+                "temporal": 4404,
+                "disc": 3078,
+                "superior": 18738
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -11.904873127039844,
+                -3.781404394963916,
+                -2.1426592292656066
+              ],
+              "selfWindingAtProbe": 0.9999999999999981,
+              "otherShellWindingAtProbe": {}
+            }
+          },
+          {
+            "name": "inferior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 14682,
+            "actualTriangles": 14682,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.10609137701758482,
+            "actualRenderedVolumeML": 0.10609137701758482,
+            "actualReportedVolumeML": 0.106091377149476,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.428262481436288e-07,
+            "expectedDetachedVolumeML": 5.428252501848028e-07,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 14682,
+              "vertices": 7251,
+              "edges": 22023,
+              "eulerCharacteristic": -90,
+              "orientableGenus": 46.0,
+              "signedVolumeML": 0.10609137701758482,
+              "absoluteVolumeMicroliters": 106.09137701758482,
+              "surfaceAreaMM2": 600.3183394423062,
+              "bboxMM": {
+                "min": [
+                  -9.960596084594727,
+                  -6.891242980957031,
+                  -9.741350173950195
+                ],
+                "max": [
+                  11.333623886108398,
+                  5.50629186630249,
+                  -0.31815004348754883
+                ]
+              },
+              "labelFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "closure": 4162,
+                "retrodiscal-condylar-lamina": 2467,
+                "medial-discal-attachment": 47,
+                "medial-discal-attachment|retrodiscal-condylar-lamina": 9,
+                "disc|medial-discal-attachment": 51,
+                "disc|retrodiscal-condylar-lamina": 413,
+                "disc|medial-discal-attachment|retrodiscal-condylar-lamina": 3,
+                "lateral-discal-attachment": 584,
+                "disc|lateral-discal-attachment": 69,
+                "capsule-inferior": 216,
+                "capsule-inferior|disc": 78,
+                "capsule-inferior|lateral-discal-attachment": 18,
+                "capsule-inferior|disc|lateral-discal-attachment": 3
+              },
+              "sourceFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "inferior": 8120
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -7.482092050831217,
+                -5.362329620038549,
+                -6.570317937347705
+              ],
+              "selfWindingAtProbe": 1.0000000000000002,
+              "otherShellWindingAtProbe": {}
+            }
+          }
+        ]
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0.2,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "file": "root-connected/cavity-3.json",
+        "parts": [
+          {
+            "name": "superior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 26202,
+            "actualTriangles": 26202,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.6578771397408436,
+            "actualRenderedVolumeML": 0.6578771397408436,
+            "actualReportedVolumeML": 0.6578771399058196,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 4.978189181773689e-08,
+            "expectedDetachedVolumeML": 4.9782026724596635e-08,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 26202,
+              "vertices": 13095,
+              "edges": 39303,
+              "eulerCharacteristic": -6,
+              "orientableGenus": 4.0,
+              "signedVolumeML": 0.6578771397408436,
+              "absoluteVolumeMicroliters": 657.8771397408436,
+              "surfaceAreaMM2": 895.2440575826486,
+              "bboxMM": {
+                "min": [
+                  -12.095959663391113,
+                  -8.099658012390137,
+                  -6.7870354652404785
+                ],
+                "max": [
+                  12.56871223449707,
+                  9.177688598632812,
+                  4.580992221832275
+                ]
+              },
+              "labelFaceCounts": {
+                "temporal": 4400,
+                "disc": 3078,
+                "medial-superior-continuity": 2072,
+                "closure": 3428,
+                "retrodiscal-temporal-lamina": 3700,
+                "disc|retrodiscal-temporal-lamina": 852,
+                "disc|medial-superior-continuity": 467,
+                "capsule-superior|medial-superior-continuity": 51,
+                "capsule-superior": 6952,
+                "capsule-superior|disc|medial-superior-continuity": 3,
+                "capsule-superior|disc": 1199
+              },
+              "sourceFaceCounts": {
+                "temporal": 4400,
+                "disc": 3078,
+                "superior": 18724
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -11.895753772298468,
+                -3.890602633355006,
+                -2.093625628672984
+              ],
+              "selfWindingAtProbe": 0.9999999999999997,
+              "otherShellWindingAtProbe": {}
+            }
+          },
+          {
+            "name": "inferior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 14682,
+            "actualTriangles": 14682,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.10609137010581647,
+            "actualRenderedVolumeML": 0.10609137010581647,
+            "actualReportedVolumeML": 0.10609137035177071,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.428214715981859e-07,
+            "expectedDetachedVolumeML": 5.428190435302863e-07,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 14682,
+              "vertices": 7251,
+              "edges": 22023,
+              "eulerCharacteristic": -90,
+              "orientableGenus": 46.0,
+              "signedVolumeML": 0.10609137010581647,
+              "absoluteVolumeMicroliters": 106.09137010581647,
+              "surfaceAreaMM2": 600.3183335551336,
+              "bboxMM": {
+                "min": [
+                  -9.962996482849121,
+                  -6.788895606994629,
+                  -9.65425968170166
+                ],
+                "max": [
+                  11.33406925201416,
+                  5.669034957885742,
+                  -0.3589913845062256
+                ]
+              },
+              "labelFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "closure": 4162,
+                "retrodiscal-condylar-lamina": 2467,
+                "medial-discal-attachment|retrodiscal-condylar-lamina": 9,
+                "medial-discal-attachment": 47,
+                "disc|medial-discal-attachment": 51,
+                "disc|retrodiscal-condylar-lamina": 413,
+                "disc|medial-discal-attachment|retrodiscal-condylar-lamina": 3,
+                "lateral-discal-attachment": 584,
+                "disc|lateral-discal-attachment": 69,
+                "capsule-inferior": 216,
+                "capsule-inferior|disc": 78,
+                "capsule-inferior|lateral-discal-attachment": 18,
+                "capsule-inferior|disc|lateral-discal-attachment": 3
+              },
+              "sourceFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "inferior": 8120
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -7.3907429311122685,
+                -5.254472713427098,
+                -6.457837440193697
+              ],
+              "selfWindingAtProbe": 0.999999999999996,
+              "otherShellWindingAtProbe": {}
+            }
+          }
+        ]
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.55,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "file": "root-connected/cavity-4.json",
+        "parts": [
+          {
+            "name": "superior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 26196,
+            "actualTriangles": 26196,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.6882274841437042,
+            "actualRenderedVolumeML": 0.6882274841437042,
+            "actualReportedVolumeML": 0.6882274843623494,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 6.433311655593425e-08,
+            "expectedDetachedVolumeML": 6.433307188353638e-08,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 26196,
+              "vertices": 13092,
+              "edges": 39294,
+              "eulerCharacteristic": -6,
+              "orientableGenus": 4.0,
+              "signedVolumeML": 0.6882274841437042,
+              "absoluteVolumeMicroliters": 688.2274841437041,
+              "surfaceAreaMM2": 899.0284434311163,
+              "bboxMM": {
+                "min": [
+                  -12.096466064453125,
+                  -8.10458755493164,
+                  -6.845675945281982
+                ],
+                "max": [
+                  12.57519817352295,
+                  9.175830841064453,
+                  4.580992221832275
+                ]
+              },
+              "labelFaceCounts": {
+                "temporal": 4400,
+                "disc": 3072,
+                "medial-superior-continuity": 2072,
+                "closure": 3426,
+                "retrodiscal-temporal-lamina": 3700,
+                "disc|retrodiscal-temporal-lamina": 847,
+                "disc|medial-superior-continuity": 467,
+                "capsule-superior|medial-superior-continuity": 51,
+                "capsule-superior": 6951,
+                "capsule-superior|disc|medial-superior-continuity": 3,
+                "capsule-superior|disc": 1207
+              },
+              "sourceFaceCounts": {
+                "temporal": 4400,
+                "disc": 3072,
+                "superior": 18724
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -11.90013272633519,
+                -3.8163831692375925,
+                -2.1237166747574006
+              ],
+              "selfWindingAtProbe": 0.9999999999999997,
+              "otherShellWindingAtProbe": {}
+            }
+          },
+          {
+            "name": "inferior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 14682,
+            "actualTriangles": 14682,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.1060913790577717,
+            "actualRenderedVolumeML": 0.1060913790577717,
+            "actualReportedVolumeML": 0.1060913789269474,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.428232314517926e-07,
+            "expectedDetachedVolumeML": 5.428228146260946e-07,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 14682,
+              "vertices": 7251,
+              "edges": 22023,
+              "eulerCharacteristic": -90,
+              "orientableGenus": 46.0,
+              "signedVolumeML": 0.1060913790577717,
+              "absoluteVolumeMicroliters": 106.0913790577717,
+              "surfaceAreaMM2": 600.3183449900478,
+              "bboxMM": {
+                "min": [
+                  -9.962996482849121,
+                  -6.988895893096924,
+                  -9.704258918762207
+                ],
+                "max": [
+                  11.33406925201416,
+                  5.4690351486206055,
+                  -0.40899136662483215
+                ]
+              },
+              "labelFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "closure": 4162,
+                "retrodiscal-condylar-lamina": 2467,
+                "medial-discal-attachment|retrodiscal-condylar-lamina": 9,
+                "medial-discal-attachment": 47,
+                "disc|medial-discal-attachment": 51,
+                "disc|retrodiscal-condylar-lamina": 413,
+                "disc|medial-discal-attachment|retrodiscal-condylar-lamina": 3,
+                "lateral-discal-attachment": 584,
+                "disc|lateral-discal-attachment": 69,
+                "capsule-inferior": 216,
+                "capsule-inferior|disc": 78,
+                "capsule-inferior|lateral-discal-attachment": 18,
+                "capsule-inferior|disc|lateral-discal-attachment": 3
+              },
+              "sourceFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "inferior": 8120
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -7.3907429311122685,
+                -5.454472522692234,
+                -6.50783763092856
+              ],
+              "selfWindingAtProbe": 0.9999999999999959,
+              "otherShellWindingAtProbe": {}
+            }
+          }
+        ]
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.05
+        },
+        "file": "root-connected/cavity-5.json",
+        "parts": [
+          {
+            "name": "superior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 26182,
+            "actualTriangles": 26182,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.6769911151036127,
+            "actualRenderedVolumeML": 0.6769911151036127,
+            "actualReportedVolumeML": 0.6769911150749051,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 6.315279262636936e-08,
+            "expectedDetachedVolumeML": 6.315120712627998e-08,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 26182,
+              "vertices": 13085,
+              "edges": 39273,
+              "eulerCharacteristic": -6,
+              "orientableGenus": 4.0,
+              "signedVolumeML": 0.6769911151036127,
+              "absoluteVolumeMicroliters": 676.9911151036126,
+              "surfaceAreaMM2": 896.5293925741428,
+              "bboxMM": {
+                "min": [
+                  -12.09631061553955,
+                  -8.10452938079834,
+                  -6.796473026275635
+                ],
+                "max": [
+                  12.57681941986084,
+                  9.17650318145752,
+                  4.580992221832275
+                ]
+              },
+              "labelFaceCounts": {
+                "temporal": 4400,
+                "disc": 3070,
+                "medial-superior-continuity": 2073,
+                "closure": 3420,
+                "retrodiscal-temporal-lamina": 3702,
+                "disc|retrodiscal-temporal-lamina": 840,
+                "disc|medial-superior-continuity": 467,
+                "capsule-superior|medial-superior-continuity": 51,
+                "capsule-superior": 6951,
+                "capsule-superior|disc|medial-superior-continuity": 3,
+                "capsule-superior|disc": 1205
+              },
+              "sourceFaceCounts": {
+                "temporal": 4400,
+                "disc": 3070,
+                "superior": 18712
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -11.899447670886117,
+                -3.8870553621537143,
+                -2.100608432160947
+              ],
+              "selfWindingAtProbe": 1.0000000000000002,
+              "otherShellWindingAtProbe": {}
+            }
+          },
+          {
+            "name": "inferior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 14682,
+            "actualTriangles": 14682,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.10609137760634098,
+            "actualRenderedVolumeML": 0.10609137760634098,
+            "actualReportedVolumeML": 0.10609137788284195,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.428215496228039e-07,
+            "expectedDetachedVolumeML": 5.42819082436816e-07,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 14682,
+              "vertices": 7251,
+              "edges": 22023,
+              "eulerCharacteristic": -90,
+              "orientableGenus": 46.0,
+              "signedVolumeML": 0.10609137760634098,
+              "absoluteVolumeMicroliters": 106.09137760634098,
+              "surfaceAreaMM2": 600.3183340963337,
+              "bboxMM": {
+                "min": [
+                  -9.962996482849121,
+                  -6.988895893096924,
+                  -9.65425968170166
+                ],
+                "max": [
+                  11.33406925201416,
+                  5.4690351486206055,
+                  -0.3589913845062256
+                ]
+              },
+              "labelFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "closure": 4162,
+                "retrodiscal-condylar-lamina": 2467,
+                "medial-discal-attachment|retrodiscal-condylar-lamina": 9,
+                "medial-discal-attachment": 47,
+                "disc|medial-discal-attachment": 51,
+                "disc|retrodiscal-condylar-lamina": 413,
+                "disc|medial-discal-attachment|retrodiscal-condylar-lamina": 3,
+                "lateral-discal-attachment": 584,
+                "disc|lateral-discal-attachment": 69,
+                "capsule-inferior": 216,
+                "capsule-inferior|disc": 78,
+                "capsule-inferior|lateral-discal-attachment": 18,
+                "capsule-inferior|disc|lateral-discal-attachment": 3
+              },
+              "sourceFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "inferior": 8120
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -7.3907429311122685,
+                -5.454472522692234,
+                -6.457837440193697
+              ],
+              "selfWindingAtProbe": 0.9999999999999962,
+              "otherShellWindingAtProbe": {}
+            }
+          }
+        ]
+      },
+      {
+        "state": {
+          "angle": 4,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "file": "root-connected/cavity-6.json",
+        "parts": [
+          {
+            "name": "superior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 26328,
+            "actualTriangles": 26328,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.6566222466319124,
+            "actualRenderedVolumeML": 0.6566222466319125,
+            "actualReportedVolumeML": 0.656622246858269,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 4.821368464253457e-08,
+            "expectedDetachedVolumeML": 4.821125151339057e-08,
+            "volumeDifferenceFromMainML": 1.1102230246251565e-16,
+            "component": {
+              "triangles": 26328,
+              "vertices": 13158,
+              "edges": 39492,
+              "eulerCharacteristic": -6,
+              "orientableGenus": 4.0,
+              "signedVolumeML": 0.6566222466319125,
+              "absoluteVolumeMicroliters": 656.6222466319125,
+              "surfaceAreaMM2": 905.489924394775,
+              "bboxMM": {
+                "min": [
+                  -12.095623016357422,
+                  -8.092585563659668,
+                  -7.249992847442627
+                ],
+                "max": [
+                  12.573786735534668,
+                  9.187824249267578,
+                  4.580992221832275
+                ]
+              },
+              "labelFaceCounts": {
+                "temporal": 4416,
+                "disc": 3103,
+                "closure": 3490,
+                "medial-superior-continuity": 2075,
+                "disc|retrodiscal-temporal-lamina": 894,
+                "retrodiscal-temporal-lamina": 3700,
+                "disc|medial-superior-continuity": 466,
+                "capsule-superior|medial-superior-continuity": 51,
+                "capsule-superior": 6935,
+                "capsule-superior|disc|medial-superior-continuity": 3,
+                "capsule-superior|disc": 1195
+              },
+              "sourceFaceCounts": {
+                "temporal": 4416,
+                "disc": 3103,
+                "superior": 18809
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -11.903736347265179,
+                -3.7793519291368427,
+                -2.1417770009402823
+              ],
+              "selfWindingAtProbe": 1.0000000000000002,
+              "otherShellWindingAtProbe": {}
+            }
+          },
+          {
+            "name": "inferior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 14682,
+            "actualTriangles": 14682,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.10609137768952527,
+            "actualRenderedVolumeML": 0.10609137768952527,
+            "actualReportedVolumeML": 0.10609137775661773,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.428212104043503e-07,
+            "expectedDetachedVolumeML": 5.428228513996178e-07,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 14682,
+              "vertices": 7251,
+              "edges": 22023,
+              "eulerCharacteristic": -90,
+              "orientableGenus": 46.0,
+              "signedVolumeML": 0.10609137768952527,
+              "absoluteVolumeMicroliters": 106.09137768952527,
+              "surfaceAreaMM2": 600.318339968791,
+              "bboxMM": {
+                "min": [
+                  -9.95352554321289,
+                  -6.589641571044922,
+                  -10.001052856445312
+                ],
+                "max": [
+                  11.331950187683105,
+                  5.610783100128174,
+                  -0.21104930341243744
+                ]
+              },
+              "labelFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "retrodiscal-condylar-lamina": 2467,
+                "closure": 4162,
+                "medial-discal-attachment|retrodiscal-condylar-lamina": 9,
+                "medial-discal-attachment": 47,
+                "disc|medial-discal-attachment": 51,
+                "disc|retrodiscal-condylar-lamina": 413,
+                "disc|medial-discal-attachment|retrodiscal-condylar-lamina": 3,
+                "lateral-discal-attachment": 584,
+                "disc|lateral-discal-attachment": 69,
+                "capsule-inferior": 216,
+                "capsule-inferior|disc": 78,
+                "capsule-inferior|lateral-discal-attachment": 18,
+                "capsule-inferior|disc|lateral-discal-attachment": 3
+              },
+              "sourceFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "inferior": 8120
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -7.471858632704185,
+                -5.263502393430098,
+                -6.346292894241486
+              ],
+              "selfWindingAtProbe": 1.0,
+              "otherShellWindingAtProbe": {}
+            }
+          }
+        ]
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 1,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0
+        },
+        "file": "root-connected/cavity-7.json",
+        "parts": [
+          {
+            "name": "superior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 26140,
+            "actualTriangles": 26140,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.5850610167083858,
+            "actualRenderedVolumeML": 0.5850610167083857,
+            "actualReportedVolumeML": 0.5850610166725492,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 1.7159178881218928e-08,
+            "expectedDetachedVolumeML": 1.7159316433459677e-08,
+            "volumeDifferenceFromMainML": -1.1102230246251565e-16,
+            "component": {
+              "triangles": 26140,
+              "vertices": 13064,
+              "edges": 39210,
+              "eulerCharacteristic": -6,
+              "orientableGenus": 4.0,
+              "signedVolumeML": 0.5850610167083857,
+              "absoluteVolumeMicroliters": 585.0610167083858,
+              "surfaceAreaMM2": 893.474248832908,
+              "bboxMM": {
+                "min": [
+                  -12.094398498535156,
+                  -8.088544845581055,
+                  -6.738219261169434
+                ],
+                "max": [
+                  12.539507865905762,
+                  9.187722206115723,
+                  4.580992221832275
+                ]
+              },
+              "labelFaceCounts": {
+                "temporal": 4412,
+                "disc": 3121,
+                "closure": 3410,
+                "medial-superior-continuity": 2077,
+                "retrodiscal-temporal-lamina": 3700,
+                "disc|retrodiscal-temporal-lamina": 894,
+                "disc|medial-superior-continuity": 449,
+                "capsule-superior|medial-superior-continuity": 51,
+                "capsule-superior": 6988,
+                "capsule-superior|disc|medial-superior-continuity": 3,
+                "capsule-superior|disc": 1035
+              },
+              "sourceFaceCounts": {
+                "temporal": 4412,
+                "disc": 3121,
+                "superior": 18607
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -11.939974370959565,
+                -3.912433110401152,
+                -2.1572116930041663
+              ],
+              "selfWindingAtProbe": 1.000000000000705,
+              "otherShellWindingAtProbe": {}
+            }
+          },
+          {
+            "name": "inferior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 14682,
+            "actualTriangles": 14682,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.10609137910903356,
+            "actualRenderedVolumeML": 0.10609137910903356,
+            "actualReportedVolumeML": 0.10609137947278821,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.428222146463291e-07,
+            "expectedDetachedVolumeML": 5.42819743878738e-07,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 14682,
+              "vertices": 7251,
+              "edges": 22023,
+              "eulerCharacteristic": -90,
+              "orientableGenus": 46.0,
+              "signedVolumeML": 0.10609137910903356,
+              "absoluteVolumeMicroliters": 106.09137910903355,
+              "surfaceAreaMM2": 600.3183388813434,
+              "bboxMM": {
+                "min": [
+                  -9.962996482849121,
+                  -5.988895893096924,
+                  -9.65425968170166
+                ],
+                "max": [
+                  11.33406925201416,
+                  6.4690351486206055,
+                  -0.3589913845062256
+                ]
+              },
+              "labelFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "closure": 4162,
+                "retrodiscal-condylar-lamina": 2467,
+                "medial-discal-attachment|retrodiscal-condylar-lamina": 9,
+                "medial-discal-attachment": 47,
+                "disc|medial-discal-attachment": 51,
+                "disc|retrodiscal-condylar-lamina": 413,
+                "disc|medial-discal-attachment|retrodiscal-condylar-lamina": 3,
+                "lateral-discal-attachment": 584,
+                "disc|lateral-discal-attachment": 69,
+                "capsule-inferior": 216,
+                "capsule-inferior|disc": 78,
+                "capsule-inferior|lateral-discal-attachment": 18,
+                "capsule-inferior|disc|lateral-discal-attachment": 3
+              },
+              "sourceFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "inferior": 8120
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -7.3907429311122685,
+                -4.454472522692234,
+                -6.457837440193697
+              ],
+              "selfWindingAtProbe": 0.999999999999996,
+              "otherShellWindingAtProbe": {}
+            }
+          }
+        ]
+      },
+      {
+        "state": {
+          "angle": 0,
+          "anterior": 0,
+          "distraction": 2.5,
+          "sourcePressure": 0,
+          "inletResistance": 20,
+          "outletResistance": 20,
+          "wallStiffness": 5,
+          "outletOpen": true,
+          "wall": 0.3
+        },
+        "file": "root-connected/cavity-8.json",
+        "parts": [
+          {
+            "name": "superior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 26230,
+            "actualTriangles": 26230,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.6815138716735188,
+            "actualRenderedVolumeML": 0.6815138716735188,
+            "actualReportedVolumeML": 0.6815138715360237,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 6.499725684115493e-08,
+            "expectedDetachedVolumeML": 6.499814140013571e-08,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 26230,
+              "vertices": 13109,
+              "edges": 39345,
+              "eulerCharacteristic": -6,
+              "orientableGenus": 4.0,
+              "signedVolumeML": 0.6815138716735188,
+              "absoluteVolumeMicroliters": 681.5138716735188,
+              "surfaceAreaMM2": 896.3593049756734,
+              "bboxMM": {
+                "min": [
+                  -12.096221923828125,
+                  -8.105320930480957,
+                  -6.796371936798096
+                ],
+                "max": [
+                  12.58768081665039,
+                  9.182907104492188,
+                  4.580992221832275
+                ]
+              },
+              "labelFaceCounts": {
+                "temporal": 4412,
+                "disc": 3072,
+                "medial-superior-continuity": 2077,
+                "closure": 3461,
+                "retrodiscal-temporal-lamina": 3702,
+                "disc|retrodiscal-temporal-lamina": 840,
+                "disc|medial-superior-continuity": 465,
+                "capsule-superior|medial-superior-continuity": 51,
+                "capsule-superior": 6942,
+                "capsule-superior|disc|medial-superior-continuity": 3,
+                "capsule-superior|disc": 1205
+              },
+              "sourceFaceCounts": {
+                "temporal": 4412,
+                "disc": 3072,
+                "superior": 18746
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -11.899463247407416,
+                -3.8874541572244357,
+                -2.1005093291703574
+              ],
+              "selfWindingAtProbe": 0.9999999999999996,
+              "otherShellWindingAtProbe": {}
+            }
+          },
+          {
+            "name": "inferior",
+            "beforeComponents": 2,
+            "afterComponents": 1,
+            "expectedMainTriangles": 14682,
+            "actualTriangles": 14682,
+            "exactOrientedMainTrianglesPreserved": true,
+            "exactRestPropertiesPreserved": true,
+            "exactSourceFaceProvenancePreserved": true,
+            "expectedRenderedMainVolumeML": 0.10609137760634098,
+            "actualRenderedVolumeML": 0.10609137760634098,
+            "actualReportedVolumeML": 0.10609137788284195,
+            "reportedExcludedComponents": 1,
+            "reportedExcludedVolumeML": 5.428215496228039e-07,
+            "expectedDetachedVolumeML": 5.42819082436816e-07,
+            "volumeDifferenceFromMainML": 0.0,
+            "component": {
+              "triangles": 14682,
+              "vertices": 7251,
+              "edges": 22023,
+              "eulerCharacteristic": -90,
+              "orientableGenus": 46.0,
+              "signedVolumeML": 0.10609137760634098,
+              "absoluteVolumeMicroliters": 106.09137760634098,
+              "surfaceAreaMM2": 600.3183340963337,
+              "bboxMM": {
+                "min": [
+                  -9.962996482849121,
+                  -6.988895893096924,
+                  -9.65425968170166
+                ],
+                "max": [
+                  11.33406925201416,
+                  5.4690351486206055,
+                  -0.3589913845062256
+                ]
+              },
+              "labelFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "closure": 4162,
+                "retrodiscal-condylar-lamina": 2467,
+                "medial-discal-attachment|retrodiscal-condylar-lamina": 9,
+                "medial-discal-attachment": 47,
+                "disc|medial-discal-attachment": 51,
+                "disc|retrodiscal-condylar-lamina": 413,
+                "disc|medial-discal-attachment|retrodiscal-condylar-lamina": 3,
+                "lateral-discal-attachment": 584,
+                "disc|lateral-discal-attachment": 69,
+                "capsule-inferior": 216,
+                "capsule-inferior|disc": 78,
+                "capsule-inferior|lateral-discal-attachment": 18,
+                "capsule-inferior|disc|lateral-discal-attachment": 3
+              },
+              "sourceFaceCounts": {
+                "condyle": 3202,
+                "disc": 3360,
+                "inferior": 8120
+              },
+              "representativeFace": 0,
+              "representativeVertex": 0,
+              "interiorProbeMM": [
+                -7.3907429311122685,
+                -5.454472522692234,
+                -6.457837440193697
+              ],
+              "selfWindingAtProbe": 0.9999999999999962,
+              "otherShellWindingAtProbe": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "note": "Original hard anatomy preserved. Connected selection removes only explicitly reported tiny numerical pockets. Independent mesh audits are sampled."
+}

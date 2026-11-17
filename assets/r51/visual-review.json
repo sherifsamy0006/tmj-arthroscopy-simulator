@@ -1,0 +1,37 @@
+{
+  "scope": "Qualitative morphology comparison at a repeated physical camera pose; no clinical validation or image registration.",
+  "camera": {
+    "yaw": -116.8639227423067,
+    "pitch": 10.000045436948042,
+    "depth": 23,
+    "roll": 75,
+    "imageOrientation": "stabilized"
+  },
+  "comparison": "Pointed white projections at the posterior attachment are substantially reduced; broad attachment transitions are continuous in the native lens view. Long folds and remaining shape limitations persist.",
+  "references": [
+    "IntechOpen chapter 1176474, F34 and F49, already retained locally"
+  ],
+  "seamNormalTurnLengthWeightedMedianDeg": {
+    "disc": {
+      "before": 119.5796433150531,
+      "after": 83.32935455333136
+    },
+    "temporal": {
+      "before": 52.70006988489116,
+      "after": 38.071081316155094
+    }
+  },
+  "preparedUpperVolumeML": 0.6752971111685687,
+  "originalPreparedUpperVolumeML": 0.676086109241826,
+  "materialChanges": [
+    "Welded Boolean boundary vertices now share identical tissue pigment mixtures.",
+    "Restrained rest-anchored collagen fibres, reduced broad bump relief and neutral lens illumination."
+  ],
+  "rejected": [
+    "Initial coherent patch passed domain checks but worsened seam angles and retained sharp projections.",
+    "Finer 0.16mm sampling failed prepared self-intersection checks.",
+    "Continuous source-normal refined sampling also failed prepared self-intersection checks."
+  ],
+  "visualRealismComplete": false,
+  "measuredSynovialSurface": false
+}

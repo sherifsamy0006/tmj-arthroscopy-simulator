@@ -1,0 +1,377 @@
+{
+  "candidate": "embedded-attachment",
+  "rows": [
+    {
+      "state": {
+        "angle": 0,
+        "anterior": 0,
+        "distraction": 2.5,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40884,
+        "pairs": 374721,
+        "elapsedMS": 411.3502000000001
+      },
+      "volumes": [
+        0.6752971111685687,
+        0.10609137788284195
+      ],
+      "faces": [
+        26202,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 0,
+        "anterior": 0,
+        "distraction": 0,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 39560,
+        "pairs": 395072,
+        "elapsedMS": 379.49080000000004
+      },
+      "volumes": [
+        0.06822019541355187,
+        0.10609137784400222
+      ],
+      "faces": [
+        24878,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 1,
+        "anterior": 0,
+        "distraction": 2.5,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40918,
+        "pairs": 375308,
+        "elapsedMS": 352.99199999999973
+      },
+      "volumes": [
+        0.6703506316182714,
+        0.106091377149476
+      ],
+      "faces": [
+        26236,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 4,
+        "anterior": 0,
+        "distraction": 2.5,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 41004,
+        "pairs": 378090,
+        "elapsedMS": 354.3783000000003
+      },
+      "volumes": [
+        0.6551863441123015,
+        0.10609137775661773
+      ],
+      "faces": [
+        26322,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 8,
+        "anterior": 0,
+        "distraction": 2.5,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 41080,
+        "pairs": 383119,
+        "elapsedMS": 360.55710000000045
+      },
+      "volumes": [
+        0.6342223799942949,
+        0.10609137966465836
+      ],
+      "faces": [
+        26398,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 0,
+        "anterior": 0.2,
+        "distraction": 2.5,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40900,
+        "pairs": 376113,
+        "elapsedMS": 354.16640000000007
+      },
+      "volumes": [
+        0.6568905928652793,
+        0.10609137035177071
+      ],
+      "faces": [
+        26218,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 0,
+        "anterior": 1,
+        "distraction": 2.5,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40820,
+        "pairs": 383731,
+        "elapsedMS": 397.2622000000001
+      },
+      "volumes": [
+        0.5832794532386921,
+        0.10609137947278821
+      ],
+      "faces": [
+        26138,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 0,
+        "anterior": 0,
+        "distraction": 2.55,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40894,
+        "pairs": 374980,
+        "elapsedMS": 365.20969999999943
+      },
+      "volumes": [
+        0.6874354945395095,
+        0.1060913789269474
+      ],
+      "faces": [
+        26212,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 0,
+        "anterior": 0,
+        "distraction": 3,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 41034,
+        "pairs": 376270,
+        "elapsedMS": 360.8227999999999
+      },
+      "volumes": [
+        0.7966780866566372,
+        0.1060913788250276
+      ],
+      "faces": [
+        26352,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 0,
+        "anterior": 0,
+        "distraction": 2.5,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0.05
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40886,
+        "pairs": 374510,
+        "elapsedMS": 340.8231000000005
+      },
+      "volumes": [
+        0.6762016864694151,
+        0.10609137788284195
+      ],
+      "faces": [
+        26204,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 0,
+        "anterior": 0,
+        "distraction": 2.5,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0.3
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40934,
+        "pairs": 374899,
+        "elapsedMS": 363.52260000000024
+      },
+      "volumes": [
+        0.6807222871078872,
+        0.10609137788284195
+      ],
+      "faces": [
+        26252,
+        14682
+      ]
+    },
+    {
+      "state": {
+        "angle": 1,
+        "anterior": 0.2,
+        "distraction": 2.55,
+        "sourcePressure": 0,
+        "inletResistance": 20,
+        "outletResistance": 20,
+        "wallStiffness": 5,
+        "outletOpen": true,
+        "wall": 0.05
+      },
+      "proof": {
+        "clear": true,
+        "hits": [],
+        "method": "rebuilt cavity topology and sampled self-intersection",
+        "continuous": false,
+        "spatialToleranceMM": 0.00002,
+        "triangles": 40958,
+        "pairs": 377291,
+        "elapsedMS": 371.64010000000053
+      },
+      "volumes": [
+        0.6645222297074207,
+        0.10609137921979686
+      ],
+      "faces": [
+        26276,
+        14682
+      ]
+    }
+  ]
+}

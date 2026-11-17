@@ -1,0 +1,130 @@
+{
+  "checks": [
+    {
+      "name": "Full withdrawn instrument and insertion",
+      "passed": true,
+      "detail": {
+        "START": {
+          "yaw": -100,
+          "pitch": 10,
+          "depth": 0,
+          "roll": 75
+        },
+        "PREPARED": {
+          "yaw": -100,
+          "pitch": 10,
+          "depth": 23,
+          "roll": 75
+        }
+      }
+    },
+    {
+      "name": "Screen-left and screen-right both move ten degrees, inside hard limits",
+      "passed": true,
+      "detail": [
+        {
+          "x": -10,
+          "end": {
+            "yaw": -110.40982845687728,
+            "pitch": 10.00002804748418,
+            "depth": 23,
+            "roll": 75
+          },
+          "method": "adaptive enclosed angular sweep"
+        },
+        {
+          "x": 10,
+          "end": {
+            "yaw": -89.59017278526242,
+            "pitch": 9.999971952554057,
+            "depth": 23,
+            "roll": 75
+          },
+          "method": "adaptive enclosed angular sweep"
+        }
+      ]
+    },
+    {
+      "name": "Continuous balanced yaw arc, 38 degrees total",
+      "passed": true,
+      "detail": {
+        "from": {
+          "yaw": -119,
+          "pitch": 10,
+          "depth": 23,
+          "roll": 75
+        },
+        "to": {
+          "yaw": -81,
+          "pitch": 10,
+          "depth": 23,
+          "roll": 75
+        },
+        "method": "adaptive enclosed angular sweep"
+      }
+    },
+    {
+      "name": "Pitch contact preserves collision guard and reversal",
+      "passed": true,
+      "detail": {
+        "lastClear": {
+          "yaw": -100.96705145819621,
+          "pitch": 14.535594283414934,
+          "depth": 23,
+          "roll": 75
+        },
+        "contact": {
+          "surface": "temporal",
+          "count": 2,
+          "radialOverlap": 0.00000886177848458125,
+          "point": [
+            10.179716728712927,
+            -3.165933480618775,
+            0.7477296694142942
+          ]
+        },
+        "reverse": "adaptive enclosed angular sweep"
+      }
+    },
+    {
+      "name": "Withdraw and reinsert along admitted axis",
+      "passed": true
+    },
+    {
+      "name": "Full roll wraps in either direction with invariant tip/axis",
+      "passed": true
+    },
+    {
+      "name": "Depth offset preserves the legacy physical tip on original approach",
+      "passed": true,
+      "detail": {
+        "pivot": [
+          10.761954168424495,
+          -3.0020760481424738,
+          -0.390110488070305
+        ],
+        "depthOffset": 20.788525168710507
+      }
+    },
+    {
+      "name": "Screen steering remains aligned through full lens roll",
+      "passed": true,
+      "detail": {
+        "rolls": [
+          -179,
+          -90,
+          0,
+          75,
+          179
+        ]
+      }
+    }
+  ],
+  "TOOL": {
+    "radius": 0.95,
+    "length": 63.1,
+    "overall": 115,
+    "bodyRadius": 24
+  },
+  "hardGeometryUnchanged": true
+}
